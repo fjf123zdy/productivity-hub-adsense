@@ -98,7 +98,7 @@ export function generateStructuredData({
   publishedTime,
   modifiedTime,
   author,
-}: SEOProps & { type?: 'WebSite' | 'Article' | 'WebPage' }) {
+}: Omit<SEOProps, 'type'> & { type?: 'WebSite' | 'Article' | 'WebPage' }) {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://your-domain.vercel.app'
   const fullUrl = url ? `${siteUrl}${url}` : siteUrl
   const fullImage = image && !image.startsWith('http') ? `${siteUrl}${image}` : image
