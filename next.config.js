@@ -8,9 +8,6 @@ const nextConfig = {
   },
   
   // SEO and performance optimizations
-  experimental: {
-    optimizeCss: true,
-  },
   
   // Compress responses
   compress: true,
