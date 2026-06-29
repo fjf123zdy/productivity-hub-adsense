@@ -1,60 +1,52 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { Calculator, Clock, Target, TrendingUp, Timer, Calendar } from 'lucide-react'
+import { Calculator, BarChart3, TrendingUp, Globe, ArrowLeftRight } from 'lucide-react'
 import { HeaderAdPlaceholder, InContentAdPlaceholder } from '@/components/ads/AdPlaceholder'
 
 export const metadata: Metadata = {
-  title: 'Free Productivity Tools - Calculators & Utilities',
-  description: 'Free productivity tools including time calculators, goal trackers, productivity scorers, and more. Boost your efficiency with our easy-to-use utilities.',
-  keywords: 'productivity tools, time calculator, goal tracker, productivity score, free tools, efficiency calculator',
+  title: 'Free ETF Investing Tools — Comparison & Calculators',
+  description: 'Free ETF comparison tools, expense ratio calculators, and index explorers. Compare US and China ETFs side by side with real data.',
+  keywords: 'ETF tools, ETF comparison tool, expense ratio calculator, index fund calculator, US ETF vs China ETF, investing tools',
 }
 
 const tools = [
   {
-    name: 'Time Calculator',
-    description: 'Calculate work hours, break times, and optimize your daily schedule. Perfect for time tracking and planning.',
-    icon: Clock,
-    href: '/tools/time-calculator',
-    category: 'Time Management',
+    name: 'ETF Comparison Tool',
+    description: 'Compare US and China ETFs side by side — expense ratios, performance, dividend yield, top holdings, and AUM in one view.',
+    icon: ArrowLeftRight,
+    href: '/tools/etf-comparison',
+    category: 'Comparison',
     popular: true,
   },
   {
-    name: 'Productivity Score',
-    description: 'Assess your productivity level with our comprehensive scoring system. Get personalized improvement suggestions.',
-    icon: TrendingUp,
-    href: '/tools/productivity-score',
-    category: 'Assessment',
-    popular: true,
-  },
-  {
-    name: 'Goal Tracker',
-    description: 'Set, track, and achieve your goals with our intuitive goal management system.',
-    icon: Target,
-    href: '/tools/goal-tracker',
-    category: 'Goal Setting',
-    popular: false,
-  },
-  {
-    name: 'Break Timer',
-    description: 'Pomodoro technique timer with customizable work and break intervals for optimal focus.',
-    icon: Timer,
-    href: '/tools/break-timer',
-    category: 'Focus',
-    popular: true,
-  },
-  {
-    name: 'Schedule Optimizer',
-    description: 'Optimize your daily schedule based on your energy levels and task priorities.',
-    icon: Calendar,
-    href: '/tools/schedule-optimizer',
-    category: 'Planning',
-    popular: false,
-  },
-  {
-    name: 'Efficiency Calculator',
-    description: 'Calculate your work efficiency and identify bottlenecks in your workflow.',
+    name: 'Expense Ratio Calculator',
+    description: 'Calculate the real impact of ETF fees on your returns. Compare VOO (0.03%) vs CSI 300 ETF (0.15%+) over 10, 20, 30 years.',
     icon: Calculator,
-    href: '/tools/efficiency-calculator',
+    href: '/tools/expense-ratio-calculator',
+    category: 'Calculator',
+    popular: true,
+  },
+  {
+    name: 'Index Explorer',
+    description: 'Deep dive into S&P 500, Nasdaq-100, CSI 300, and Hang Seng Index — sector weights, top 10 holdings, historical returns, and PE ratios.',
+    icon: BarChart3,
+    href: '/tools/index-explorer',
+    category: 'Research',
+    popular: true,
+  },
+  {
+    name: 'DCA Calculator',
+    description: 'Dollar-cost averaging simulator — project returns from regular ETF investments over time with real historical data.',
+    icon: TrendingUp,
+    href: '/tools/dca-calculator',
+    category: 'Calculator',
+    popular: false,
+  },
+  {
+    name: 'Cross-Border Fee Analyzer',
+    description: 'Compare total costs of investing in US ETFs from overseas — expense ratios + withholding tax + brokerage fees + currency conversion.',
+    icon: Globe,
+    href: '/tools/cross-border-fee-analyzer',
     category: 'Analysis',
     popular: false,
   },
@@ -62,11 +54,9 @@ const tools = [
 
 const categories = [
   { name: 'All Tools', count: tools.length },
-  { name: 'Time Management', count: tools.filter(t => t.category === 'Time Management').length },
-  { name: 'Assessment', count: tools.filter(t => t.category === 'Assessment').length },
-  { name: 'Goal Setting', count: tools.filter(t => t.category === 'Goal Setting').length },
-  { name: 'Focus', count: tools.filter(t => t.category === 'Focus').length },
-  { name: 'Planning', count: tools.filter(t => t.category === 'Planning').length },
+  { name: 'Comparison', count: tools.filter(t => t.category === 'Comparison').length },
+  { name: 'Calculator', count: tools.filter(t => t.category === 'Calculator').length },
+  { name: 'Research', count: tools.filter(t => t.category === 'Research').length },
   { name: 'Analysis', count: tools.filter(t => t.category === 'Analysis').length },
 ]
 
@@ -81,11 +71,11 @@ export default function ToolsPage() {
         <div className="py-16 sm:py-24">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-              Free Productivity Tools
+              Free ETF Investing Tools
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 max-w-2xl mx-auto">
-              Boost your efficiency with our collection of free productivity tools. 
-              From time calculators to goal trackers, everything you need to optimize your workflow.
+              Compare ETFs across US and China markets, calculate real expense costs,
+              and explore major indices — all with free, data-driven tools.
             </p>
           </div>
         </div>
@@ -134,7 +124,7 @@ export default function ToolsPage() {
           <div className="flex items-center justify-between mb-8">
             <h2 className="text-2xl font-bold text-gray-900">All Tools</h2>
             <div className="text-sm text-gray-500">
-              {tools.length} tools available
+              {tools.length} tools available — more coming soon
             </div>
           </div>
 
@@ -191,19 +181,19 @@ export default function ToolsPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="mt-16 bg-gray-50 rounded-2xl p-8 text-center">
+        <div className="mt-16 mb-16 bg-gray-50 rounded-2xl p-8 text-center">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Need a Custom Tool?
+            Want a specific ETF tool?
           </h3>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            Can't find the productivity tool you're looking for? Let us know what you need, 
-            and we'll consider adding it to our collection.
+            Have an idea for an ETF calculator or comparison tool we should build?
+            Let us know — we are constantly expanding our toolkit for global investors.
           </p>
           <Link
             href="/contact"
             className="btn-primary px-6 py-3"
           >
-            Request a Tool
+            Suggest a Tool
           </Link>
         </div>
       </div>

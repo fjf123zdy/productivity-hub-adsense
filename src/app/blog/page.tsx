@@ -4,87 +4,97 @@ import { Calendar, Clock, User } from 'lucide-react'
 import { HeaderAdPlaceholder, SidebarAdPlaceholder } from '@/components/ads/AdPlaceholder'
 
 export const metadata: Metadata = {
-  title: 'Productivity Blog - Tips, Guides & Strategies',
-  description: 'Expert productivity tips, time management strategies, and efficiency guides. Learn from proven techniques to boost your performance and achieve more.',
-  keywords: 'productivity blog, time management tips, efficiency guides, work optimization, productivity strategies',
+  title: 'ETF Guides & Comparisons — US & China Market Insights',
+  description: 'In-depth ETF comparisons, index fund guides, and cross-border investing analysis. Compare S&P 500, Nasdaq, CSI 300 ETFs with data-driven insights.',
+  keywords: 'ETF comparison, US ETF guide, China ETF guide, S&P 500 ETF, CSI 300 ETF, index fund analysis, cross-border investing',
 }
 
 const blogPosts = [
   {
     id: 1,
-    title: '10 Time Management Techniques That Actually Work',
-    excerpt: 'Discover proven strategies to maximize your daily productivity and eliminate time wasters. These techniques are backed by research and used by top performers.',
-    author: 'Sarah Johnson',
-    date: '2024-01-15',
-    readTime: '8 min read',
-    category: 'Time Management',
-    href: '/blog/time-management-techniques',
+    title: 'S&P 500 ETF Showdown: VOO vs IVV vs SPY — Which One Wins in 2025?',
+    excerpt: 'A data-driven comparison of the three largest S&P 500 ETFs by AUM. We break down expense ratios, tracking error, tax efficiency, and dividend handling to help you choose.',
+    author: 'ETF Bridge Research',
+    date: '2025-06-20',
+    readTime: '10 min read',
+    category: 'US ETFs',
+    href: '/blog/sp500-etf-voo-ivv-spy-comparison',
     featured: true,
   },
   {
     id: 2,
-    title: 'The Ultimate Guide to Deep Work',
-    excerpt: 'Learn how to achieve focused, high-value work in our distraction-filled world. Master the art of concentration and produce your best work.',
-    author: 'Mike Chen',
-    date: '2024-01-12',
+    title: 'CSI 300 ETF Guide: How to Invest in China\'s Blue-Chip Index',
+    excerpt: 'Everything global investors need to know about tracking China\'s largest 300 A-share companies through ETFs — available options, fees, inclusion mechanisms, and key risks.',
+    author: 'ETF Bridge Research',
+    date: '2025-06-18',
     readTime: '12 min read',
-    category: 'Focus',
-    href: '/blog/deep-work-guide',
+    category: 'China ETFs',
+    href: '/blog/csi-300-etf-guide',
     featured: true,
   },
   {
     id: 3,
-    title: 'Productivity Apps vs. Simple Systems: What Works Better?',
-    excerpt: 'Compare digital tools with traditional methods to find your perfect productivity system. Discover which approach suits your workflow best.',
-    author: 'Emily Rodriguez',
-    date: '2024-01-10',
-    readTime: '6 min read',
-    category: 'Tools',
-    href: '/blog/productivity-apps-vs-simple-systems',
+    title: 'US vs China ETF Fees: Why Expense Ratios Differ So Much',
+    excerpt: 'US equity ETFs average 0.03%–0.09% expense ratios, while China ETFs often charge 0.15%–0.60%. We explain the structural reasons behind this gap.',
+    author: 'ETF Bridge Research',
+    date: '2025-06-15',
+    readTime: '8 min read',
+    category: 'Cross-Border',
+    href: '/blog/us-vs-china-etf-fees',
     featured: false,
   },
   {
     id: 4,
-    title: 'How to Build Unbreakable Focus in a Distracted World',
-    excerpt: 'Practical strategies to improve concentration, eliminate distractions, and maintain focus for extended periods.',
-    author: 'David Park',
-    date: '2024-01-08',
-    readTime: '10 min read',
-    category: 'Focus',
-    href: '/blog/build-unbreakable-focus',
+    title: 'Nasdaq-100 ETF Face-Off: QQQ vs QQQM vs Invesco Alternatives',
+    excerpt: 'Comparing the major Nasdaq-100 tracking ETFs on cost, liquidity, and suitability for long-term investors vs traders.',
+    author: 'ETF Bridge Research',
+    date: '2025-06-12',
+    readTime: '9 min read',
+    category: 'US ETFs',
+    href: '/blog/nasdaq-100-etf-qqq-qqqm-comparison',
     featured: false,
   },
   {
     id: 5,
-    title: 'The Science of Productivity: What Research Tells Us',
-    excerpt: 'Evidence-based insights into what makes people productive. Learn from the latest research in psychology and neuroscience.',
-    author: 'Dr. Lisa Wang',
-    date: '2024-01-05',
-    readTime: '15 min read',
-    category: 'Research',
-    href: '/blog/science-of-productivity',
+    title: 'A-Share Industry ETFs: How to Play China\'s Sector Rotation',
+    excerpt: 'An overview of China\'s sector-specific ETFs — semiconductor, new energy, healthcare, and consumer — and how they compare to US sector counterparts.',
+    author: 'ETF Bridge Research',
+    date: '2025-06-10',
+    readTime: '11 min read',
+    category: 'China ETFs',
+    href: '/blog/a-share-industry-etf-guide',
     featured: false,
   },
   {
     id: 6,
-    title: 'Morning Routines of Highly Productive People',
-    excerpt: 'Discover the morning habits that set successful people up for productive days. Create your own winning routine.',
-    author: 'Alex Thompson',
-    date: '2024-01-03',
+    title: 'Hang Seng Index ETFs: Gateway to Hong Kong Equities',
+    excerpt: 'Compare HSI-tracking ETFs available to international investors. Understand the index composition, sector concentration, and how it fits into a global portfolio.',
+    author: 'ETF Bridge Research',
+    date: '2025-06-08',
     readTime: '7 min read',
-    category: 'Habits',
-    href: '/blog/morning-routines-productive-people',
+    category: 'Asia ETFs',
+    href: '/blog/hang-seng-index-etf-guide',
+    featured: false,
+  },
+  {
+    id: 7,
+    title: 'Dividend ETFs: US vs China — Which Market Pays Better?',
+    excerpt: 'Comparing dividend yields, payout ratios, and tax treatment between US dividend aristocrat ETFs and China high-dividend ETFs.',
+    author: 'ETF Bridge Research',
+    date: '2025-06-05',
+    readTime: '8 min read',
+    category: 'Cross-Border',
+    href: '/blog/dividend-etf-us-vs-china',
     featured: false,
   },
 ]
 
 const categories = [
   { name: 'All Posts', count: blogPosts.length, href: '/blog' },
-  { name: 'Time Management', count: 2, href: '/blog/category/time-management' },
-  { name: 'Focus', count: 2, href: '/blog/category/focus' },
-  { name: 'Tools', count: 1, href: '/blog/category/tools' },
-  { name: 'Habits', count: 1, href: '/blog/category/habits' },
-  { name: 'Research', count: 1, href: '/blog/category/research' },
+  { name: 'US ETFs', count: blogPosts.filter(p => p.category === 'US ETFs').length, href: '/blog/category/us-etfs' },
+  { name: 'China ETFs', count: blogPosts.filter(p => p.category === 'China ETFs').length, href: '/blog/category/china-etfs' },
+  { name: 'Cross-Border', count: blogPosts.filter(p => p.category === 'Cross-Border').length, href: '/blog/category/cross-border' },
+  { name: 'Asia ETFs', count: blogPosts.filter(p => p.category === 'Asia ETFs').length, href: '/blog/category/asia-etfs' },
 ]
 
 export default function BlogPage() {
@@ -98,11 +108,11 @@ export default function BlogPage() {
         <div className="py-16 sm:py-24">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-              Productivity Blog
+              ETF Guides &amp; Comparisons
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 max-w-2xl mx-auto">
-              Expert insights, proven strategies, and actionable tips to help you work smarter, 
-              manage your time better, and achieve more in both work and life.
+              Data-driven ETF analysis for global investors. Compare US and China index funds,
+              understand expense ratios, and make informed cross-border investment decisions.
             </p>
           </div>
         </div>
@@ -116,14 +126,14 @@ export default function BlogPage() {
             {/* Featured Posts */}
             {featuredPosts.length > 0 && (
               <div className="mb-16">
-                <h2 className="text-2xl font-bold text-gray-900 mb-8">Featured Articles</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-8">Featured Analysis</h2>
                 <div className="grid gap-8 md:grid-cols-2">
                   {featuredPosts.map((post) => (
                     <article key={post.id} className="card">
                       <div className="flex items-center gap-x-4 text-xs mb-4">
                         <span className="text-gray-500 flex items-center gap-1">
                           <Calendar className="h-3 w-3" />
-                          {new Date(post.date).toLocaleDateString()}
+                          {new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
                         </span>
                         <span className="text-gray-500 flex items-center gap-1">
                           <Clock className="h-3 w-3" />
@@ -161,7 +171,7 @@ export default function BlogPage() {
                     <div className="flex items-center gap-x-4 text-xs mb-4">
                       <span className="text-gray-500 flex items-center gap-1">
                         <Calendar className="h-3 w-3" />
-                        {new Date(post.date).toLocaleDateString()}
+                        {new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
                       </span>
                       <span className="text-gray-500 flex items-center gap-1">
                         <Clock className="h-3 w-3" />
@@ -226,11 +236,11 @@ export default function BlogPage() {
 
               {/* Newsletter Signup */}
               <div className="card bg-primary-50">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">Stay Updated</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">ETF Insights Weekly</h3>
                 <p className="text-sm text-gray-600 mb-4">
-                  Get the latest productivity tips and insights delivered to your inbox.
+                  Get our latest ETF comparisons and cross-border investing guides delivered to your inbox.
                 </p>
-                <form className="space-y-3">
+                <form className="space-y-3" action="#">
                   <input
                     type="email"
                     placeholder="Enter your email"

@@ -1,49 +1,49 @@
 import Link from 'next/link'
-import { Clock, Target, TrendingUp, Calculator, BookOpen, Zap } from 'lucide-react'
+import { TrendingUp, BarChart3, Calculator, Globe, ArrowLeftRight } from 'lucide-react'
 import { HeaderAdPlaceholder, InContentAdPlaceholder } from '@/components/ads/AdPlaceholder'
 
 const features = [
   {
-    name: 'Time Management Tools',
-    description: 'Calculate work hours, break times, and optimize your daily schedule with our free calculators.',
-    icon: Clock,
-    href: '/tools/time-calculator',
+    name: 'ETF Comparison Tool',
+    description: 'Compare US and China ETFs side by side — expense ratios, holdings, performance, and dividend yields in one view.',
+    icon: ArrowLeftRight,
+    href: '/tools/etf-comparison',
   },
   {
-    name: 'Goal Tracking',
-    description: 'Set, track, and achieve your productivity goals with our comprehensive tracking system.',
-    icon: Target,
-    href: '/tools/goal-tracker',
+    name: 'Expense Ratio Calculator',
+    description: 'See how much ETF fees really cost you over time. Compare VOO, IVV, CSI 300 ETFs and optimize your portfolio costs.',
+    icon: Calculator,
+    href: '/tools/expense-ratio-calculator',
   },
   {
-    name: 'Performance Analytics',
-    description: 'Measure your productivity score and identify areas for improvement.',
-    icon: TrendingUp,
-    href: '/tools/productivity-score',
+    name: 'Market Index Explorer',
+    description: 'Deep dive into S&P 500, Nasdaq-100, CSI 300, and Hang Seng Index — sector weights, top holdings, and historical returns.',
+    icon: BarChart3,
+    href: '/tools/index-explorer',
   },
 ]
 
 const recentPosts = [
   {
-    title: '10 Time Management Techniques That Actually Work',
-    excerpt: 'Discover proven strategies to maximize your daily productivity and eliminate time wasters.',
-    href: '/blog/time-management-techniques',
-    category: 'Time Management',
-    readTime: '8 min read',
+    title: 'S&P 500 ETF Showdown: VOO vs IVV vs SPY — Which One Wins in 2025?',
+    excerpt: 'A data-driven comparison of the three largest S&P 500 ETFs by AUM, fees, tracking error, and tax efficiency.',
+    href: '/blog/sp500-etf-voo-ivv-spy-comparison',
+    category: 'US ETFs',
+    readTime: '10 min read',
   },
   {
-    title: 'The Ultimate Guide to Deep Work',
-    excerpt: 'Learn how to achieve focused, high-value work in our distraction-filled world.',
-    href: '/blog/deep-work-guide',
-    category: 'Focus',
+    title: 'CSI 300 ETF Guide: How to Invest in China\'s Blue-Chip Index',
+    excerpt: 'Everything you need to know about tracking China\'s largest 300 A-share companies through ETFs — fees, options, and risks.',
+    href: '/blog/csi-300-etf-guide',
+    category: 'China ETFs',
     readTime: '12 min read',
   },
   {
-    title: 'Productivity Apps vs. Simple Systems: What Works Better?',
-    excerpt: 'Compare digital tools with traditional methods to find your perfect productivity system.',
-    href: '/blog/productivity-apps-vs-simple-systems',
-    category: 'Tools',
-    readTime: '6 min read',
+    title: 'US vs China ETF Fees: Why Expense Ratios Differ So Much',
+    excerpt: 'A deep dive into the structural reasons behind the fee gap between US and Chinese ETFs, and what it means for your returns.',
+    href: '/blog/us-vs-china-etf-fees',
+    category: 'Cross-Border',
+    readTime: '8 min read',
   },
 ]
 
@@ -55,20 +55,26 @@ export default function HomePage() {
         <div className="content-container">
           <div className="mx-auto max-w-3xl py-16 sm:py-24 lg:py-32">
             <div className="text-center">
+              <div className="mb-6 flex justify-center">
+                <span className="inline-flex items-center rounded-full bg-emerald-50 px-4 py-1.5 text-sm font-medium text-emerald-700 ring-1 ring-inset ring-emerald-600/20">
+                  <Globe className="mr-1.5 h-4 w-4" />
+                  Bridging US &amp; China Markets
+                </span>
+              </div>
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                Boost Your Productivity with 
-                <span className="text-primary-600"> Smart Tools</span>
+                Compare ETFs Across
+                <span className="text-primary-600"> US &amp; China</span>
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Discover powerful productivity tools, time management techniques, and efficiency tips. 
-                Free calculators, comprehensive guides, and expert insights to maximize your performance.
+                Side-by-side ETF comparisons, expense ratio calculators, and expert investing guides.
+                Helping global investors navigate S&amp;P 500, Nasdaq, CSI 300, and Hang Seng Index funds — all in one place.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <Link
                   href="/tools"
                   className="btn-primary px-6 py-3 text-base"
                 >
-                  Explore Free Tools
+                  Explore ETF Tools
                 </Link>
                 <Link
                   href="/blog"
@@ -91,12 +97,12 @@ export default function HomePage() {
       <div className="py-16 sm:py-24">
         <div className="content-container">
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="text-base font-semibold leading-7 text-primary-600">Everything You Need</h2>
+            <h2 className="text-base font-semibold leading-7 text-primary-600">Free ETF Tools &amp; Resources</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Productivity Tools & Resources
+              Everything You Need to Compare and Choose ETFs
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              From time calculators to goal trackers, we provide the tools and knowledge you need to optimize your workflow and achieve more.
+              From expense ratio calculators to in-depth market index profiles, we provide the data and analysis global investors need to make informed ETF decisions.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -135,10 +141,10 @@ export default function HomePage() {
         <div className="content-container">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Latest Productivity Insights
+              Latest ETF Insights &amp; Comparisons
             </h2>
             <p className="mt-2 text-lg leading-8 text-gray-600">
-              Expert tips, proven strategies, and actionable advice to help you work smarter, not harder.
+              Data-driven analyses, side-by-side comparisons, and actionable guides for cross-border ETF investors.
             </p>
           </div>
           <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -179,23 +185,23 @@ export default function HomePage() {
           <div className="py-16 sm:py-24">
             <div className="mx-auto max-w-2xl text-center">
               <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                Ready to boost your productivity?
+                Start comparing ETFs across markets today
               </h2>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-primary-200">
-                Join thousands of professionals who use our tools and guides to optimize their workflow and achieve more in less time.
+                Join global investors who use ETF Bridge to compare US and China index funds, calculate real costs, and make smarter cross-border investment decisions.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <Link
                   href="/tools"
                   className="rounded-md bg-white px-6 py-3 text-base font-semibold text-primary-600 shadow-sm hover:bg-primary-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
-                  Get started for free
+                  Explore free tools
                 </Link>
                 <Link
                   href="/about"
                   className="text-base font-semibold leading-7 text-white hover:text-primary-200"
                 >
-                  Learn more <span aria-hidden="true">→</span>
+                  About ETF Bridge <span aria-hidden="true">→</span>
                 </Link>
               </div>
             </div>

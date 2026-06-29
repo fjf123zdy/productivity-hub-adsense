@@ -27,19 +27,19 @@ export function generateMetadata({
   section,
   tags,
 }: SEOProps): Metadata {
-  const siteName = 'ProductivityHub'
+  const siteName = 'ETF Bridge'
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://your-domain.vercel.app'
-  
-  const fullTitle = title ? `${title} | ${siteName}` : `${siteName} - Tools & Tips for Maximum Efficiency`
-  const fullDescription = description || 'Discover powerful productivity tools, time management techniques, and efficiency tips to boost your performance. Free calculators, guides, and resources.'
+
+  const fullTitle = title ? `${title} | ${siteName}` : `${siteName} — Compare US & China ETFs`
+  const fullDescription = description || 'Compare US and China ETFs side by side. Expense ratio calculators, index fund guides, and cross-border investing insights for global investors.'
   const fullUrl = url ? `${siteUrl}${url}` : siteUrl
   const fullImage = image.startsWith('http') ? image : `${siteUrl}${image}`
 
   return {
     title: fullTitle,
     description: fullDescription,
-    keywords: keywords || 'productivity, time management, efficiency, tools, calculators, tips, guides',
-    authors: author ? [{ name: author }] : [{ name: 'ProductivityHub Team' }],
+    keywords: keywords || 'ETF comparison, US ETF, China ETF, S&P 500, CSI 300, index fund, cross-border investing, expense ratio, ETF guide',
+    authors: author ? [{ name: author }] : [{ name: 'ETF Bridge Research' }],
     creator: siteName,
     publisher: siteName,
     robots: {
@@ -81,7 +81,7 @@ export function generateMetadata({
       title: fullTitle,
       description: fullDescription,
       images: [fullImage],
-      creator: '@productivityhub',
+      creator: '@etfbridge',
     },
     alternates: {
       canonical: fullUrl,
@@ -121,11 +121,11 @@ export function generateStructuredData({
       dateModified: modifiedTime || publishedTime,
       author: {
         '@type': 'Person',
-        name: author || 'ProductivityHub Team',
+        name: author || 'ETF Bridge Research',
       },
       publisher: {
         '@type': 'Organization',
-        name: 'ProductivityHub',
+        name: 'ETF Bridge',
         logo: {
           '@type': 'ImageObject',
           url: `${siteUrl}/logo.png`,

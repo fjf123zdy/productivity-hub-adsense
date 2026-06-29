@@ -2,19 +2,19 @@ import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://your-domain.vercel.app'
-  
+
   // Static pages
   const staticPages = [
     {
       url: baseUrl,
       lastModified: new Date(),
-      changeFrequency: 'daily' as const,
+      changeFrequency: 'weekly' as const,
       priority: 1,
     },
     {
       url: `${baseUrl}/blog`,
       lastModified: new Date(),
-      changeFrequency: 'daily' as const,
+      changeFrequency: 'weekly' as const,
       priority: 0.9,
     },
     {
@@ -24,13 +24,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/guides`,
+      url: `${baseUrl}/about`,
       lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
     },
     {
-      url: `${baseUrl}/about`,
+      url: `${baseUrl}/disclaimer`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.6,
@@ -57,12 +57,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Tool pages
   const toolPages = [
-    'time-calculator',
-    'productivity-score',
-    'goal-tracker',
-    'break-timer',
-    'schedule-optimizer',
-    'efficiency-calculator',
+    'etf-comparison',
+    'expense-ratio-calculator',
+    'index-explorer',
+    'dca-calculator',
+    'cross-border-fee-analyzer',
   ].map(tool => ({
     url: `${baseUrl}/tools/${tool}`,
     lastModified: new Date(),
@@ -70,14 +69,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  // Blog posts (you would typically fetch these from your CMS or database)
+  // Blog posts
   const blogPosts = [
-    'time-management-techniques',
-    'deep-work-guide',
-    'productivity-apps-vs-simple-systems',
-    'build-unbreakable-focus',
-    'science-of-productivity',
-    'morning-routines-productive-people',
+    'sp500-etf-voo-ivv-spy-comparison',
+    'csi-300-etf-guide',
+    'us-vs-china-etf-fees',
+    'nasdaq-100-etf-qqq-qqqm-comparison',
+    'a-share-industry-etf-guide',
+    'hang-seng-index-etf-guide',
+    'dividend-etf-us-vs-china',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
@@ -87,11 +87,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Blog categories
   const blogCategories = [
-    'time-management',
-    'focus',
-    'tools',
-    'habits',
-    'research',
+    'us-etfs',
+    'china-etfs',
+    'cross-border',
+    'asia-etfs',
   ].map(category => ({
     url: `${baseUrl}/blog/category/${category}`,
     lastModified: new Date(),

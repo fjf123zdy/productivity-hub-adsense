@@ -9,14 +9,14 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: {
-    default: 'ProductivityHub - Tools & Tips for Maximum Efficiency',
-    template: '%s | ProductivityHub'
+    default: 'ETF Bridge — Compare US & China ETFs, Index Funds & Investing Guides',
+    template: '%s | ETF Bridge'
   },
-  description: 'Discover powerful productivity tools, time management techniques, and efficiency tips to boost your performance. Free calculators, guides, and resources.',
-  keywords: 'productivity, time management, efficiency, tools, calculators, tips, guides, work optimization',
-  authors: [{ name: 'ProductivityHub Team' }],
-  creator: 'ProductivityHub',
-  publisher: 'ProductivityHub',
+  description: 'Compare S&P 500, Nasdaq, CSI 300 ETFs side by side. Fee analysis, performance data, and cross-border investing guides for global investors navigating US and China markets.',
+  keywords: 'ETF comparison, US ETF, China ETF, S&P 500, CSI 300, index fund, cross-border investing, ETF expense ratio, Nasdaq ETF, A-share ETF, global investor',
+  authors: [{ name: 'ETF Bridge Team' }],
+  creator: 'ETF Bridge',
+  publisher: 'ETF Bridge',
   robots: {
     index: true,
     follow: true,
@@ -32,22 +32,22 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://your-domain.vercel.app',
-    siteName: 'ProductivityHub',
-    title: 'ProductivityHub - Tools & Tips for Maximum Efficiency',
-    description: 'Discover powerful productivity tools, time management techniques, and efficiency tips to boost your performance.',
+    siteName: 'ETF Bridge',
+    title: 'ETF Bridge — Compare US & China ETFs Side by Side',
+    description: 'Compare S&P 500, Nasdaq, CSI 300 ETFs. Fee analysis, performance data, and cross-border investing guides for global investors.',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'ProductivityHub - Boost Your Efficiency',
+        alt: 'ETF Bridge — Cross-Border ETF Comparison',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ProductivityHub - Tools & Tips for Maximum Efficiency',
-    description: 'Discover powerful productivity tools and efficiency tips.',
+    title: 'ETF Bridge — Compare US & China ETFs',
+    description: 'Side-by-side ETF comparison, fee analysis, and investing guides for US and China markets.',
     images: ['/og-image.jpg'],
   },
   verification: {

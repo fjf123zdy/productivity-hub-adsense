@@ -2,13 +2,12 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { Menu, X, Zap } from 'lucide-react'
+import { Menu, X, BarChart3 } from 'lucide-react'
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'Blog', href: '/blog' },
+  { name: 'ETF Guides', href: '/blog' },
   { name: 'Tools', href: '/tools' },
-  { name: 'Guides', href: '/guides' },
   { name: 'About', href: '/about' },
 ]
 
@@ -22,8 +21,8 @@ export default function Header() {
           {/* Logo */}
           <div className="flex lg:flex-1">
             <Link href="/" className="-m-1.5 p-1.5 flex items-center space-x-2">
-              <Zap className="h-8 w-8 text-primary-600" />
-              <span className="text-xl font-bold text-gray-900">ProductivityHub</span>
+              <BarChart3 className="h-8 w-8 text-primary-600" />
+              <span className="text-xl font-bold text-gray-900">ETF Bridge</span>
             </Link>
           </div>
 
@@ -58,7 +57,7 @@ export default function Header() {
               href="/tools"
               className="btn-primary text-sm font-semibold leading-6"
             >
-              Free Tools <span aria-hidden="true">&rarr;</span>
+              ETF Tools <span aria-hidden="true">&rarr;</span>
             </Link>
           </div>
         </div>
@@ -70,8 +69,8 @@ export default function Header() {
             <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
               <div className="flex items-center justify-between">
                 <Link href="/" className="-m-1.5 p-1.5 flex items-center space-x-2">
-                  <Zap className="h-8 w-8 text-primary-600" />
-                  <span className="text-xl font-bold text-gray-900">ProductivityHub</span>
+                  <BarChart3 className="h-8 w-8 text-primary-600" />
+                  <span className="text-xl font-bold text-gray-900">ETF Bridge</span>
                 </Link>
                 <button
                   type="button"
@@ -102,7 +101,7 @@ export default function Header() {
                       className="btn-primary w-full text-center block"
                       onClick={() => setMobileMenuOpen(false)}
                     >
-                      Free Tools
+                      ETF Tools
                     </Link>
                   </div>
                 </div>

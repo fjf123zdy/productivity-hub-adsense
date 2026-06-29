@@ -1,25 +1,24 @@
 import Link from 'next/link'
-import { Zap } from 'lucide-react'
+import { BarChart3 } from 'lucide-react'
 
 const navigation = {
   main: [
     { name: 'Home', href: '/' },
-    { name: 'Blog', href: '/blog' },
+    { name: 'ETF Guides', href: '/blog' },
     { name: 'Tools', href: '/tools' },
-    { name: 'Guides', href: '/guides' },
     { name: 'About', href: '/about' },
   ],
   legal: [
     { name: 'Privacy Policy', href: '/privacy' },
     { name: 'Terms of Service', href: '/terms' },
-    { name: 'Cookie Policy', href: '/cookies' },
+    { name: 'Disclaimer', href: '/disclaimer' },
     { name: 'Contact', href: '/contact' },
   ],
   tools: [
-    { name: 'Time Calculator', href: '/tools/time-calculator' },
-    { name: 'Productivity Score', href: '/tools/productivity-score' },
-    { name: 'Break Timer', href: '/tools/break-timer' },
-    { name: 'Goal Tracker', href: '/tools/goal-tracker' },
+    { name: 'ETF Comparison', href: '/tools/etf-comparison' },
+    { name: 'Expense Ratio Calculator', href: '/tools/expense-ratio-calculator' },
+    { name: 'Index Explorer', href: '/tools/index-explorer' },
+    { name: 'DCA Calculator', href: '/tools/dca-calculator' },
   ],
 }
 
@@ -32,15 +31,15 @@ export default function Footer() {
             {/* Brand section */}
             <div className="space-y-4">
               <Link href="/" className="flex items-center space-x-2">
-                <Zap className="h-8 w-8 text-primary-600" />
-                <span className="text-xl font-bold text-gray-900">ProductivityHub</span>
+                <BarChart3 className="h-8 w-8 text-primary-600" />
+                <span className="text-xl font-bold text-gray-900">ETF Bridge</span>
               </Link>
               <p className="text-sm text-gray-600 max-w-md">
-                Your ultimate destination for productivity tools, time management tips, and efficiency guides. 
-                Boost your performance with our free resources and expert insights.
+                Helping global investors compare ETFs across US and China markets.
+                Side-by-side analysis, fee calculators, and expert guides for smarter cross-border index investing.
               </p>
               <div className="text-xs text-gray-500">
-                © {new Date().getFullYear()} ProductivityHub. All rights reserved.
+                &copy; {new Date().getFullYear()} ETF Bridge. All rights reserved.
               </div>
             </div>
 
@@ -69,7 +68,7 @@ export default function Footer() {
                 {/* Tools */}
                 <div>
                   <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase">
-                    Popular Tools
+                    ETF Tools
                   </h3>
                   <ul className="mt-4 space-y-3">
                     {navigation.tools.map((item) => (
@@ -112,10 +111,10 @@ export default function Footer() {
         <div className="border-t border-gray-200 py-6">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
             <p className="text-xs text-gray-500">
-              Made with ❤️ for productivity enthusiasts worldwide
+              ETF Bridge does not provide investment advice. All content is for informational and educational purposes only.
             </p>
             <p className="text-xs text-gray-500 mt-2 sm:mt-0">
-              Optimized for performance and user experience
+              Data sourced from fund providers, SEC filings, and public exchanges.
             </p>
           </div>
         </div>

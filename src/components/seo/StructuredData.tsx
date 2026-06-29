@@ -24,13 +24,12 @@ export default function StructuredData(props: StructuredDataProps) {
   )
 }
 
-// Specific structured data components
 export function WebsiteStructuredData() {
   return (
     <StructuredData
       type="WebSite"
-      title="ProductivityHub - Tools & Tips for Maximum Efficiency"
-      description="Discover powerful productivity tools, time management techniques, and efficiency tips to boost your performance."
+      title="ETF Bridge — Compare US & China ETFs"
+      description="Compare S&P 500, Nasdaq, CSI 300 ETFs side by side. Expense ratio calculators, index fund guides, and cross-border investing insights."
       url="/"
     />
   )

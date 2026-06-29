@@ -6,12 +6,10 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  
-  // SEO and performance optimizations
-  
+
   // Compress responses
   compress: true,
-  
+
   // Generate sitemap and robots.txt
   async rewrites() {
     return [
@@ -21,7 +19,7 @@ const nextConfig = {
       }
     ]
   },
-  
+
   // Security headers for AdSense compliance
   async headers() {
     return [
