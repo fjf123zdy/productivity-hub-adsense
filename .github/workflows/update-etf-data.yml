@@ -1,0 +1,59 @@
+name: Update ETF Data
+
+on:
+  schedule:
+    # Run daily at 7:00 UTC (before US market open, after Asian close)
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+    # Allow manual trigger from GitHub UI
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          npm install
+          npm install yahoo-finance2
+
+      - name: Run ETF data update
+        run: node scripts/update-etf-data.js
+        env:
+          NODE_ENV: production
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes detected in ETF data."
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "ETF data updated."
+          fi
+
+      - name: Build to verify
+        if: steps.git-check.outputs.changed == 'true'
+        run: npm run build
+
+      - name: Commit and push
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config user.name "etf-data-bot"
+          git config user.email "bot@etfbridge.click"
+          git add src/lib/etf-data.ts
+          git commit -m "data: auto-update ETF performance data [skip ci]"
+          git push
