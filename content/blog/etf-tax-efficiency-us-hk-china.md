@@ -2,7 +2,7 @@
 title: "ETF Tax Efficiency: How US, HK, and Mainland China Compare for Investors"
 meta_description: "US ETFs are tax-efficient by design — HK ETFs enjoy 0% dividend and capital gains tax — but China A-share ETFs have a 10% dividend withholding. Compare the tax drag of VOO vs 2800.HK vs 510300 across investor profiles in 2026."
 meta_keywords: "ETF tax efficiency, US ETF tax, HK ETF tax, China ETF tax, dividend withholding tax ETF, capital gains tax ETF, IRA ETF tax, 2800.HK tax, A-share ETF tax, cross-border ETF tax comparison"
-date: "2026-07-01"
+date: "2026-07-03"
 author: "ETF Bridge Research"
 category: "Cross-Border"
 read_time: "10 min read"

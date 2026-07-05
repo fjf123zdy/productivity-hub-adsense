@@ -2,7 +2,7 @@
 title: "Semiconductor ETF Deep Dive 2026: SMH vs SOXX vs China Chip ETFs"
 meta_description: "SMH (+64% YTD) vs SOXX (+87% YTD) vs China semiconductor ETFs (+177% YTD). The global chip ETF landscape in 2026: fees, holdings, concentration, and the AI supply chain that drives everything."
 meta_keywords: "semiconductor ETF 2026, SMH vs SOXX, best chip ETF, China semiconductor ETF, 科创半导体ETF, VanEck semiconductor, SOXX ETF, SMH ETF, AI chip ETF, semiconductor ETF performance"
-date: "2026-07-01"
+date: "2026-07-04"
 author: "ETF Bridge Research"
 category: "US ETFs"
 read_time: "10 min read"

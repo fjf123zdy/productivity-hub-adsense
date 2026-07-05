@@ -2,7 +2,7 @@
 title: "Gold ETFs 2026: GLD vs IAU vs China Gold ETFs — Which Is the Best Way to Own Gold?"
 meta_description: "Gold is up ~70% since early 2025. GLD charges 0.40%, IAU charges 0.25%, and China's cheapest gold ETF costs just 0.20%. Compare US and China gold ETFs across fees, liquidity, tax treatment, and structural differences in 2026."
 meta_keywords: "gold ETF 2026, GLD vs IAU, best gold ETF, China gold ETF, IAUM gold ETF, Shanghai Gold ETF, gold bullion ETF comparison, gold ETF expense ratio, gold price 2026, central bank gold buying"
-date: "2026-07-01"
+date: "2026-07-04"
 author: "ETF Bridge Research"
 category: "Cross-Border"
 read_time: "9 min read"

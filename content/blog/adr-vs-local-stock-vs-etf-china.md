@@ -2,7 +2,7 @@
 title: "ADR vs Local Stock vs ETF: Which China Exposure Is Best for Global Investors?"
 meta_description: "Three ways to invest in China — ADRs (US-listed), H-shares (HK-listed), and A-share ETFs (onshore). We compare fees, liquidity, tax treatment, and access restrictions to find which channel delivers the best net total return for global investors in 2026."
 meta_keywords: "China ADR vs ETF, H-share vs A-share, China stock exposure, invest in China 2026, Alibaba ADR vs HK, Chinese stocks for US investors, ADR fees, Stock Connect China"
-date: "2026-07-01"
+date: "2026-07-03"
 author: "ETF Bridge Research"
 category: "Cross-Border"
 read_time: "10 min read"

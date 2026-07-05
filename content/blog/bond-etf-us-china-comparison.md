@@ -2,7 +2,7 @@
 title: "Bond ETFs for Equity Investors: US Treasuries vs China Sovereign — A 2026 Guide"
 meta_description: "US Treasury bond ETFs (BND, TLT) vs Chinese sovereign bond ETFs — we compare yields, expense ratios, currency risk, and how bond ETFs work as portfolio stabilizers for equity-heavy investors in 2026."
 meta_keywords: "bond ETF for equity investors, US Treasury bond ETF, China government bond ETF, BND ETF, TLT ETF, China sovereign bond ETF, bond ETF yield 2026, portfolio diversification bonds"
-date: "2026-07-01"
+date: "2026-07-03"
 author: "ETF Bridge Research"
 category: "Cross-Border"
 read_time: "9 min read"

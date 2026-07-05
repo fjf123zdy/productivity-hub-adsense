@@ -2,7 +2,7 @@
 title: "Lump Sum vs DCA Into ETFs: What 155 Years of Data Shows"
 meta_description: "Vanguard research: lump sum beats DCA 68% of the time over 12 months — but the difference over 20 years is only ~$600. We analyze 155 years of S&P 500 data, ETF-specific case studies (SPY, QQQ, VXUS), and the behavioral case for both strategies in 2026."
 meta_keywords: "lump sum vs DCA, dollar cost averaging ETF, lump sum investing ETF, DCA vs lump sum data 2026, Vanguard lump sum DCA, best way to invest windfall, ETF investing strategy, whether to invest all at once"
-date: "2026-07-01"
+date: "2026-07-05"
 author: "ETF Bridge Research"
 category: "Cross-Border"
 read_time: "9 min read"

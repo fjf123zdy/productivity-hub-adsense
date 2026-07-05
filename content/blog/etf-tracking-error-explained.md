@@ -2,7 +2,7 @@
 title: "ETF Tracking Error Explained: Why It Matters More Than Fees"
 meta_description: "Tracking error and tracking difference are the silent costs of ETF investing. A 0.50% tracking difference costs 10x more than a 0.05% expense ratio gap. Learn what causes it, how to measure it, and which ETFs track their indices most tightly in 2026."
 meta_keywords: "ETF tracking error explained, tracking difference ETF, ETF tracking accuracy, why ETF doesn't match index, ETF hidden costs, VOO tracking error, ASHR tracking difference, ETF total cost of ownership"
-date: "2026-06-30"
+date: "2026-07-01"
 author: "ETF Bridge Research"
 category: "US ETFs"
 read_time: "9 min read"

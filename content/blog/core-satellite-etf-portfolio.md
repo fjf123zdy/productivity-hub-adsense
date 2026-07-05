@@ -2,7 +2,7 @@
 title: "Core-Satellite ETF Portfolio 2026: Building a Global Allocation with Index Funds"
 meta_description: "A practical guide to building a core-satellite ETF portfolio in 2026. US stocks, international diversification, bonds, and tactical satellites — with real asset allocation models, rebalancing rules, and ETF recommendations for every sleeve."
 meta_keywords: "core satellite ETF portfolio 2026, global ETF allocation, lazy ETF portfolio, diversified ETF portfolio, ETF portfolio strategy, core satellite investing, ETF asset allocation 2026, rebalancing ETF portfolio"
-date: "2026-07-01"
+date: "2026-07-05"
 author: "ETF Bridge Research"
 category: "Cross-Border"
 read_time: "12 min read"

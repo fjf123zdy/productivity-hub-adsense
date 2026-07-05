@@ -2,7 +2,7 @@
 title: "Equal-Weight vs Cap-Weight ETFs: The S&P 500 Case Study (2026)"
 meta_description: "Cap-weight VOO returned 335% over 10 years vs equal-weight RSP's 243%. But in 2026, RSP is outperforming by 5 percentage points. Which S&P 500 strategy is right for you? We compare concentration risk, sector exposure, fees, and historical cycles."
 meta_keywords: "equal weight vs cap weight ETF, RSP vs VOO 2026, S&P 500 equal weight ETF, ETF concentration risk, market cap weighting explained, best S&P 500 ETF 2026, VOO vs RSP, equal weight ETF performance"
-date: "2026-06-30"
+date: "2026-07-01"
 author: "ETF Bridge Research"
 category: "US ETFs"
 read_time: "10 min read"

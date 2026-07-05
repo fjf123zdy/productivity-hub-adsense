@@ -2,7 +2,7 @@
 title: "CSI 500 vs CSI 1000 ETFs 2026: China's Mid-Cap and Small-Cap Landscape"
 meta_description: "CSI 500 (mid-cap, 35x PE) vs CSI 1000 (small-cap, 47x PE) — China's next tier of companies beyond the CSI 300 blue chips. Compare ETFs, valuations, performance, and how global investors access China mid/small caps in 2026."
 meta_keywords: "CSI 500 ETF 2026, CSI 1000 ETF, China mid cap ETF, China small cap ETF, ASHS ETF, 510500 ETF, CSI 500 vs CSI 1000, China Russell 2000 equivalent"
-date: "2026-07-01"
+date: "2026-07-05"
 author: "ETF Bridge Research"
 category: "China ETFs"
 read_time: "9 min read"
