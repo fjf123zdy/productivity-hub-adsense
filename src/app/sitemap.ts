@@ -78,6 +78,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'a-share-industry-etf-guide',
     'hang-seng-index-etf-guide',
     'dividend-etf-us-vs-china',
+    'real-estate-etf-us-reit-vs-china-property',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
