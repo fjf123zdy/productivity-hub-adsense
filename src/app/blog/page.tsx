@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Calendar, Clock, User } from 'lucide-react'
 import { HeaderAdPlaceholder, SidebarAdPlaceholder } from '@/components/ads/AdPlaceholder'
+import PaginatedBlogList from '@/components/blog/PaginatedBlogList'
 import { getAllPosts } from '@/lib/posts'
 
 export const metadata: Metadata = {
@@ -96,59 +97,8 @@ export default function BlogPage() {
               </div>
             )}
 
-            {/* All Posts */}
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">All Articles</h2>
-              {regularPosts.length > 0 ? (
-                <div className="space-y-8">
-                  {regularPosts.map((post) => (
-                    <article key={post.slug} className="card">
-                      <div className="flex items-center gap-x-4 text-xs mb-4">
-                        <span className="text-gray-500 flex items-center gap-1">
-                          <Calendar className="h-3 w-3" />
-                          {new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-                        </span>
-                        <span className="text-gray-500 flex items-center gap-1">
-                          <Clock className="h-3 w-3" />
-                          {post.readTime}
-                        </span>
-                        <span className="relative z-10 rounded-full bg-primary-50 px-3 py-1.5 font-medium text-primary-600">
-                          {post.category}
-                        </span>
-                      </div>
-                      <div className="group relative">
-                        <h3 className="text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-600 mb-3">
-                          <Link href={`/blog/${post.slug}`}>
-                            <span className="absolute inset-0" />
-                            {post.title}
-                          </Link>
-                        </h3>
-                        <p className="text-sm leading-6 text-gray-600 mb-4">{post.description}</p>
-                        <div className="flex items-center justify-between">
-                          <div className="flex items-center gap-2 text-xs text-gray-500">
-                            <User className="h-3 w-3" />
-                            <span>By {post.author}</span>
-                          </div>
-                          <Link
-                            href={`/blog/${post.slug}`}
-                            className="text-sm font-semibold text-primary-600 hover:text-primary-500"
-                          >
-                            Read more →
-                          </Link>
-                        </div>
-                      </div>
-                    </article>
-                  ))}
-                </div>
-              ) : (
-                <div className="card text-center py-12">
-                  <p className="text-gray-500 text-lg">More articles coming soon.</p>
-                  <p className="text-gray-400 text-sm mt-2">
-                    We're working on in-depth ETF comparisons and cross-border investing guides. Check back soon.
-                  </p>
-                </div>
-              )}
-            </div>
+            {/* All Posts — Paginated */}
+            <PaginatedBlogList posts={regularPosts} />
           </div>
 
           {/* Sidebar */}
