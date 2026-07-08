@@ -80,6 +80,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'dividend-etf-us-vs-china',
     'real-estate-etf-us-reit-vs-china-property',
     'small-cap-etf-russell-2000-csi-500-chinext',
+    'thematic-etf-risks-underperformance',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
