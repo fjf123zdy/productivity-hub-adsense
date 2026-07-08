@@ -81,6 +81,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'real-estate-etf-us-reit-vs-china-property',
     'small-cap-etf-russell-2000-csi-500-chinext',
     'thematic-etf-risks-underperformance',
+    'emerging-markets-etf-eem-vwo-country',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
