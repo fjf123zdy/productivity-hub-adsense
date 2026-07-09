@@ -82,6 +82,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'small-cap-etf-russell-2000-csi-500-chinext',
     'thematic-etf-risks-underperformance',
     'emerging-markets-etf-eem-vwo-country',
+    'build-global-etf-portfolio-guide',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
