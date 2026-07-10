@@ -84,6 +84,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'emerging-markets-etf-eem-vwo-country',
     'build-global-etf-portfolio-guide',
     'semiconductor-etf-soxx-smh-soxl-comparison',
+    'ai-infrastructure-etf-data-center-power-grid',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
