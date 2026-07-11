@@ -86,6 +86,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'semiconductor-etf-soxx-smh-soxl-comparison',
     'ai-infrastructure-etf-data-center-power-grid',
     'magnificent-seven-concentration-problem',
+    'cloud-computing-etf-clou-skyy-wcld',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
