@@ -88,6 +88,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'magnificent-seven-concentration-problem',
     'cloud-computing-etf-clou-skyy-wcld',
     'robotics-automation-etf-botz-robo-arkq',
+    'dividend-aristocrats-etf-nobl-schd-international',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
