@@ -90,6 +90,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'robotics-automation-etf-botz-robo-arkq',
     'dividend-aristocrats-etf-nobl-schd-international',
     'healthcare-etf-xlv-ibb-china-pharma',
+    'infrastructure-etf-gii-pave-igf-supercycle',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
