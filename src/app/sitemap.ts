@@ -89,6 +89,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'cloud-computing-etf-clou-skyy-wcld',
     'robotics-automation-etf-botz-robo-arkq',
     'dividend-aristocrats-etf-nobl-schd-international',
+    'healthcare-etf-xlv-ibb-china-pharma',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
