@@ -92,6 +92,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'healthcare-etf-xlv-ibb-china-pharma',
     'infrastructure-etf-gii-pave-igf-supercycle',
     'low-volatility-etf-usmv-splv-defense',
+    'factor-investing-smart-beta-etf-guide',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
