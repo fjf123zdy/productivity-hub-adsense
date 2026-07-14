@@ -91,6 +91,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'dividend-aristocrats-etf-nobl-schd-international',
     'healthcare-etf-xlv-ibb-china-pharma',
     'infrastructure-etf-gii-pave-igf-supercycle',
+    'low-volatility-etf-usmv-splv-defense',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
