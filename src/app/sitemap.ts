@@ -93,6 +93,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'infrastructure-etf-gii-pave-igf-supercycle',
     'low-volatility-etf-usmv-splv-defense',
     'factor-investing-smart-beta-etf-guide',
+    'european-equity-etf-vgk-ezu-fez-stoxx-ftse',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
