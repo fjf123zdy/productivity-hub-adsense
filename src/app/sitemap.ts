@@ -95,6 +95,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'factor-investing-smart-beta-etf-guide',
     'european-equity-etf-vgk-ezu-fez-stoxx-ftse',
     'us-bond-etf-agg-bnd-tlt-lqd-guide',
+    'growth-vs-value-etf-vug-vtv-schg-schv',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
