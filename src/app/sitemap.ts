@@ -96,6 +96,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'european-equity-etf-vgk-ezu-fez-stoxx-ftse',
     'us-bond-etf-agg-bnd-tlt-lqd-guide',
     'growth-vs-value-etf-vug-vtv-schg-schv',
+    'covered-call-etf-jepi-jepq-xyld-divo',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
