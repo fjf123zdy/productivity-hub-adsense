@@ -117,6 +117,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'lump-sum-vs-dca-etf',
     'semiconductor-etf-smh-soxx-china',
     'india-etf-inda-indy-flin-epi',
+    'energy-sector-etf-xle-vde-ixc-feny',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
