@@ -119,6 +119,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'india-etf-inda-indy-flin-epi',
     'energy-sector-etf-xle-vde-ixc-feny',
     'uranium-nuclear-energy-etf-ura-urnm-nlr',
+    'international-developed-etf-vea-schf-iefa-vxus',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
