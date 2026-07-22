@@ -120,6 +120,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'energy-sector-etf-xle-vde-ixc-feny',
     'uranium-nuclear-energy-etf-ura-urnm-nlr',
     'international-developed-etf-vea-schf-iefa-vxus',
+    'etf-vs-mutual-fund-comparison-2026',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
