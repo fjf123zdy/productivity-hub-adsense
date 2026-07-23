@@ -121,6 +121,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'uranium-nuclear-energy-etf-ura-urnm-nlr',
     'international-developed-etf-vea-schf-iefa-vxus',
     'etf-vs-mutual-fund-comparison-2026',
+    'mid-cap-etf-ijh-vo-iwr-schm',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
