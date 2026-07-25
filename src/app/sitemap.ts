@@ -123,6 +123,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'etf-vs-mutual-fund-comparison-2026',
     'mid-cap-etf-ijh-vo-iwr-schm',
     'commodity-etf-dbc-gsg-pdbc-bci',
+    'preferred-stock-etf-pff-pgx-pfxf',
   ].map(slug => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: new Date(),
