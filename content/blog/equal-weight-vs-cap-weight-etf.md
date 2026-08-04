@@ -3,7 +3,7 @@ title: "Equal-Weight vs Cap-Weight ETFs: The S&P 500 Case Study (2026)"
 meta_description: "Cap-weight VOO returned 335% over 10 years vs equal-weight RSP's 243%. But in 2026, RSP is outperforming by 5 percentage points. Which S&P 500 strategy is right for you? We compare concentration risk, sector exposure, fees, and historical cycles."
 meta_keywords: "equal weight vs cap weight ETF, RSP vs VOO 2026, S&P 500 equal weight ETF, ETF concentration risk, market cap weighting explained, best S&P 500 ETF 2026, VOO vs RSP, equal weight ETF performance"
 date: "2026-07-01"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "US ETFs"
 read_time: "10 min read"
 slug: "equal-weight-vs-cap-weight-etf"
@@ -11,7 +11,7 @@ slug: "equal-weight-vs-cap-weight-etf"
 
 # Equal-Weight vs Cap-Weight ETFs: The S&P 500 Case Study (2026)
 
-**By ETF Bridge Research** | June 30, 2026 | 10 min read
+**By [Gerberal](/about)** | June 30, 2026 | 10 min read
 
 ---
 
@@ -20,6 +20,8 @@ When you buy VOO, you're making a bet — whether you realize it or not. Because
 There is an alternative: **equal-weight ETFs**, which give every S&P 500 stock the same 0.2% slice. The leading fund — Invesco's RSP — charges 0.20% for this service, versus VOO's 0.03%. And in 2026, for the first time in years, the more expensive equal-weight strategy is winning.
 
 This article explains how these two weighting schemes work, why they produce dramatically different portfolios from the same 503 stocks, and which one belongs in your account right now.
+
+<img src="/charts/mag7-concentration.svg" alt="Magnificent Seven concentration in S&P 500 grew from 12% in 2014 to 35% in 2026" class="w-full rounded-lg my-6" />
 
 ---
 

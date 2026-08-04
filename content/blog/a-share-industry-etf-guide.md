@@ -3,7 +3,7 @@ title: "China A-Share Industry ETF Guide 2026: Semiconductors, New Energy, Healt
 meta_description: "A comprehensive guide to China's sector-specific A-share ETFs in 2026. Compare semiconductor ETFs (+100% YTD), new energy, healthcare, and consumer sector funds — and see how they stack up against US sector counterparts."
 meta_keywords: "China sector ETF 2026, A-share industry ETF, China semiconductor ETF, China new energy ETF, China healthcare ETF, China consumer ETF, best performing China ETFs 2026, 科创半导体ETF"
 date: "2026-06-30"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "China ETFs"
 read_time: "12 min read"
 slug: "a-share-industry-etf-guide"
@@ -11,11 +11,11 @@ slug: "a-share-industry-etf-guide"
 
 # China A-Share Industry ETF Guide 2026: Semiconductors, New Energy, Healthcare & Consumer
 
-**By ETF Bridge Research** | June 30, 2026 | 12 min read
+**By [Gerberal](/about)** | June 30, 2026 | 12 min read
 
 ---
 
-If you've followed our ETF comparison series, you know the CSI 300 is China's S&P 500 — broad, diversified, the benchmark everyone measures against. But the real action in China's A-share market in 2026 has been **beneath the surface**. Semiconductor ETFs have delivered triple-digit returns year-to-date. The energy grid sector has absorbed more capital than any other theme. And in late June, healthcare staged a dramatic rotation rally — up 9% in a single day.
+If you've followed our ETF comparison series, you know the [CSI 300](/blog/csi-300-etf-guide) is China's S&P 500 — broad, diversified, the benchmark everyone measures against. But the real action in China's A-share market in 2026 has been **beneath the surface**. Semiconductor ETFs have delivered triple-digit returns year-to-date. The energy grid sector has absorbed more capital than any other theme. And in late June, healthcare staged a dramatic rotation rally — up 9% in a single day.
 
 This guide maps China's most important sector ETFs, explains what's driving them, and — critically — shows how they compare to their U.S. sector counterparts. If you're a global investor looking beyond broad CSI 300 exposure, this is your map.
 
@@ -38,7 +38,7 @@ The dispersion is extraordinary — the best-performing China sector ETF is up ~
 
 ## Sector 1: Semiconductors — The Year's Dominant Trade
 
-China's semiconductor ETFs are the story of 2026. The top five performers:
+China's [semiconductor](/blog/semiconductor-etf-soxx-smh-soxl-comparison) ETFs are the story of 2026. The top five performers:
 
 | ETF Name | Ticker (SSE/SZSE) | YTD Return | Focus |
 |---|---|---|---|
@@ -211,6 +211,8 @@ For global investors who already hold broad CSI 300 or MSCI China exposure, sect
 - Hana Financial — China macro and sector ETF research report
 - KraneShares, iShares, Invesco — U.S.-listed China ETF fund pages
 
+---
+> **Continue reading:** Understand how these sector ETFs fit alongside broad benchmarks — read our [CSI 300 ETF Guide](/blog/csi-300-etf-guide) for China's blue-chip index, or compare [CSI 500 vs CSI 1000](/blog/csi-500-vs-csi-1000-etf) for mid/small-cap exposure, and see how [China tech ETFs like KWEB](/blog/china-tech-etf-kweb-hstech) provide a different angle on the same themes.
 ---
 
 > **Disclaimer:** ETF Bridge is an educational resource. This article does not constitute investment advice. Past performance does not guarantee future results. ETF performance data is sourced from public fund disclosures and financial media as of late June 2026 and may change rapidly. Sector ETFs carry concentration risk. Always verify current data with official fund providers and consult a qualified financial advisor before making investment decisions. Investing in China A-shares involves unique risks including regulatory changes, market access restrictions, and currency fluctuation.

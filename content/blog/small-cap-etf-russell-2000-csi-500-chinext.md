@@ -3,7 +3,7 @@ title: "Small-Cap ETFs 2026: Russell 2000 (IWM) vs CSI 500 vs ChiNext GEM — Th
 meta_description: "US small-cap (IWM, VB, IJR) and China small-cap ETFs (CSI 500, ChiNext GEM) share a size label but differ in sector composition, valuation, volatility, and return drivers. Compare Russell 2000, CSI 500, and ChiNext ETFs — what small-cap means in each market and which fits your portfolio."
 meta_keywords: "small cap ETF 2026, Russell 2000 ETF, IWM ETF, CSI 500 ETF, ChiNext ETF, GEM ETF, China small cap ETF, US vs China small cap, small cap value ETF, IWM vs ASHS"
 date: "2026-07-07"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "Cross-Border"
 read_time: "11 min read"
 slug: "small-cap-etf-russell-2000-csi-500-chinext"
@@ -11,11 +11,11 @@ slug: "small-cap-etf-russell-2000-csi-500-chinext"
 
 # Small-Cap ETFs 2026: Russell 2000 (IWM) vs CSI 500 vs ChiNext GEM — Three Roads to Small-Cap Exposure
 
-**By ETF Bridge Research** | July 7, 2026 | 11 min read
+**By [Gerberal](/about)** | July 7, 2026 | 11 min read
 
 "Small-cap" is one of the most useful category labels in investing — and one of the most deceptive when applied across borders. A US small-cap stock in the Russell 2000 has a median market cap of roughly $1 billion. A Chinese small-cap stock in the CSI 1000 has a median market cap of roughly ¥6 billion (~$820 million). A ChiNext GEM stock might be a ¥30 billion (~$4 billion) company growing at 40% annually. Same label. Completely different animals.
 
-The academic case for small-caps is well-established: the size premium — small companies outperforming large ones over long periods — has been documented since Fama and French published their three-factor model in 1992. But the premium is not uniform across markets, not consistent across time periods, and not accessible through the same ETF vehicles.
+The academic case for small-caps is well-established: the size premium — small companies outperforming large ones over long periods — has been documented since Fama and French published their three-factor model in 1992. But the premium is not uniform across markets, not consistent across time periods, and not accessible through the same ETF vehicles. For a comprehensive overview of how factor tilts like size, value, and quality work across markets, see our [factor investing and smart beta guide](/blog/factor-investing-smart-beta-etf-guide).
 
 This article compares the three main small-cap ETF routes for global investors: the Russell 2000 (US), the CSI 500 (China mid-cap), and ChiNext GEM (China growth board).
 
@@ -50,7 +50,7 @@ The structural differences are immediately clear:
 | **Schwab US Small-Cap ETF** | SCHA | 0.04% | ~$18B | ~1,700 stocks | Dow Jones US Small-Cap; lowest cost |
 | **Avantis US Small Cap Value ETF** | AVUV | 0.25% | ~$15B | ~700 stocks | Active rules-based; value + profitability tilt |
 
-**Key distinction**: IJR (S&P 600) requires constituents to have positive trailing earnings — a quality screen the Russell 2000 lacks. As a result, IJR has historically outperformed IWM with lower volatility. Since inception, IJR's annualized return exceeds IWM's by ~1.5% with a lower drawdown profile. **The quality filter matters in small-caps.**
+**Key distinction**: IJR (S&P 600) requires constituents to have positive trailing earnings — a quality screen the Russell 2000 lacks. As a result, IJR has historically outperformed IWM with lower volatility. Since inception, IJR's annualized return exceeds IWM's by ~1.5% with a lower drawdown profile. **The quality filter matters in small-caps.** For investors who want to complement small-cap exposure with mid-cap positions, our [mid-cap ETF guide](/blog/mid-cap-etf-ijh-vo-iwr-schm) covers the S&P 400 and similar strategies.
 
 ### IWM Top Sector Exposure (mid-2026)
 
@@ -120,7 +120,7 @@ The S&P 600 (IJR) requires constituents to have positive trailing GAAP earnings.
 
 The Russell 2000 is heavy in financials and industrials — cyclical, value-oriented sectors. The CSI 500 is more balanced across old and new economy. ChiNext is a growth board — tech, biotech, new energy dominate.
 
-**Implication**: US small-cap exposure is partly a cyclical/value bet. China small-cap exposure (especially ChiNext) is a growth/innovation bet. They serve different portfolio roles.
+**Implication**: US small-cap exposure is partly a cyclical/value bet. China small-cap exposure (especially ChiNext) is a growth/innovation bet. They serve different portfolio roles. For a comparison of how growth and value styles perform across market caps, our [growth vs value ETF guide](/blog/growth-vs-value-etf-vug-vtv-schg-schv) provides a framework for understanding style tilts.
 
 ### 3. IPO Dynamics
 
@@ -150,13 +150,13 @@ The Russell 2000 gains new constituents as companies grow into it and IPOs list.
 
 - **China mid-cap value play**: CSI 500 is overlooked — it's not as prestigious as CSI 300 and not as exciting as ChiNext. That neglect can create opportunity.
 - **Broader China exposure**: If you only own CSI 300 ETFs, you're concentrated in mega-cap banks, SOEs, and the largest tech names. CSI 500 adds manufacturing, regional leaders, and second-tier growth companies.
-- **Lower correlation with US equities**: China A-shares generally have ~0.4-0.5 correlation with US equities. Small/mid-cap A-shares have even lower correlation.
+- **Lower correlation with US equities**: China A-shares generally have ~0.4-0.5 correlation with US equities. Small/mid-cap A-shares have even lower correlation. For investors exploring China A-share sector exposures beyond market-cap indices, our [A-share industry ETF guide](/blog/a-share-industry-etf-guide) covers sector-specific Chinese ETFs.
 
 ### Case for ChiNext (159915)
 
 - **Pure growth exposure**: If you want to bet on China's innovation economy — biotech, semiconductors, EVs, AI applications — ChiNext is the most concentrated expression.
 - **IPO and new economy access**: Many of China's most innovative companies list on ChiNext first (or STAR Market, which is similar). The growth board captures earlier-stage innovation than the main board.
-- **Policy alignment**: ChiNext aligns with China's stated goal of becoming self-sufficient in technology. Policy support (R&D subsidies, tax incentives, IPO fast-tracks) disproportionately benefits ChiNext-listed companies.
+- **Policy alignment**: ChiNext aligns with China's stated goal of becoming self-sufficient in technology. Policy support (R&D subsidies, tax incentives, IPO fast-tracks) disproportionately benefits ChiNext-listed companies. For context on how ChiNext compares to the CSI 300 blue chips and CSI 1000 for small-cap, our [CSI 500 vs CSI 1000 comparison](/blog/csi-500-vs-csi-1000-etf) provides a comprehensive breakdown of China's market-cap spectrum.
 
 ### Allocation Framework
 
@@ -172,6 +172,21 @@ The Russell 2000 gains new constituents as companies grow into it and IPOs list.
 "Small-cap" means fundamentally different things in the US and China. The Russell 2000 is a mature, deep, liquid market of mostly-profitable smaller companies — cheap on P/E, cyclical in composition, and a useful diversifier against mega-cap concentration. CSI 500 is China's overlooked middle child — mid-cap companies that are larger than US small-caps but face a more challenging macro environment. ChiNext GEM is China's NASDAQ — high-growth, high-volatility, high-P/E, and the best pure-play on China's innovation economy, but only for investors who can stomach 30-50% drawdowns.
 
 The three don't compete. A reasonable portfolio might hold IJR (quality-screened US small-caps) for steady factor exposure, a small CSI 500 position for China mid-cap diversification, and ChiNext as a tactical growth satellite. The key is knowing which bet you're making with each — size, quality, growth, or policy — and sizing accordingly.
+
+---
+
+> **Continue reading:** For mid-cap exposure that bridges the gap between large and small, see our [mid-cap ETFs guide](/blog/mid-cap-etf-ijh-vo-iwr-schm). If you're interested in how equal-weighting strategies can reduce concentration risk in any market-cap segment, our [equal-weight vs cap-weight ETF comparison](/blog/equal-weight-vs-cap-weight-etf) covers the trade-offs.
+
+## Sources
+
+- **Fama, E.F. & French, K.R. (1992)** — "The Cross-Section of Expected Stock Returns," *Journal of Finance* (three-factor model introducing the size premium)
+- **FTSE Russell** — Russell 2000 Index methodology, constituent data, and annual reconstitution rules
+- **S&P Dow Jones Indices** — S&P 600 Index methodology (profitability screen requirement) and performance data
+- **China Securities Index Co. (中证指数)** — CSI 500 Index methodology and constituent list, 2026
+- **Shenzhen Stock Exchange** — ChiNext Board listing rules, IPO reform documentation (2020 registration-based system)
+- **iShares (BlackRock)** — IWM, IJR fund documentation and sector exposure data
+- **Xtrackers / DWS** — ASHS (CSI 500 China A-Shares Small Cap) fund prospectus
+- **Morningstar** — US small-cap vs large-cap historical return premium analysis and rolling period data
 
 ---
 

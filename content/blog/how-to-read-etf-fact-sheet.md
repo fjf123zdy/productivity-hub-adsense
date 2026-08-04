@@ -3,7 +3,7 @@ title: "How to Read an ETF Fact Sheet: A Complete Beginner's Guide (2026)"
 meta_description: "Learn how to read and understand an ETF fact sheet in 2026. We walk through VOO's real fact sheet — explaining expense ratios, tracking error, AUM, sector weights, and every key metric that matters for ETF investors."
 meta_keywords: "how to read ETF fact sheet, ETF fact sheet guide, beginner ETF investing 2026, understand ETF metrics, VOO fact sheet explained, ETF expense ratio, tracking error, ETF holdings, AUM explained"
 date: "2026-06-30"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "US ETFs"
 read_time: "10 min read"
 slug: "how-to-read-etf-fact-sheet"
@@ -11,7 +11,7 @@ slug: "how-to-read-etf-fact-sheet"
 
 # How to Read an ETF Fact Sheet: A Complete Beginner's Guide (2026)
 
-**By ETF Bridge Research** | June 30, 2026 | 10 min read
+**By [Gerberal](/about)** | June 30, 2026 | 10 min read
 
 ---
 
@@ -19,7 +19,7 @@ Every ETF has one. It's usually two pages, packed with numbers, and available fo
 
 The **ETF fact sheet** is the single most useful document for comparing funds. It distills thousands of pages of prospectus legalese into a one-page snapshot of what the ETF owns, what it costs, how it's performed, and what risks it carries. Learning to read one properly takes about ten minutes and will make you a better investor for life.
 
-In this guide, we walk through a real-world example — **VOO (Vanguard S&P 500 ETF), as of June 2026** — and explain every section you should care about.
+In this guide, we walk through a real-world example — **[VOO (Vanguard S&P 500 ETF)](/blog/sp500-etf-voo-ivv-spy-comparison), as of June 2026** — and explain every section you should care about.
 
 ---
 
@@ -164,7 +164,7 @@ The most attention-grabbing but least predictive section. VOO's typical performa
 
 ### How to Read This
 
-- **The "Difference" column is the real story.** For a passive ETF, the gap between fund return and index return should be approximately the expense ratio + a tiny bit of tracking error. VOO's expense ratio is 0.03% — the 0.1% annual gap includes that plus imperceptible tracking slippage.
+- **The "Difference" column is the real story.** For a passive ETF, the gap between fund return and index return should be approximately the expense ratio + a tiny bit of [tracking error](/blog/etf-tracking-error-explained). VOO's expense ratio is 0.03% — the 0.1% annual gap includes that plus imperceptible tracking slippage.
 - **Ignore the 1-month number.** It's noise.
 - **The 5-year and 10-year annualized numbers** are the most informative — but in mid-2026, they're heavily influenced by post-COVID recovery and the AI boom. They may overstate normal returns.
 
@@ -250,7 +250,7 @@ That's it. Next time you're comparing two ETFs, pull both fact sheets and run th
 
 ---
 
-> **Continue learning:** Now that you can read an ETF fact sheet, check out our comparison of [VOO vs IVV vs SPY](/blog/sp500-etf-voo-ivv-spy-comparison) to see these metrics in action — or learn [how ETF fees really work](/blog/us-vs-china-etf-fees) in our cross-border fee deep dive.
+> **Continue reading:** Now that you can read an ETF fact sheet, put those skills to work — understand why [ETF liquidity matters](/blog/etf-liquidity-explained) when choosing between similar funds, learn what [tracking error](/blog/etf-tracking-error-explained) reveals about real-world costs, and see how the fact sheet metrics differ for [ETFs vs mutual funds](/blog/etf-vs-mutual-fund-comparison-2026).
 
 ---
 

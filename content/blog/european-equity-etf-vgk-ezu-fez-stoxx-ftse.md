@@ -3,15 +3,15 @@ title: "European Equity ETFs 2026: VGK vs EZU vs FEZ — Stoxx 600, FTSE 100, an
 meta_description: "Europe trades at a 40%+ valuation discount to the S&P 500 despite hosting world-class companies like LVMH, Novo Nordisk, and ASML. Compare broad European ETFs (VGK, EZU, FEZ, IEUR) and single-country funds (EWU for UK, EWQ for France, EWG for Germany). Plus: why euro-hedged and GBP-hedged versions matter in 2026."
 meta_keywords: "European ETF 2026, VGK ETF, EZU ETF, FEZ ETF, IEUR ETF, Stoxx 600, FTSE 100 ETF, DAX ETF, CAC 40 ETF, best Europe ETF, euro-hedged ETF, European equity valuation, Europe vs US stocks"
 date: "2026-07-16"
-author: "ETF Bridge Research"
-category: "Asia ETFs"
+author: "Gerberal"
+category: "Cross-Border"
 read_time: "10 min read"
 slug: "european-equity-etf-vgk-ezu-fez-stoxx-ftse"
 ---
 
 # European Equity ETFs 2026: VGK vs EZU vs FEZ — Stoxx 600, FTSE 100, and the Stagflation Discount
 
-**By ETF Bridge Research** | July 16, 2026 | 10 min read
+**By [Gerberal](/about)** | July 16, 2026 | 10 min read
 
 ---
 
@@ -170,6 +170,17 @@ If you want more precision:
 - **Single-country bets**: EWU, EWG, or EWQ — but only if you have a specific macro view
 
 **The biggest risk to overweighting Europe in 2026**: A US recession that drags global growth down with it. Europe's cyclical-heavy index gets hit harder than the US in global downturns. If you see a recession coming, Europe is not where you want to be overweight.
+
+## Sources
+
+- Vanguard — VGK (Vanguard FTSE Europe ETF) fund page and fact sheet
+- iShares by BlackRock — EZU (iShares MSCI Eurozone ETF) fund page and country weights
+- iShares by BlackRock — FEZ (SPDR EURO STOXX 50 ETF) fund page
+- iShares by BlackRock — IEUR (iShares Core MSCI Europe ETF) fund page
+- STOXX Ltd — EURO STOXX 50 index methodology and constituent data
+- MSCI — MSCI Europe and MSCI EMU index factsheets and performance data
+- FTSE Russell — FTSE Developed Europe All Cap index methodology (VGK's benchmark)
+- Bloomberg — European equity market data, valuation metrics, and sector comparisons
 
 ---
 

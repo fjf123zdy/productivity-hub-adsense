@@ -3,7 +3,7 @@ title: "Growth vs Value ETFs 2026: VUG vs VTV vs SCHG vs SCHV — The Eternal St
 meta_description: "The growth-value rotation is the most important style decision in equity investing. After growth's 2020-2021 dominance (+40% annualized) and value's 2022 counterpunch (+5% vs -33% for growth), 2026's rate-cutting cycle is reshaping the battlefield. Compare VUG, VTV, SCHG, SCHV, IUSG, and IUSV — fees, sector weights, historical cycles, and how to combine them."
 meta_keywords: "growth vs value ETFs 2026, VUG ETF, VTV ETF, SCHG ETF, SCHV ETF, best growth ETF, best value ETF, growth value rotation, VUG vs VTV, growth investing vs value investing, style ETF, IUSG ETF, IUSV ETF, growth cycle 2026"
 date: "2026-07-17"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "US ETFs"
 read_time: "9 min read"
 slug: "growth-vs-value-etf-vug-vtv-schg-schv"
@@ -11,7 +11,7 @@ slug: "growth-vs-value-etf-vug-vtv-schg-schv"
 
 # Growth vs Value ETFs 2026: VUG vs VTV vs SCHG vs SCHV — The Eternal Style War
 
-**By ETF Bridge Research** | July 17, 2026 | 9 min read
+**By [Gerberal](/about)** | July 17, 2026 | 9 min read
 
 ---
 
@@ -162,6 +162,17 @@ There's reliable data from Morningstar and DALBAR on this: **investors in growth
 
 4. **If you can't handle tracking error, use VOO.** A blend fund eliminates the temptation to meddle because there's nothing to meddle with.
 
+## Sources
+
+- Vanguard — VUG (Vanguard Growth ETF) and VTV (Vanguard Value ETF) fund pages and fact sheets
+- Charles Schwab — SCHG (Schwab US Large-Cap Growth ETF) and SCHV (Schwab US Large-Cap Value ETF) fund pages
+- iShares by BlackRock — IUSG (iShares Core S&P US Growth ETF) and IUSV (iShares Core S&P US Value ETF) fund pages
+- MSCI — MSCI USA Growth and MSCI USA Value index methodology and performance data
+- CRSP (Center for Research in Security Prices) — US growth and value index methodology (Vanguard benchmarks)
+- S&P Dow Jones Indices — S&P 500 Growth and S&P 500 Value index construction rules
+- Yahoo Finance — VUG, VTV, SCHG, SCHV YTD performance and historical return data
+- Morningstar — US style box methodology and growth/value ETF category comparison
+
 ---
 
 **Disclaimer**: This article is for informational purposes only and does not constitute investment advice. Growth and value ETFs carry different risk profiles. Historical style cycles do not guarantee future rotation patterns. Assess your own risk tolerance before investing and consult a professional advisor if needed.
@@ -170,7 +181,6 @@ There's reliable data from Morningstar and DALBAR on this: **investors in growth
 
 *More ETF style and strategy articles:*
 - [Factor Investing & Smart Beta ETFs: The Complete Five-Factor Framework Guide](/blog/factor-investing-smart-beta-etf-guide)
-- [Low-Volatility ETFs: USMV vs SPLV — Defense When Growth Cracks](/blog/low-volatility-etf-usmv-splv-defense)
 - [Equal-Weight vs Cap-Weight ETFs: The S&P 500 Case Study](/blog/equal-weight-vs-cap-weight-etf)
 - [S&P 500 ETF Showdown: VOO vs IVV vs SPY — Which One Wins](/blog/sp500-etf-voo-ivv-spy-comparison)
 - [Nasdaq-100 ETF Face-Off: QQQ vs QQQM vs the Alternatives](/blog/nasdaq-100-etf-qqq-qqqm-comparison)

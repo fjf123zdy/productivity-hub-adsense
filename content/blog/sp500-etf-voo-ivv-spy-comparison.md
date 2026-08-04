@@ -3,7 +3,7 @@ title: "S&P 500 ETF Showdown 2026: VOO vs IVV vs SPY — Fees, Tracking Error & 
 meta_description: "Comprehensive comparison of the three largest S&P 500 ETFs — VOO, IVV, and SPY — with 2026 data on expense ratios, AUM, tracking error, dividend drag, and tax efficiency. Find out which S&P 500 ETF is best for your portfolio."
 meta_keywords: "VOO vs IVV vs SPY, best S&P 500 ETF 2026, Vanguard S&P 500 ETF, iShares Core S&P 500 ETF, SPDR S&P 500 ETF, S&P 500 index fund comparison, VOO expense ratio, IVV AUM, SPY liquidity"
 date: "2026-06-29"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "US ETFs"
 read_time: "10 min read"
 slug: "sp500-etf-voo-ivv-spy-comparison"
@@ -11,7 +11,7 @@ slug: "sp500-etf-voo-ivv-spy-comparison"
 
 # S&P 500 ETF Showdown 2026: VOO vs IVV vs SPY — Which One Wins?
 
-**By ETF Bridge Research** | June 29, 2026 | 10 min read
+**By [Gerberal](/about)** | June 29, 2026 | 10 min read
 
 ---
 
@@ -101,6 +101,8 @@ If SPY is more expensive and structurally inferior for buy-and-hold investors, w
 
 In early June 2026, VOO became the **first ETF in history to surpass $1 trillion in assets under management** — a landmark moment that underscores the dominance of passive investing.
 
+I remember buying my first VOO shares in 2014, when the fund held less than $50 billion. At the time, the "smart money" consensus was that passive investing would hit a ceiling — that active managers would outperform once markets got more efficient. Twelve years later, VOO crossed $1 trillion while the average active large-cap fund is still trailing its benchmark. Sometimes the most boring investment is the most radical.
+
 Some context on VOO's trajectory:
 
 | Year | VOO AUM | Milestone |
@@ -168,9 +170,9 @@ Here's the comparison in numbers, with the differences highlighted:
 
 The S&P 500 is up roughly 11% year-to-date as of late June 2026, building on its strong 2025 run. The index is being driven by a narrow set of mega-cap tech names — Nvidia (~7.9% of the index), Apple (~7.0%), and Microsoft (~5.1%) together account for roughly 20% of the S&P 500's weight.
 
-This concentration risk is real and worth understanding — but it's a feature of *the index*, not of any particular ETF tracking it. VOO, IVV, and SPY all hold these same stocks at the same weights.
+This concentration risk is real and worth understanding — but it's a feature of *the index*, not of any particular ETF tracking it. VOO, IVV, and SPY all hold these same stocks at the same weights. (The [Nasdaq-100 (QQQ)](/blog/nasdaq-100-etf-qqq-qqqm-comparison) is even more concentrated — same names, higher weights.)
 
-If you're concerned about concentration, we cover alternatives — equal-weight S&P 500 ETFs (RSP), international diversification, and China A-share ETFs like CSI 300 trackers — in other ETF Bridge guides.
+If you're concerned about concentration, we cover alternatives — [equal-weight S&P 500 ETFs (RSP)](/blog/equal-weight-vs-cap-weight-etf), international diversification, and China A-share ETFs like CSI 300 trackers — in other ETF Bridge guides.
 
 ---
 
@@ -198,6 +200,8 @@ For the vast majority of readers, **VOO and IVV are the right answer.** Pick one
 - InvestmentNews — "Vanguard's VOO becomes first ETF to surpass $1 trillion" (June 2026)
 - NAI500 — "Vanguard's VOO Becomes World's First $1 Trillion ETF" (June 2026)
 
+---
+> **Continue reading:** Build on your S&P 500 foundation — see how the [Nasdaq-100 (QQQ vs QQQM)](/blog/nasdaq-100-etf-qqq-qqqm-comparison) compares for tech-heavy growth, learn why [equal-weight S&P 500 ETFs](/blog/equal-weight-vs-cap-weight-etf) reduce concentration risk, or explore [growth vs value](/blog/growth-vs-value-etf-vug-vtv-schg-schv) to understand what drives returns beyond the broad market.
 ---
 
 > **Disclaimer:** ETF Bridge is an educational resource. This article does not constitute investment advice. Past performance does not guarantee future results. Expense ratios, AUM, and performance data are current as of late June 2026 and may change. Always verify information with the official fund provider and consult a qualified financial advisor before making investment decisions. Investing involves risk, including the potential loss of principal.

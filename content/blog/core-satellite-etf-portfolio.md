@@ -3,7 +3,7 @@ title: "Core-Satellite ETF Portfolio 2026: Building a Global Allocation with Ind
 meta_description: "A practical guide to building a core-satellite ETF portfolio in 2026. US stocks, international diversification, bonds, and tactical satellites — with real asset allocation models, rebalancing rules, and ETF recommendations for every sleeve."
 meta_keywords: "core satellite ETF portfolio 2026, global ETF allocation, lazy ETF portfolio, diversified ETF portfolio, ETF portfolio strategy, core satellite investing, ETF asset allocation 2026, rebalancing ETF portfolio"
 date: "2026-07-05"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "Cross-Border"
 read_time: "12 min read"
 slug: "core-satellite-etf-portfolio"
@@ -11,7 +11,7 @@ slug: "core-satellite-etf-portfolio"
 
 # Core-Satellite ETF Portfolio 2026: Building a Global Allocation with Index Funds
 
-**By ETF Bridge Research** | July 1, 2026 | 12 min read
+**By [Gerberal](/about)** | July 1, 2026 | 12 min read
 
 ---
 
@@ -221,7 +221,7 @@ Research shows that disciplined rebalancing adds roughly 0.3–0.7% annually to 
 
 ---
 
-> **Continue reading:** Build your portfolio with [US equity ETFs](/blog/sp500-etf-voo-ivv-spy-comparison), [China ETFs](/blog/csi-300-etf-guide), [gold ETFs](/blog/gold-etf-us-vs-china), and [bond ETFs](/blog/bond-etf-us-china-comparison) — or understand [tax implications of cross-border ETF investing](/blog/etf-tax-efficiency-us-hk-china).
+> **Continue reading:** Build your portfolio with [US equity ETFs](/blog/sp500-etf-voo-ivv-spy-comparison), [China ETFs](/blog/csi-300-etf-guide), [commodity ETFs](/blog/commodity-etf-dbc-gsg-pdbc-bci), and [US bond ETFs](/blog/us-bond-etf-agg-bnd-tlt-lqd-guide) — or understand [cross-border investing considerations](/blog/adr-vs-local-stock-vs-etf-china).
 
 ---
 

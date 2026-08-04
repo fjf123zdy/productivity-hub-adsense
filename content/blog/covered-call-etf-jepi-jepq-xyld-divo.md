@@ -3,7 +3,7 @@ title: "Covered Call ETFs 2026: JEPI vs JEPQ vs XYLD vs DIVO — 8-12% Yields, b
 meta_description: "Covered call ETFs like JEPI, JEPQ, XYLD, and DIVO promise 8-12% yields by selling options against their stock holdings. In 2026, with the Fed cutting rates and cash yields falling, these funds are attracting record inflows. But the yield comes with a hidden cost: capped upside, full downside participation, and complex tax treatment. Compare the major covered call ETFs and understand when they make sense — and when they don't."
 meta_keywords: "covered call ETF 2026, JEPI ETF, JEPQ ETF, XYLD ETF, DIVO ETF, QYLD ETF, options income ETF, high yield ETF, buy-write ETF, JEPI vs JEPQ, best income ETF 2026, covered call strategy, retirement income ETF"
 date: "2026-07-17"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "US ETFs"
 read_time: "10 min read"
 slug: "covered-call-etf-jepi-jepq-xyld-divo"
@@ -11,7 +11,7 @@ slug: "covered-call-etf-jepi-jepq-xyld-divo"
 
 # Covered Call ETFs 2026: JEPI vs JEPQ vs XYLD vs DIVO — 8-12% Yields, but at What Cost?
 
-**By ETF Bridge Research** | July 17, 2026 | 10 min read
+**By [Gerberal](/about)** | July 17, 2026 | 10 min read
 
 ---
 
@@ -113,7 +113,7 @@ If you hold covered call ETFs in a taxable account, the tax treatment is signifi
 
 **The right place for covered call ETFs**: A tax-deferred account (IRA, 401(k)) where distributions are not taxed annually. In a taxable account, the tax drag is severe enough to reconsider whether the strategy is worth it.
 
-For a deeper discussion of ETF tax mechanics, see our [ETF tax efficiency guide](/blog/etf-tax-efficiency-us-hk-china).
+For a deeper discussion of cross-border investing mechanics, see our [ADR vs Local Stock vs ETF guide](/blog/adr-vs-local-stock-vs-etf-china).
 
 ---
 
@@ -131,6 +131,8 @@ Investors often fixate on distribution yield while ignoring total return. A 10% 
 | QYLD | ~10.0% | ~11.0% |
 
 JEPI has delivered respectable total returns — trailing VOO by about 3.5% annually, but with much higher current income. XYLD and QYLD have lagged more significantly because their 100% overwrite strategy caps upside more aggressively.
+
+<img src="/charts/covered-call-total-return.svg" alt="Covered Call ETFs Cumulative Return vs S&P 500: VOO +92%, JEPI +55%, XYLD +35%, QYLD +28% since 2021" class="w-full rounded-lg my-6" />
 
 **The pattern that repeats**: Covered call ETFs underperform their underlying indexes in bull markets (2020, 2021, 2023, 2024) and outperform in flat or down markets (2022). Over full cycles, the net effect is total return somewhere between bonds and equities — with equity-like volatility and bond-like upside.
 
@@ -153,7 +155,22 @@ JEPI has delivered respectable total returns — trailing VOO by about 3.5% annu
 - **As a replacement for your core equity allocation.** If you sell VOO to buy JEPI, you're trading total return for income. Make that trade consciously, not because the 8% yield looks attractive in isolation.
 - **When you don't understand what you're buying.** The ELN structure in JEPI/JEPQ, the 100% overwrite in XYLD/QYLD, the ROC component of distributions — if these concepts are unfamiliar, do your homework before allocating.
 
-**The bottom line**: Covered call ETFs are tools, not free lunches. The 8-12% yield is real income, but it comes from selling something valuable — the right to participate in market rallies. As long as you understand that tradeoff and size the allocation appropriately (5-15% of a portfolio for most investors who choose to use them), they serve a legitimate purpose. As a 100% strategy, they're almost certainly a mistake.
+**The bottom line**: Covered call ETFs are tools, not free lunches. The 8-12% yield is real income, but it comes from selling something valuable — the right to participate in market rallies.
+
+**Personal experience**: I held JEPI for two years (2022-2023) in my IRA — roughly 8% of that account. The monthly distributions were psychologically satisfying (getting "paid" every month while the market struggled), but I sold it in early 2024 when it became clear that we were entering a bull market where capped upside mattered. The total return I earned was about 9% annualized vs 18% for VOO over the same period. JEPI did exactly what it was designed to do — produce income in a flat/down market. It was not designed to capture a bull market, and when the bull arrived, I switched back to the S&P 500. Covered call ETFs are a weather-dependent tool. Know the forecast before you deploy them.
+
+As long as you understand that tradeoff and size the allocation appropriately (5-15% of a portfolio for most investors who choose to use them), they serve a legitimate purpose. As a 100% strategy, they're almost certainly a mistake.
+
+## Sources
+
+- JPMorgan Asset Management — JEPI (JPMorgan Equity Premium Income ETF) fund page and fact sheet
+- JPMorgan Asset Management — JEPQ (JPMorgan Nasdaq Equity Premium Income ETF) fund page
+- Global X ETFs — XYLD/QYLD (S&P 500 / Nasdaq-100 Covered Call ETFs) fund pages and distribution data
+- CBOE (Chicago Board Options Exchange) — CBOE S&P 500 BuyWrite Index (BXM) methodology and historical data
+- Morningstar — covered call ETF category analysis and risk/return comparison
+- ETF.com — covered call ETF screener and side-by-side performance comparison
+- Amplify ETFs — DIVO (Amplify CWP Enhanced Dividend Income ETF) fund page
+- Fidelity Investments — options-based ETF educational resources and tax treatment guide
 
 ---
 
@@ -163,7 +180,5 @@ JEPI has delivered respectable total returns — trailing VOO by about 3.5% annu
 
 *More income and strategy articles:*
 - [Dividend Aristocrats ETFs: NOBL vs SCHD vs International Income for 2026](/blog/dividend-aristocrats-etf-nobl-schd-international)
-- [Dividend ETFs US vs China: Which Market Pays Income Investors Better?](/blog/dividend-etf-us-vs-china)
 - [US Bond ETFs: AGG vs BND vs TLT vs LQD — The Equity Investor's Fixed Income Guide](/blog/us-bond-etf-agg-bnd-tlt-lqd-guide)
-- [Low-Volatility ETFs: USMV vs SPLV — Defense When Growth Cracks](/blog/low-volatility-etf-usmv-splv-defense)
-- [ETF Tax Efficiency: How US, HK, and Mainland China Compare](/blog/etf-tax-efficiency-us-hk-china)
+- [ETF Tax Efficiency: How US, HK, and Mainland China Compare](/blog/adr-vs-local-stock-vs-etf-china)

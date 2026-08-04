@@ -3,7 +3,7 @@ title: "India ETFs 2026: INDA vs INDY vs FLIN vs EPI — The Demographic Dividen
 meta_description: "India is the world's fastest-growing major economy, with GDP expanding at 6-7% annually and 1.4 billion people entering middle-class consumption. But Nifty 50 trades at 22x forward earnings — a 40% premium to China's CSI 300. Compare the four major India ETFs (INDA, INDY, FLIN, EPI), their index methodologies, sector weights, and the bull-and-bear cases for India's equity story in 2026."
 meta_keywords: "India ETF 2026, INDA ETF, INDY ETF, FLIN ETF, EPI ETF, best India ETF, Nifty 50 ETF, BSE Sensex ETF, MSCI India ETF, invest in India 2026, Indian stock market, India vs China ETF, emerging markets India"
 date: "2026-07-20"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "Asia ETFs"
 read_time: "10 min read"
 slug: "india-etf-inda-indy-flin-epi"
@@ -11,7 +11,7 @@ slug: "india-etf-inda-indy-flin-epi"
 
 # India ETFs 2026: INDA vs INDY vs FLIN vs EPI — The Demographic Dividend or a Priced-In Dream?
 
-**By ETF Bridge Research** | July 20, 2026 | 10 min read
+**By [Gerberal](/about)** | July 20, 2026 | 10 min read
 
 ---
 
@@ -158,6 +158,17 @@ India trades at a **~75% premium to broad emerging markets** and roughly **doubl
 **One thing India ETFs don't provide**: Small-cap India exposure. INDA's mid-cap holdings are meaningful, but the vibrant Indian small-cap market (Nifty Smallcap 250) is largely inaccessible through US-listed ETFs. Companies with market caps under $2 billion — where much of India's future growth will come from — are not meaningfully represented in any of the four major India ETFs.
 
 For related coverage, see our [emerging markets ETF guide](/blog/emerging-markets-etf-eem-vwo-country) and [Japan ETF comparison](/blog/japan-etf-nikkei-225-topix).
+
+## Sources
+
+- iShares by BlackRock — INDA (iShares MSCI India ETF) fund page, holdings, and sector weights
+- WisdomTree — EPI (WisdomTree India Earnings Fund) fund page and index methodology
+- Franklin Templeton — FLIN (Franklin FTSE India ETF) fund page and fact sheet
+- National Stock Exchange of India (NSE) — Nifty 50 index methodology, constituent data, and performance
+- BSE (Bombay Stock Exchange) — Sensex index data and historical performance
+- MSCI — MSCI India Index factsheet and country classification review
+- Bloomberg — India equity market data, valuation metrics, and foreign investment flow data
+- Reserve Bank of India (RBI) — monetary policy, inflation data, and rupee exchange rate history
 
 ---
 

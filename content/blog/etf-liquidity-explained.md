@@ -3,7 +3,7 @@ title: "ETF Liquidity Explained: Why Volume and AUM Don't Mean What You Think"
 meta_description: "Does a low-volume ETF mean you can't trade it? No — ETF liquidity comes from the underlying holdings, not screen volume. Learn how creation/redemption, bid-ask spreads, and market makers actually determine tradability."
 meta_keywords: "ETF liquidity explained, ETF trading volume vs AUM, ETF bid-ask spread, ETF creation redemption, how ETF liquidity works, ETF trading best practices, limit order ETF, ETF market maker"
 date: "2026-07-02"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "US ETFs"
 read_time: "9 min read"
 slug: "etf-liquidity-explained"
@@ -11,7 +11,7 @@ slug: "etf-liquidity-explained"
 
 # ETF Liquidity Explained: Why Volume and AUM Don't Mean What You Think
 
-**By ETF Bridge Research** | June 30, 2026 | 9 min read
+**By [Gerberal](/about)** | June 30, 2026 | 9 min read
 
 ---
 

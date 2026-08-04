@@ -3,7 +3,7 @@ title: "Commodity ETFs 2026: DBC vs GSG vs PDBC vs BCI — How to Add Real Asset
 meta_description: "Commodities are the original diversifier — historically near-zero correlation with stocks, and the only asset class that directly benefits from inflation. Compare broad commodity ETFs (DBC, GSG, PDBC, BCI), understand contango and backwardation, and learn why commodity ETF returns often diverge from spot prices. Plus: energy-weighted vs diversified, physical vs futures-based, and how much commodity exposure makes sense in a 2026 portfolio."
 meta_keywords: "commodity ETF 2026, DBC ETF, GSG ETF, PDBC ETF, BCI ETF, best commodity ETF, broad commodity index, invest in commodities, oil ETF, commodity futures ETF, contango backwardation, inflation hedge ETF, real assets"
 date: "2026-07-21"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "US ETFs"
 read_time: "9 min read"
 slug: "commodity-etf-dbc-gsg-pdbc-bci"
@@ -11,7 +11,7 @@ slug: "commodity-etf-dbc-gsg-pdbc-bci"
 
 # Commodity ETFs 2026: DBC vs GSG vs PDBC vs BCI — How to Add Real Assets Without Betting the Farm
 
-**By ETF Bridge Research** | July 21, 2026 | 9 min read
+**By [Gerberal](/about)** | July 21, 2026 | 9 min read
 
 ---
 
@@ -160,6 +160,17 @@ A common but costly misunderstanding: owning ExxonMobil (energy stocks) is the s
 
 **The bottom line**: For most investors, skipping commodities entirely is defensible — VOO and VTI already provide 4% energy sector exposure, and the inflation-hedging benefit at small allocation sizes is marginal. For investors who want the explicit diversification, BCI at 3-5% is the sensible starting point: cheapest, most diversified, K-1 free.
 
+## Sources
+
+- Invesco DB Commodity Index Tracking Fund (DBC) — official fund page and holdings data
+- iShares S&P GSCI Commodity-Indexed Trust (GSG) — fund page and prospectus
+- S&P Dow Jones Indices — S&P GSCI methodology and constituent weights
+- Bloomberg Commodity Index (BCOM) — methodology and sector weights (PDBC's underlying index)
+- ETF.com — commodity ETF comparison tool and performance data
+- Yahoo Finance — DBC, GSG, PDBC, BCI historical performance and dividend data
+- KraneShares — BCI (Bloomberg Commodity Strategy ETF) fund page
+- US Commodity Futures Trading Commission (CFTC) — Commitments of Traders reports
+
 ---
 
 **Disclaimer**: This article is for informational purposes only and does not constitute investment advice. Commodity ETFs involve unique risks including futures roll costs (contango), K-1 tax reporting complexity, and the potential for significant tracking difference from spot prices. Commodity prices are highly volatile and subject to geopolitical, weather, and supply chain risks. Historical correlations are not guaranteed to persist. Past performance does not guarantee future results.
@@ -167,8 +178,6 @@ A common but costly misunderstanding: owning ExxonMobil (energy stocks) is the s
 ---
 
 *More alternative asset and sector ETF articles:*
-- [Gold ETFs 2026: GLD vs IAU vs China Gold ETFs — Which Is Best?](/blog/gold-etf-us-vs-china)
 - [Energy Sector ETFs 2026: XLE vs VDE vs IXC vs FENY](/blog/energy-sector-etf-xle-vde-ixc-feny)
-- [Uranium & Nuclear Energy ETFs 2026: URA vs URNM vs NLR](/blog/uranium-nuclear-energy-etf-ura-urnm-nlr)
 - [Infrastructure ETFs 2026: GII vs PAVE vs IGF](/blog/infrastructure-etf-gii-pave-igf-supercycle)
 - [Real Estate ETFs 2026: US REITs vs China Property](/blog/real-estate-etf-us-reit-vs-china-property)

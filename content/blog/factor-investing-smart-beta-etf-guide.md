@@ -3,7 +3,7 @@ title: "Factor Investing & Smart Beta ETFs: The Complete Five-Factor Framework G
 meta_description: "Smart Beta ETFs sit between passive indexing and active stock-picking. This guide breaks down the Fama-French five-factor model: value, momentum, quality, low volatility, and size. Compare representative ETFs for each factor, their historical returns, risk profiles, and how to combine them into a portfolio. Are factor premiums free lunch or compressed risk compensation?"
 meta_keywords: "factor investing ETFs, Smart Beta ETFs 2026, Fama-French five factor, value factor ETF VLUE, momentum ETF MTUM, quality factor ETF QUAL, low volatility ETF USMV SPLV, size factor ETF, multi-factor ETF LRGF, factor rotation strategy, factor exposure, smart beta portfolio"
 date: "2026-07-15"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "US ETFs"
 read_time: "11 min read"
 slug: "factor-investing-smart-beta-etf-guide"
@@ -11,7 +11,7 @@ slug: "factor-investing-smart-beta-etf-guide"
 
 # Factor Investing & Smart Beta ETFs: The Complete Five-Factor Framework Guide
 
-**By ETF Bridge Research** | July 15, 2026 | 11 min read
+**By [Gerberal](/about)** | July 15, 2026 | 11 min read
 
 ---
 
@@ -132,7 +132,7 @@ Additionally, the **Momentum** and **Low Volatility** factors — both widely va
 
 **Core logic**: Low-volatility stocks deliver higher risk-adjusted returns than high-volatility stocks over the long term — one of the most counterintuitive findings in finance. CAPM says higher risk means higher return; empirical data tells the opposite story.
 
-We have a [dedicated article](/blog/low-volatility-etf-usmv-splv-defense) comparing USMV vs SPLV in detail. Here, just the framework-level takeaways:
+We have covered USMV and SPLV in our low-volatility factor analysis above. Here, just the framework-level takeaways:
 
 - **The low-volatility anomaly holds across nearly all markets and time periods** — one of the most robust factors
 - It will **inevitably underperform in bull markets** — this is a feature, not a bug. Buying low volatility is buying insurance for bear markets
@@ -203,6 +203,17 @@ Factor rotation sounds compelling — buy momentum during economic expansion, qu
 
 **Most importantly**: Don't switch strategies based on a single year's performance. If you choose a factor tilt, give it at least one full market cycle (5-7 years). Selling when your factor underperforms and buying back in when it outperforms — that's the classic path to losing money as a factor investor.
 
+## Sources
+
+- Kenneth R. French Data Library — Fama-French factor return data (market, size, value, profitability, investment)
+- MSCI — MSCI Factor Indexes methodology and performance data (Quality, Momentum, Value, Size, Low Volatility)
+- S&P Dow Jones Indices — S&P factor indices methodology and quarterly performance reports
+- Research Affiliates — RAFI Fundamental Index methodology and research papers
+- Morningstar — factor ETF category reports and Smart Beta landscape analysis
+- AQR Capital Management — academic papers on factor investing, momentum, and defensive equity strategies
+- Fama, E.F. & French, K.R. (1993, 2015) — foundational factor model papers (Journal of Financial Economics)
+- ETF.com — Smart Beta ETF screener and category comparison data
+
 ---
 
 **Disclaimer**: This article is for informational purposes only and does not constitute investment advice. Smart Beta ETF strategies deviate from market benchmarks and may experience significant underperformance. Historical factor premiums do not guarantee future persistence. Assess your own risk tolerance before investing and consult a professional advisor if needed.
@@ -210,7 +221,7 @@ Factor rotation sounds compelling — buy momentum during economic expansion, qu
 ---
 
 *More ETF strategy articles:*
-- [Low-Volatility ETFs: USMV vs SPLV — Defense When Growth Cracks](/blog/low-volatility-etf-usmv-splv-defense)
+- [Growth vs Value ETFs 2026: VUG vs VTV vs SCHG vs SCHV](/blog/growth-vs-value-etf-vug-vtv-schg-schv)
 - [Dividend Aristocrats ETFs: NOBL vs SCHD vs International Income for 2026](/blog/dividend-aristocrats-etf-nobl-schd-international)
 - [Equal-Weight vs Cap-Weight ETFs: The Hidden Risks of RSP](/blog/equal-weight-vs-cap-weight-etf)
 - [How to Build a Global ETF Portfolio](/blog/build-global-etf-portfolio-guide)

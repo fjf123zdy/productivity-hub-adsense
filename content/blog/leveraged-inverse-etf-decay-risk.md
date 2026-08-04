@@ -3,7 +3,7 @@ title: "Leveraged & Inverse ETFs 2026: Decay, Risk, and When They Actually Make 
 meta_description: "TQQQ says '3x daily Nasdaq-100.' But over months, the return is almost never 3x. Learn how volatility decay, compounding math, and path dependency make leveraged ETFs dangerous to hold — and what they're actually useful for in 2026."
 meta_keywords: "leveraged ETF 2026, inverse ETF, TQQQ decay, SQQQ, SOXL, 3x ETF risk, volatility decay explained, leveraged ETF decay formula, should I hold TQQQ, leveraged ETF vs margin, daily reset ETF"
 date: "2026-07-06"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "Advanced"
 read_time: "11 min read"
 slug: "leveraged-inverse-etf-decay-risk"
@@ -11,7 +11,7 @@ slug: "leveraged-inverse-etf-decay-risk"
 
 # Leveraged & Inverse ETFs 2026: Decay, Risk, and When They Actually Make Sense
 
-**By ETF Bridge Research** | July 6, 2026 | 11 min read
+**By [Gerberal](/about)** | July 6, 2026 | 11 min read
 
 ---
 

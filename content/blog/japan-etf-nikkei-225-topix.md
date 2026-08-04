@@ -3,7 +3,7 @@ title: "Japan ETFs 2026: Nikkei 225 vs TOPIX — Which Index Captures Japan's Re
 meta_description: "Nikkei 225 is price-weighted (one ¥4,500 stock swings the whole index), TOPIX is cap-weighted across 2,100+ stocks. Compare Japan ETF options — EWJ, DXJ (currency-hedged), BBJP, FLJP — plus fees, sector weights, and why Japan's corporate reform story matters for ETF investors in 2026."
 meta_keywords: "Japan ETF 2026, Nikkei 225 ETF, TOPIX ETF, EWJ ETF, DXJ ETF, BBJP ETF, FLJP ETF, Japan stock market ETF, Nikkei vs TOPIX, Japan corporate reform, yen-hedged Japan ETF, best Japan ETF 2026"
 date: "2026-07-06"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "Asia ETFs"
 read_time: "10 min read"
 slug: "japan-etf-nikkei-225-topix"
@@ -11,7 +11,7 @@ slug: "japan-etf-nikkei-225-topix"
 
 # Japan ETFs 2026: Nikkei 225 vs TOPIX — Which Index Captures Japan's Revival?
 
-**By ETF Bridge Research** | July 6, 2026 | 10 min read
+**By [Gerberal](/about)** | July 6, 2026 | 10 min read
 
 ---
 

@@ -3,7 +3,7 @@ title: "Real Estate ETFs 2026: US REITs vs China Property — Same Sector, Radic
 meta_description: "US REIT ETFs (VNQ, SCHH) and China property ETFs are both labeled \"real estate\" but invest in fundamentally different things: income-generating REITs vs developer stocks. Compare legal structure, dividend yields, valuation drivers, and policy risk — interest rates in the US, \"Three Red Lines\" in China."
 meta_keywords: "real estate ETF 2026, US REIT ETF, VNQ ETF, SCHH ETF, China property ETF, China real estate ETF, REIT vs developer, US vs China real estate, Three Red Lines China, real estate sector ETF comparison"
 date: "2026-07-07"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "Cross-Border"
 read_time: "10 min read"
 slug: "real-estate-etf-us-reit-vs-china-property"
@@ -11,7 +11,7 @@ slug: "real-estate-etf-us-reit-vs-china-property"
 
 # Real Estate ETFs 2026: US REITs vs China Property — Same Sector, Radically Different Investments
 
-**By ETF Bridge Research** | July 7, 2026 | 10 min read
+**By [Gerberal](/about)** | July 7, 2026 | 10 min read
 
 If you buy a "real estate ETF" in the US and a "real estate ETF" in China, you are buying two fundamentally different assets. They share a sector label. They share almost nothing else.
 
@@ -76,7 +76,7 @@ The business model is fundamentally different:
 | Welltower | WELL | ~5% | Healthcare/Senior Housing |
 | Simon Property Group | SPG | ~4% | Retail Malls |
 
-Notice: the top holdings are dominated by **industrial, data center, and specialized REITs**, not traditional office or residential. The REIT market has evolved dramatically — data centers and cell towers are now weighted more heavily than office buildings.
+Notice: the top holdings are dominated by **industrial, data center, and specialized REITs**, not traditional office or residential. The REIT market has evolved dramatically — data centers and cell towers are now weighted more heavily than office buildings. For investors looking specifically at the AI-driven data center demand angle, our [AI infrastructure ETF guide](/blog/ai-infrastructure-etf-data-center-power-grid) explores data center REITs in the context of the AI capex supercycle.
 
 ### China Property ETFs
 
@@ -128,7 +128,7 @@ The key valuation metric is **Price/FFO**:
 | VNQ Price/FFO | ~19x | ~18x |
 | VNQ implied cap rate | ~5.3% | ~5.5% |
 
-The implied cap rate (FFO yield) matters because REITs compete with bonds. When the 10-year Treasury yields ~4.3%, REITs offer a ~100bp spread — attractive but not historically wide. The primary risk to REIT valuations: **rising rates compress the spread, making REIT yields less competitive vs risk-free bonds**.
+The implied cap rate (FFO yield) matters because REITs compete with bonds. When the 10-year Treasury yields ~4.3%, REITs offer a ~100bp spread — attractive but not historically wide. The primary risk to REIT valuations: **rising rates compress the spread, making REIT yields less competitive vs risk-free bonds**. For a comparison with other yield-oriented investments, our [dividend aristocrats ETF guide](/blog/dividend-aristocrats-etf-nobl-schd-international) covers US and international dividend strategies, including REIT-like income approaches.
 
 ### China Developers: Price-to-Book
 
@@ -173,7 +173,7 @@ Developers were classified by how many lines they tripped:
 
 This single policy triggered the largest real estate deleveraging in modern history. Evergrande (3 red lines) collapsed. Country Garden (3 red lines) defaulted. The sector's market cap fell by over 60% from peak to trough.
 
-By mid-2026, policy has shifted to **support mode** — rate cuts, down payment reductions, city-level purchase restriction removals. But the structural overhang remains: China built more housing than it needs. The policy direction is toward stabilization, not re-inflation.
+By mid-2026, policy has shifted to **support mode** — rate cuts, down payment reductions, city-level purchase restriction removals. But the structural overhang remains: China built more housing than it needs. The policy direction is toward stabilization, not re-inflation. For investors who want China equity exposure but prefer broader diversification than a single property sector bet, our [CSI 300 ETF guide](/blog/csi-300-etf-guide) covers China's blue-chip index, which includes real estate alongside financials, consumer, and tech.
 
 ## Performance Comparison
 
@@ -219,6 +219,21 @@ The 10-year picture tells the story: US REITs delivered steady, compounding retu
 "Real estate ETF" is a misleadingly simple category label. A US REIT ETF like VNQ is fundamentally an income instrument — its legal structure mandates distributions, its valuation follows interest rates, and its returns have historically compounded at 5-7% annualized through thick and thin. A China property ETF is fundamentally a **policy-cycle bet** on developers — its valuation follows government housing policy, its historical returns have been a rollercoaster, and the sector's long-term earnings power remains uncertain after the 2020-2024 crisis.
 
 The two don't compete. They serve entirely different roles in a portfolio. Know which one you're buying — and why.
+
+---
+
+> **Continue reading:** If you're building a diversified portfolio with real estate as one component, our [core-satellite ETF portfolio guide](/blog/core-satellite-etf-portfolio) provides a framework for sizing REIT allocations. For income investors comparing REITs to other yield strategies, our [dividend aristocrats ETF guide](/blog/dividend-aristocrats-etf-nobl-schd-international) and [covered call ETF guide](/blog/covered-call-etf-jepi-jepq-xyld-divo) offer complementary perspectives.
+
+## Sources
+
+- **Nareit** — REIT industry statistics, dividend yield data, and sector classification methodology
+- **Vanguard** — VNQ fund prospectus, annual report, and Price/FFO data, 2026
+- **Schwab Asset Management** — SCHH fund documentation and Dow Jones REIT index methodology
+- **FTSE Russell / Nareit** — US REIT index methodology and sector composition data
+- **China Index Academy (中证指数)** — CSI 300 Real Estate sub-index methodology and constituent data
+- **China Ministry of Housing and Urban-Rural Development** — Three Red Lines policy documentation and housing market statistics
+- **S&P Global Market Intelligence** — REIT implied cap rate data and historical spread analysis
+- **CBRE / JLL** — Global real estate market outlook and transaction data, 2026
 
 ---
 

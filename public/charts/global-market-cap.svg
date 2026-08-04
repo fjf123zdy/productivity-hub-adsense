@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" role="img" aria-labelledby="global-title global-desc">
+  <title id="global-title">Global Equity Market Cap Weights (Mid-2026)</title>
+  <desc id="global-desc">Treemap: US 60%, International Developed 28%, Emerging Markets 12%. Sub-breakdown: Japan 6%, UK 4%, Canada 3%, Eurozone 11%</desc>
+
+  <rect width="700" height="380" fill="#fafbfc" rx="8"/>
+
+  <text x="40" y="36" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="16" font-weight="700" fill="#0f172a">Global Equity Market — Market-Cap Weights (Mid-2026)</text>
+  <text x="40" y="56" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" fill="#64748b">Slicing the global stock market by region. Source: MSCI ACWI IMI, FTSE Global All Cap.</text>
+
+  <!-- US block: 60% width = 600*0.6=360, height=170 -->
+  <rect x="40" y="72" width="378" height="170" rx="4" fill="#2563eb" opacity="0.85"/>
+  <text x="229" y="145" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="22" fill="white" font-weight="700" text-anchor="middle">United States</text>
+  <text x="229" y="170" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="16" fill="white" opacity="0.85" text-anchor="middle">60% of global market cap</text>
+  <text x="229" y="210" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="white" opacity="0.65" text-anchor="middle">VTI · VOO · IVV · SPY</text>
+
+  <!-- Intl Developed block: 28% -->
+  <rect x="40" y="252" width="378" height="78" rx="4" fill="#7c3aed" opacity="0.8"/>
+  <text x="229" y="285" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="16" fill="white" font-weight="700" text-anchor="middle">International Developed · 28%</text>
+  <text x="229" y="310" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="white" opacity="0.7" text-anchor="middle">VEA · SCHF · IEFA (Japan 6%, UK 4%, Eurozone 11%, Canada/Aus 7%)</text>
+
+  <!-- Right side: slices -->
+  <!-- Japan 6% -->
+  <rect x="428" y="72" width="104" height="48" rx="3" fill="#db2777" opacity="0.75"/>
+  <text x="480" y="92" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" fill="white" font-weight="600" text-anchor="middle">Japan</text>
+  <text x="480" y="110" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="white" opacity="0.75" text-anchor="middle">6%</text>
+
+  <!-- UK 4% -->
+  <rect x="542" y="72" width="70" height="48" rx="3" fill="#e11d48" opacity="0.7"/>
+  <text x="577" y="92" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" fill="white" font-weight="500" text-anchor="middle">UK</text>
+  <text x="577" y="110" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="white" opacity="0.75" text-anchor="middle">4%</text>
+
+  <!-- Emerging Markets 12% -->
+  <rect x="428" y="130" width="184" height="56" rx="3" fill="#059669" opacity="0.8"/>
+  <text x="520" y="155" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="15" fill="white" font-weight="700" text-anchor="middle">Emerging Markets</text>
+  <text x="520" y="174" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" fill="white" opacity="0.8" text-anchor="middle">12% — VWO · IEMG</text>
+
+  <!-- China 4% (sub of EM) -->
+  <rect x="428" y="196" width="80" height="36" rx="3" fill="#dc2626" opacity="0.8"/>
+  <text x="468" y="219" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" fill="white" font-weight="600" text-anchor="middle">China 4%</text>
+
+  <!-- India 2% -->
+  <rect x="518" y="196" width="42" height="36" rx="3" fill="#f97316" opacity="0.75"/>
+  <text x="539" y="219" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="white" font-weight="600" text-anchor="middle">IN</text>
+
+  <!-- Brazil 1% -->
+  <rect x="570" y="196" width="42" height="36" rx="3" fill="#65a30d" opacity="0.65"/>
+  <text x="591" y="219" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="white" font-weight="600" text-anchor="middle">BR</text>
+
+  <!-- Other EM 5% -->
+  <rect x="428" y="242" width="184" height="36" rx="3" fill="#059669" opacity="0.4"/>
+  <text x="520" y="264" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" fill="white" opacity="0.7" text-anchor="middle">Other EM (Korea, Taiwan, SA, Mexico...) · 5%</text>
+
+  <!-- Canada + Australia row -->
+  <rect x="428" y="288" width="90" height="32" rx="3" fill="#7c3aed" opacity="0.5"/>
+  <text x="473" y="308" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="white" opacity="0.75" text-anchor="middle">Canada 3%</text>
+  <rect x="522" y="288" width="90" height="32" rx="3" fill="#7c3aed" opacity="0.4"/>
+  <text x="567" y="308" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="white" opacity="0.75" text-anchor="middle">Australia 2%</text>
+
+  <!-- Single-fund callout -->
+  <rect x="40" y="344" width="300" height="20" rx="4" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
+  <text x="50" y="358" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#0369a1">One-fund solution: VT (Vanguard Total World Stock) covers all of the above at 0.07% ER</text>
+</svg>

@@ -3,7 +3,7 @@ title: "Currency-Hedged ETFs: When Does HKD, RMB, and USD Exposure Matter?"
 meta_description: "A weakening RMB turned a 28% index return into 18% for unhedged investors in 2025. Learn how currency-hedged ETFs work, what they cost, and when hedging HKD or RMB exposure is worth it for cross-border investors."
 meta_keywords: "currency hedged ETF, HKD hedged ETF, RMB hedged ETF, USD hedged ETF, ETF currency risk, cross-border ETF hedging, hedged vs unhedged ETF 2026, currency forward ETF cost"
 date: "2026-07-03"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "Cross-Border"
 read_time: "9 min read"
 slug: "currency-hedged-etf-guide"
@@ -11,7 +11,7 @@ slug: "currency-hedged-etf-guide"
 
 # Currency-Hedged ETFs: When Does HKD, RMB, and USD Exposure Matter?
 
-**By ETF Bridge Research** | July 1, 2026 | 9 min read
+**By [Gerberal](/about)** | July 1, 2026 | 9 min read
 
 ---
 

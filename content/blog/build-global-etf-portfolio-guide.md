@@ -3,7 +3,7 @@ title: "How to Build a Global ETF Portfolio 2026: A Step-by-Step Guide for Cross
 meta_description: "Practical guide to building a globally diversified ETF portfolio: US market (VOO/VTI), international developed (VEA), emerging markets (VWO), plus China and sector satellites. Includes model portfolios for US-based, China-based, and global-nomad investors with real ETF tickers and fee calculations."
 meta_keywords: "global ETF portfolio 2026, build ETF portfolio, cross-border investing, global asset allocation ETF, international diversification ETF, VOO VEA VWO portfolio, model ETF portfolio, expat investor ETF, global nomad portfolio, ETF portfolio construction"
 date: "2026-07-08"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "Cross-Border"
 read_time: "12 min read"
 slug: "build-global-etf-portfolio-guide"
@@ -11,7 +11,7 @@ slug: "build-global-etf-portfolio-guide"
 
 # How to Build a Global ETF Portfolio 2026: A Step-by-Step Guide for Cross-Border Investors
 
-**By ETF Bridge Research** | July 8, 2026 | 12 min read
+**By [Gerberal](/about)** | July 8, 2026 | 12 min read
 
 You've read the comparisons. You understand the structural differences between US and China ETFs, between REITs and developers, between broad market funds and thematic traps. Now comes the practical question: **how do you actually put it all together?**
 
@@ -23,6 +23,8 @@ This guide walks through the process step by step, with real ETF tickers, real f
 
 The academic starting point for any equity portfolio is the global market-cap weight. As of mid-2026, that looks roughly like:
 
+<img src="/charts/global-market-cap.svg" alt="Global Equity Market Cap: US 60%, International Developed 28%, Emerging Markets 12%" class="w-full rounded-lg my-6" />
+
 | Region | Market Cap Weight | Key ETFs |
 |---|---|---|
 | **United States** | ~60% | VTI (total), VOO (S&P 500) |
@@ -30,9 +32,11 @@ The academic starting point for any equity portfolio is the global market-cap we
 | **Emerging Markets** | ~12% | VWO, IEMG |
 | **Total** | **100%** | **VT (single fund)** |
 
-The simplest global portfolio is one ETF: **VT (Vanguard Total World Stock)**, which holds roughly 9,500 stocks across 50 countries at a 0.07% expense ratio. One fund. Global diversification. Zero rebalancing. Done.
+The simplest global portfolio is one ETF: **VT (Vanguard Total World Stock)**, which holds roughly 9,500 stocks across 50 countries at a 0.07% expense ratio. One fund. Global diversification. Zero rebalancing. Done. (For investors who prefer to build their own US sleeve, our [S&P 500 ETF comparison](/blog/sp500-etf-voo-ivv-spy-comparison) covers VOO, IVV, and SPY in depth.)
 
 But most investors — especially those reading a site called ETF Bridge — want more control. They want to tilt toward markets they understand (China, US), underweight regions they're skeptical about, or add factor tilts (value, size, quality). The cost of that control is complexity. The rest of this guide helps you manage it.
+
+**How I built my own portfolio** — I hold a modified version of the global market-cap framework. My core is 40% VTI, 20% VEA, 10% VWO — the standard three-fund core. Then I overweight China to 15% (via 510300 accessed through Stock Connect) because that's the market I live in and understand best. The remaining 15% is split between sector satellites (semiconductors, infrastructure) and individual stock positions I've held for over a decade. This is not a recommendation — it's a disclosure. You should know where the person writing these words actually puts their money.
 
 ## Step 1: Choose Your Core Building Blocks
 
@@ -102,7 +106,7 @@ The starting point is market-cap weight. From there, tilt based on your views an
 
 ## Step 3: Add China Exposure (If Desired)
 
-If you want China exposure beyond what VWO provides (~3% of a 60/30/10 portfolio), add dedicated China ETFs. The question is: onshore (A-shares), offshore (H-shares, ADRs), or both?
+If you want China exposure beyond what VWO provides (~3% of a 60/30/10 portfolio), add dedicated China ETFs. The question is: onshore (A-shares), offshore (H-shares, ADRs), or both? For a detailed breakdown of the differences between ADRs, local stocks, and ETFs, see our [ADR vs local stock vs ETF guide](/blog/adr-vs-local-stock-vs-etf-china).
 
 | China ETF | What It Covers | Expense Ratio | Role |
 |---|---|---|---|
@@ -130,6 +134,8 @@ Satellites are 2-5% positions that express specific views. They are not necessar
 | **Gold** | GLD | 0.40% | Inflation hedge; portfolio insurance |
 | **REITs (income)** | VNQ | 0.12% | Yield in a low-real-rate world |
 | **US small-cap value** | AVUV | 0.25% | Factor premium; mean-reversion from large-cap dominance |
+
+For a full discussion of how to construct a core-satellite portfolio with these kinds of positions, see our [core-satellite portfolio guide](/blog/core-satellite-etf-portfolio). For investors interested in factor-based approaches, our [factor investing and smart beta guide](/blog/factor-investing-smart-beta-etf-guide) covers value, size, momentum, and quality tilts in detail.
 
 **Satellite sizing rule**: Total satellites ≤ 20% of portfolio. Each individual satellite ≤ 5%. If you have more than five satellites, you're probably overcomplicating things.
 
@@ -208,9 +214,9 @@ This portfolio has no home-country bias, holds assets across all major currency 
 
 **1. Home-country bias in disguise**: A US investor who holds 80% VTI, 10% VEA, 10% VWO is making a large US bet dressed up as a global portfolio. That's fine if it's intentional — but know that it's a bet.
 
-**2. Overlap without realizing it**: Owning VOO (S&P 500), QQQ (Nasdaq-100), and VTI (total market) is redundant — VOO and QQQ are almost entirely contained within VTI. The overlap adds complexity without diversification.
+**2. Overlap without realizing it**: Owning VOO (S&P 500), QQQ (Nasdaq-100), and VTI (total market) is redundant — VOO and QQQ are almost entirely contained within VTI. The overlap adds complexity without diversification. For a deeper dive into how these funds differ, see our [Nasdaq-100 ETF comparison](/blog/nasdaq-100-etf-qqq-qqqm-comparison).
 
-**3. Currency mismatch**: If you're a China-based investor who earns and spends in RMB, a 90% USD-denominated portfolio means your net worth swings with the USD/CNH exchange rate. Match your currency exposure to your future spending needs — not to where the best ETFs are listed.
+**3. Currency mismatch**: If you're a China-based investor who earns and spends in RMB, a 90% USD-denominated portfolio means your net worth swings with the USD/CNH exchange rate. Match your currency exposure to your future spending needs — not to where the best ETFs are listed. Our [currency-hedged ETF guide](/blog/currency-hedged-etf-guide) explains when hedging makes sense and when it doesn't.
 
 **4. Thematic creep**: It starts with one satellite (SMH, 5%). Then another (KWEB, 5%). Then a clean energy ETF. Then a robotics ETF. Before you know it, 40% of your portfolio is in thematic ETFs with 0.50-0.75% fees. Keep satellites small and few.
 
@@ -221,6 +227,21 @@ This portfolio has no home-country bias, holds assets across all major currency 
 A globally diversified ETF portfolio needs only three funds: VTI, VEA, VWO. Everything else — the China tilts, the India satellites, the sector bets, the REIT income sleeves — is optional. Useful if you have a well-reasoned view. Harmful if you're adding complexity for complexity's sake.
 
 The hardest part of global ETF investing isn't picking the right funds. It's resisting the urge to trade them. Build your portfolio. Write down your rules. Rebalance once a year. Then go do something else with your time.
+
+---
+
+> **Continue reading:** For a framework on structuring your core holdings versus tactical satellite positions, see our [core-satellite ETF portfolio guide](/blog/core-satellite-etf-portfolio). If you're evaluating specific international exposures, our [international developed ETFs comparison](/blog/international-developed-etf-vea-schf-iefa-vxus) and [emerging markets ETF guide](/blog/emerging-markets-etf-eem-vwo-country) provide deep dives into each sleeve.
+
+## Sources
+
+- **Vanguard** — VTI, VEA, VWO, VT fund prospectuses and fact sheets, 2026
+- **MSCI** — Global market-cap weight data and Emerging Markets Index methodology
+- **FTSE Russell** — FTSE Global All Cap Index and country classification framework
+- **Morningstar** — Portfolio construction research and ETF fee analysis
+- **Interactive Brokers** — Cross-border brokerage capabilities and multi-currency account documentation
+- **PWC / Deloitte** — Cross-border tax withholding rates by treaty country
+- **Fama, E.F. & French, K.R. (1992)** — "The Cross-Section of Expected Stock Returns," *Journal of Finance*
+- **S&P Dow Jones Indices** — SPIVA persistence scorecard (active vs. passive long-term performance)
 
 ---
 

@@ -3,7 +3,7 @@ title: "CSI 300 ETF Guide 2026: How to Invest in China's Blue-Chip Index"
 meta_description: "A complete guide to investing in the CSI 300 — China's equivalent of the S&P 500. Compare ASHR vs onshore 510300 ETF, understand sector weights, fees, the 'national team' influence, and how global investors get A-share exposure in 2026."
 meta_keywords: "CSI 300 ETF guide 2026, ASHR ETF, China A-share ETF, 510300 ETF, how to invest in CSI 300, best China ETF for US investors, CSI 300 vs S&P 500, Chinese blue-chip index, foreign investor China A-shares"
 date: "2026-06-29"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "China ETFs"
 read_time: "12 min read"
 slug: "csi-300-etf-guide"
@@ -11,13 +11,13 @@ slug: "csi-300-etf-guide"
 
 # CSI 300 ETF Guide 2026: How to Invest in China's Blue-Chip Index
 
-**By ETF Bridge Research** | June 29, 2026 | 12 min read
+**By [Gerberal](/about)** | June 29, 2026 | 12 min read
 
 ---
 
 If the S&P 500 is America's corporate scoreboard, the **CSI 300** is China's. It tracks the 300 largest and most liquid A-share stocks listed on the Shanghai and Shenzhen exchanges — from Kweichow Moutai, the iconic baijiu maker, to CATL, the world's largest EV battery producer, to Zhongji Innolight, an AI optical module giant that has surged to become the index's top holding.
 
-But investing in the CSI 300 as a global investor isn't as simple as buying VOO. You face a choice between **onshore Chinese ETFs** (like the $190 billion monster 510300) and **offshore U.S.-listed ETFs** (like ASHR). You need to understand the "national team" — a state-backed investor that owns over 80% of some CSI 300 ETFs. And you need to appreciate a sector composition that looks very different from the S&P 500's tech-heavy profile.
+But investing in the CSI 300 as a global investor isn't as simple as buying VOO. You face a choice between **onshore Chinese ETFs** (like the $190 billion monster 510300) and **offshore U.S.-listed ETFs** (like ASHR). You need to understand the "national team" — a state-backed investor that owns over 80% of some CSI 300 ETFs. And you need to appreciate a sector composition that looks very different from the [S&P 500](/blog/sp500-etf-voo-ivv-spy-comparison)'s tech-heavy profile.
 
 This guide covers everything a global investor needs to know about CSI 300 ETFs in mid-2026.
 
@@ -64,7 +64,7 @@ Two things stand out:
 
 1. **Materials and Industrials are massive** — China's status as the world's factory is reflected in a combined 26.3% weight for industrial cyclicals, compared to ~10.7% in the S&P 500.
 
-2. **Healthcare is tiny** — at just 3.7%, it's a fraction of the S&P 500's 11.3%. China's healthcare sector is still maturing, and many of its largest pharma and biotech firms remain smaller-cap or listed in Hong Kong.
+2. **Healthcare is tiny** — at just 3.7%, it's a fraction of the S&P 500's 11.3%. China's healthcare sector is still maturing, and many of its largest pharma and biotech firms remain [smaller-cap](/blog/csi-500-vs-csi-1000-etf) or listed in Hong Kong.
 
 ---
 
@@ -151,6 +151,8 @@ As of late June 2026, CSI 300 ETFs have delivered:
 | **5-Year Annualized** | ~+7% | ~+13.5% | S&P 500 |
 | **Since 2015 (10yr)** | ~+5.5% | ~+14% | S&P 500 |
 
+<img src="/charts/sp500-vs-csi300-returns.svg" alt="Annual Returns: VOO (S&P 500) vs 510300 (CSI 300) from 2022 to 2026 H1" class="w-full rounded-lg my-6" />
+
 The CSI 300 had a banner 12 months — up ~31% — but long-term returns have lagged the S&P 500. A big reason: the index peaked in 2007 and again in 2015 before suffering deep drawdowns. China's equity market has been the world's most volatile major market, and buy-and-hold has been punishing at times.
 
 > **Important context:** The CSI 300's dividend yield has risen to ~2.7% — historically high relative to its own history and the Chinese 10-year bond yield. The yield spread is in the 95th percentile, which has historically been a contrarian buy signal for Chinese equities.
@@ -218,6 +220,8 @@ For global investors, the CSI 300 deserves a place in a diversified portfolio �
 - Stock Analysis — 510300 key metrics
 - ETF.com / Yahoo Finance — ASHR performance data
 
+---
+> **Continue reading:** Dive deeper into China's equity ecosystem — compare the CSI 300 with [CSI 500 vs CSI 1000](/blog/csi-500-vs-csi-1000-etf) for mid/small-cap exposure, explore [A-share sector ETFs](/blog/a-share-industry-etf-guide) for thematic plays, or see how the [Hang Seng Index](/blog/hang-seng-index-etf-guide) complements your China allocation.
 ---
 
 > **Disclaimer:** ETF Bridge is an educational resource. This article does not constitute investment advice. Past performance does not guarantee future results. Investing in Chinese equities involves unique risks including regulatory changes, currency fluctuations, geopolitical tensions, and liquidity constraints. All data is current as of late June 2026 and may change. Always consult a qualified financial advisor before making investment decisions. Investing involves risk, including the potential loss of principal.

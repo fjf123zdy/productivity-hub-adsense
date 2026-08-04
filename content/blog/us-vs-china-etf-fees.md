@@ -3,7 +3,7 @@ title: "US vs China ETF Fees: Why Expense Ratios Differ So Much — 2026 Deep Di
 meta_description: "Why does VOO charge 0.03% while China's CSI 300 ETF charges 0.20% — and ASHR costs 0.65%? A structural deep dive into ETF fee economics across the world's two largest equity markets."
 meta_keywords: "US vs China ETF fees, ETF expense ratio comparison, VOO expense ratio, CSI 300 ETF fee, why are China ETFs more expensive, ASHR expense ratio, QDII ETF fees, China ETF fee reform 2026, securities lending ETF revenue"
 date: "2026-06-29"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "Cross-Border"
 read_time: "10 min read"
 slug: "us-vs-china-etf-fees"
@@ -11,11 +11,11 @@ slug: "us-vs-china-etf-fees"
 
 # US vs China ETF Fees: Why Expense Ratios Differ So Much — 2026 Deep Dive
 
-**By ETF Bridge Research** | June 29, 2026 | 10 min read
+**By [Gerberal](/about)** | June 29, 2026 | 10 min read
 
 ---
 
-The cheapest S&P 500 ETF costs **0.03% per year**. The cheapest CSI 300 ETF costs **0.20% per year**. And if you're a U.S. investor buying a CSI 300 ETF through your brokerage? That's **0.65%**.
+The cheapest [S&P 500 ETF](/blog/sp500-etf-voo-ivv-spy-comparison) costs **0.03% per year**. The cheapest [CSI 300 ETF](/blog/csi-300-etf-guide) costs **0.20% per year**. And if you're a U.S. investor buying a CSI 300 ETF through your brokerage? That's **0.65%**.
 
 Why does tracking 300 Chinese blue-chip stocks cost 20x more than tracking 500 American ones? The answer has nothing to do with index complexity — and almost everything to do with fund structure, market access costs, and who gets to decide what fees are fair.
 
@@ -38,6 +38,8 @@ This article takes a structural look at the forces driving ETF fees in the world
 | **US-listed China ex-SOEs** | CXSE (WisdomTree) | 0.32% |
 
 > *Data as of mid-2026, sourced from fund provider websites and Caixin Global.*
+
+<img src="/charts/etf-fee-comparison.svg" alt="ETF Expense Ratio Comparison: VOO 0.03% vs 510300 0.20% vs ASHR 0.65%" class="w-full rounded-lg my-6" />
 
 Three tiers immediately stand out:
 - **Tier 1 ($0.03–0.10%)** — U.S. broad-market passive, driven by a decades-long fee race to the bottom
@@ -210,6 +212,10 @@ This is not unique to ASHR — it's the reality of operating a fund across juris
 
 > The structural gap is real: over 30 years, the higher costs of accessing China A-shares from the U.S. can consume over $50,000 in forgone returns on a $50,000 initial investment.
 
+<img src="/charts/10-year-fee-impact.svg" alt="10-Year Fee Impact: VOO costs $344 while ASHR costs $7,475 on a $100K investment" class="w-full rounded-lg my-6" />
+
+**A Personal Note** — I pay both sides of this fee structure with my own money. My US equity sleeve holds VOO and IVV at 0.03%. My China onshore holdings use 510300 at 0.20%. When I opened a US brokerage account and wanted CSI 300 exposure there, I faced the ASHR decision — 0.65% vs Stock Connect's onshore alternative. I chose Stock Connect. The account opening process was a bureaucratic headache (took 3 weeks, required notarized documents), but at 0.25% total cost vs 0.80% effective, the savings on a six-figure position pay for the paperwork many times over. If you don't have Stock Connect access, ASHR is a reasonable price for the exposure — I held it for 3 years before switching. Just know that the 60 bps premium compounds against you every year, and plan your access channel accordingly.
+
 This doesn't mean you shouldn't invest in China. It means you should be **deliberate** about how you access it. If you have Stock Connect access, buy 510300. If you don't, ASHR's fee is a reasonable price for getting exposure you couldn't otherwise get — but you should know what you're paying.
 
 ---
@@ -246,6 +252,8 @@ The 40–60 basis point cross-border premium is structural, not cyclical. Unless
 > **Next on ETF Bridge:** We compare Nasdaq-100 ETFs — QQQ, QQQM, and the alternatives — and explain why Invesco charges 0.20% for an index that you can now track for 0.05%.
 > [Read the Nasdaq-100 ETF Face-Off →](/blog/nasdaq-100-etf-qqq-qqqm-comparison)
 
+---
+> **Continue reading:** Fees are only one piece of the puzzle — learn how [tracking error](/blog/etf-tracking-error-explained) reveals the true cost of an ETF, see how [ETFs compare to mutual funds](/blog/etf-vs-mutual-fund-comparison-2026) on fees and tax efficiency, and understand when to use [ADRs vs local stocks vs ETFs](/blog/adr-vs-local-stock-vs-etf-china) for cross-border investing.
 ---
 
 ## Sources & Further Reading

@@ -3,7 +3,7 @@ title: "US Bond ETFs 2026: AGG vs BND vs TLT vs LQD — The Equity Investor's Gu
 meta_description: "With the Fed's rate-cutting cycle underway in 2026, bond ETFs are back in focus. Compare aggregate bond ETFs (AGG, BND), long-term Treasuries (TLT, EDV), investment-grade corporate bonds (LQD), short-term bonds (SHY, BSV), and TIPS (SCHP). Plus: duration risk explained, how to think about bonds when you're primarily an equity investor, and the role bonds actually play in a portfolio."
 meta_keywords: "bond ETF 2026, AGG vs BND, TLT ETF, LQD ETF, US Treasury bond ETF, aggregate bond ETF, best bond ETF 2026, duration risk, Fed rate cuts bonds, fixed income ETF, SHY ETF, TIPS ETF SCHP, bond ladder ETF"
 date: "2026-07-16"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "US ETFs"
 read_time: "10 min read"
 slug: "us-bond-etf-agg-bnd-tlt-lqd-guide"
@@ -11,7 +11,7 @@ slug: "us-bond-etf-agg-bnd-tlt-lqd-guide"
 
 # US Bond ETFs 2026: AGG vs BND vs TLT vs LQD — The Equity Investor's Guide to Fixed Income
 
-**By ETF Bridge Research** | July 16, 2026 | 10 min read
+**By [Gerberal](/about)** | July 16, 2026 | 10 min read
 
 ---
 
@@ -174,6 +174,17 @@ The classic 60/40 portfolio (60% stocks, 40% bonds) was built for an era of 6% b
 
 **The simplest path**: If you're reading this as an equity investor who just wants a reasonable bond allocation without overthinking it — buy **BND** (or AGG), allocate **10-20%** of your portfolio, reinvest dividends, and stop checking it. Bonds at 4%+ yields are earning their keep. Don't try to time the rate cycle.
 
+## Sources
+
+- iShares by BlackRock — AGG (iShares Core US Aggregate Bond ETF), TLT (iShares 20+ Year Treasury Bond ETF), and LQD (iShares iBoxx Investment Grade Corporate Bond ETF) fund pages
+- Vanguard — BND (Vanguard Total Bond Market ETF) fund page and fact sheet
+- Bloomberg — Bloomberg US Aggregate Bond Index methodology and historical data
+- Federal Reserve (FRED) — federal funds rate, Treasury yield curve, and monetary policy data
+- US Department of the Treasury — Treasury yield data and auction results (Treasury.gov)
+- Morningstar — fixed income ETF category analysis, duration, and credit quality reports
+- ICE (Intercontinental Exchange) — ICE BofA US Corporate Index (LQD benchmark) methodology
+- SIFMA (Securities Industry and Financial Markets Association) — US bond market annual statistics
+
 ---
 
 **Disclaimer**: This article is for informational purposes only and does not constitute investment advice. Bond ETFs carry interest rate risk, credit risk, and inflation risk. Past bond market behavior — including historical correlations with equities — may not persist. Yields and durations referenced are approximate and change with market conditions. Consult a professional advisor before making investment decisions.
@@ -183,6 +194,3 @@ The classic 60/40 portfolio (60% stocks, 40% bonds) was built for an era of 6% b
 *More ETF portfolio-building articles:*
 - [How to Build a Global ETF Portfolio](/blog/build-global-etf-portfolio-guide)
 - [Core-Satellite ETF Portfolio Strategy](/blog/core-satellite-etf-portfolio)
-- [ETF Portfolio Rebalancing: When, Why, and How](/blog/etf-portfolio-rebalancing)
-- [Lump Sum vs Dollar-Cost Averaging Into ETFs](/blog/lump-sum-vs-dca-etf)
-- [Bond ETFs for Equity Investors: US Treasuries vs China Sovereign](/blog/bond-etf-us-china-comparison)

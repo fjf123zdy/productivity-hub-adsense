@@ -3,7 +3,7 @@ title: "Infrastructure ETFs 2026: GII vs PAVE vs IGF — The $2 Trillion Global 
 meta_description: "Global infrastructure spending is projected to exceed $2 trillion annually by 2030, driven by AI power demand, grid modernization, deglobalization, and climate adaptation. Compare GII, PAVE, IFRA, and IGF — pure infrastructure ETFs spanning utilities, transportation, energy, and water. Yields, fees, and which ETF best captures the capex supercycle."
 meta_keywords: "infrastructure ETF 2026, GII ETF, PAVE ETF, IGF ETF, IFRA ETF, global infrastructure, infrastructure spending supercycle, grid modernization ETF, utilities ETF, infrastructure investing"
 date: "2026-07-13"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "US ETFs"
 read_time: "9 min read"
 slug: "infrastructure-etf-gii-pave-igf-supercycle"
@@ -11,11 +11,11 @@ slug: "infrastructure-etf-gii-pave-igf-supercycle"
 
 # Infrastructure ETFs 2026: GII vs PAVE vs IGF — The $2 Trillion Global Capex Supercycle
 
-**By ETF Bridge Research** | July 13, 2026 | 9 min read
+**By [Gerberal](/about)** | July 13, 2026 | 9 min read
 
 There is a quiet consensus forming among macro investors: we are entering the largest infrastructure investment cycle since the post-World War II reconstruction. Three forces are converging:
 
-1. **AI power demand**: Data centers need electricity. A lot of it. The US grid — designed in the 1950s and 1960s for a world of central power plants and local distribution — is structurally inadequate for the demands of gigawatt-scale AI campuses.
+1. **AI power demand**: Data centers need electricity. A lot of it. The US grid — designed in the 1950s and 1960s for a world of central power plants and local distribution — is structurally inadequate for the demands of gigawatt-scale AI campuses. Our deep dive on [AI infrastructure ETFs](/blog/ai-infrastructure-etf-data-center-power-grid) covers the data center and power grid theme in more detail.
 
 2. **Deglobalization and supply chain reshoring**: The US, Europe, Japan, and India are all building domestic semiconductor fabs, battery factories, and pharmaceutical plants to reduce dependence on China. Each new fab costs $10-20 billion and requires dedicated power, water, and transportation infrastructure.
 
@@ -70,7 +70,7 @@ GII and IGF top holdings:
 | **National Grid** | ~3.5% | UK and US electricity and gas transmission |
 | **American Tower** | ~3% | Cell towers globally |
 
-These are not exciting businesses. They are regulated, capital-intensive, and slow-growing. But their cash flows are remarkably stable — people pay their electricity bills and drive on toll roads in good times and bad. The yields (3.0-3.2%) are attractive relative to global bonds, and the inflation-linkage (regulated utilities can typically pass through cost increases; toll roads have inflation-linked pricing formulas) provides a real return floor.
+These are not exciting businesses. They are regulated, capital-intensive, and slow-growing. But their cash flows are remarkably stable — people pay their electricity bills and drive on toll roads in good times and bad. The yields (3.0-3.2%) are attractive relative to global bonds, and the inflation-linkage (regulated utilities can typically pass through cost increases; toll roads have inflation-linked pricing formulas) provides a real return floor. For investors interested in other yield-oriented sectors with similarly stable cash flows, our [real estate ETF comparison](/blog/real-estate-etf-us-reit-vs-china-property) covers US REITs and their structural income advantages.
 
 ### PAVE vs IFRA: US Infrastructure Builders
 
@@ -157,7 +157,7 @@ The 2026 environment may be more favorable: rates are falling (good for utilitie
 
 ### Asset Class Role
 
-Infrastructure is not a replacement for equities — it's a **complement**. Its value is primarily in its lower correlation with tech/growth stocks (~0.5-0.6 correlation with QQQ) and its inflation-linked cash flows. In a portfolio dominated by VOO/QQQ, a 5-10% infrastructure allocation provides genuine diversification without sacrificing all equity-like returns.
+Infrastructure is not a replacement for equities — it's a **complement**. Its value is primarily in its lower correlation with tech/growth stocks (~0.5-0.6 correlation with QQQ) and its inflation-linked cash flows. In a portfolio dominated by VOO/QQQ, a 5-10% infrastructure allocation provides genuine diversification without sacrificing all equity-like returns. For a broader discussion of how to integrate thematic positions like infrastructure alongside core holdings, see our [core-satellite portfolio guide](/blog/core-satellite-etf-portfolio).
 
 ## The Bottom Line
 
@@ -166,6 +166,20 @@ The global infrastructure spending supercycle is real: AI power demand, deglobal
 PAVE (0.47%, US builders and equipment) is the best-performing infrastructure ETF with genuine exposure to the construction cycle. It has actually beaten the S&P 500 over five years — an almost unheard-of achievement for a thematic fund. GII and IGF (0.40%, global infrastructure owners) provide yield (~3%), inflation protection, and lower volatility — the defensive side of the infrastructure trade.
 
 For most investors, a 5-10% allocation split between PAVE and GII captures the infrastructure supercycle without making a concentrated bet. The yields are attractive. The correlation with tech is low. And the spending is funded, authorized, and underway — not speculative, not dependent on AI narrative momentum, not at risk from a single Fed decision. In a market dominated by AI hype, that's a surprisingly rare combination.
+
+---
+
+> **Continue reading:** If you want deeper coverage on the electrical grid and data center side of infrastructure, see our [AI infrastructure ETFs guide](/blog/ai-infrastructure-etf-data-center-power-grid). For investors comparing infrastructure to other real asset categories, our [real estate ETF comparison](/blog/real-estate-etf-us-reit-vs-china-property) and [commodity ETF guide](/blog/commodity-etf-dbc-gsg-pdbc-bci) cover adjacent asset classes.
+
+## Sources
+
+- **S&P Dow Jones Indices** — S&P Global Infrastructure Index methodology and constituent data
+- **Global X ETFs** — PAVE (US Infrastructure Development) fund documentation, holdings, and performance data
+- **iShares (BlackRock)** — IGF, IFRA fund fact sheets and country/sector exposure breakdowns, 2026
+- **American Society of Civil Engineers (ASCE)** — 2025 Infrastructure Report Card, US investment gap estimates
+- **U.S. Department of Transportation / Federal Highway Administration** — Infrastructure Investment and Jobs Act disbursement tracking
+- **McKinsey Global Institute** — "Reimagining Infrastructure: The $2 Trillion Opportunity" (2025)
+- **U.S. Energy Information Administration (EIA)** — Grid modernization and transmission spending forecasts
 
 ---
 

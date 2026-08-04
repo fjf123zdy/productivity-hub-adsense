@@ -3,7 +3,7 @@ title: "Mid-Cap ETFs 2026: IJH vs VO vs IWR — The Sweet Spot Between Small-Cap
 meta_description: "Mid-cap stocks have historically outperformed both large and small caps with lower volatility than small caps — the 'sweet spot' of equity investing. Compare IJH (S&P 400), VO (CRSP Mid Cap), IWR (Russell Midcap), and SCHM. Covers the mid-cap premium, sector composition vs S&P 500, how rate cuts affect mid-caps, and why mid-caps are under-owned in most portfolios."
 meta_keywords: "mid cap ETF 2026, IJH ETF, VO ETF, IWR ETF, SCHM ETF, best mid cap ETF, S&P 400 ETF, S&P MidCap 400, mid cap vs large cap, mid cap premium, mid cap index, US mid cap stocks, IJH vs VO"
 date: "2026-07-21"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "US ETFs"
 read_time: "8 min read"
 slug: "mid-cap-etf-ijh-vo-iwr-schm"
@@ -11,7 +11,7 @@ slug: "mid-cap-etf-ijh-vo-iwr-schm"
 
 # Mid-Cap ETFs 2026: IJH vs VO vs IWR — The Sweet Spot Between Small-Cap Grit and Large-Cap Giants
 
-**By ETF Bridge Research** | July 21, 2026 | 8 min read
+**By [Gerberal](/about)** | July 21, 2026 | 8 min read
 
 ---
 
@@ -139,6 +139,17 @@ Despite the historical performance record, mid-caps are structurally under-owned
 **VOO + IJH at 80/20 roughly approximates VTI** — the 20% mid-cap allocation captures the companies VOO excludes, giving you total-market exposure without selling VOO. This is a useful approach if you have large embedded gains in VOO and don't want to trigger taxes switching to VTI.
 
 **The mid-cap tilt (overweighting beyond market weight)** is a bet on the mid-cap premium persisting. The historical evidence supports it over 20-30 year horizons, but there will be decades where large-caps win. Size the tilt accordingly — 10-20% of your US equity allocation is a meaningful bet without becoming a concentrated position.
+
+## Sources
+
+- iShares by BlackRock — IJH (iShares Core S&P Mid-Cap ETF) and IWR (iShares Russell Mid-Cap ETF) fund pages
+- Vanguard — VO (Vanguard Mid-Cap ETF) fund page and fact sheet
+- Charles Schwab — SCHM (Schwab US Mid-Cap ETF) fund page and holdings
+- S&P Dow Jones Indices — S&P MidCap 400 index methodology and constituent selection criteria
+- CRSP (Center for Research in Security Prices) — CRSP US Mid Cap Index methodology (VO benchmark)
+- FTSE Russell — Russell Midcap Index methodology and constituent data (IWR benchmark)
+- Morningstar — mid-cap fund category analysis and performance comparison
+- Yahoo Finance — IJH, VO, IWR, SCHM historical returns and dividend data
 
 ---
 

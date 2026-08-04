@@ -3,7 +3,7 @@ title: "ADR vs Local Stock vs ETF: Which China Exposure Is Best for Global Inves
 meta_description: "Three ways to invest in China — ADRs (US-listed), H-shares (HK-listed), and A-share ETFs (onshore). We compare fees, liquidity, tax treatment, and access restrictions to find which channel delivers the best net total return for global investors in 2026."
 meta_keywords: "China ADR vs ETF, H-share vs A-share, China stock exposure, invest in China 2026, Alibaba ADR vs HK, Chinese stocks for US investors, ADR fees, Stock Connect China"
 date: "2026-07-03"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "Cross-Border"
 read_time: "10 min read"
 slug: "adr-vs-local-stock-vs-etf-china"
@@ -11,7 +11,7 @@ slug: "adr-vs-local-stock-vs-etf-china"
 
 # ADR vs Local Stock vs ETF: Which China Exposure Is Best for Global Investors?
 
-**By ETF Bridge Research** | July 1, 2026 | 10 min read
+**By [Gerberal](/about)** | July 1, 2026 | 10 min read
 
 ---
 
@@ -210,7 +210,7 @@ The tax implications are generally neutral (it's treated as a share exchange, no
 
 ---
 
-> **Continue reading:** Now that you understand the channels, see [how cross-border ETF fees really compare](/blog/us-vs-china-etf-fees) — or learn [which dividend ETFs pay income investors more](/blog/dividend-etf-us-vs-china).
+> **Continue reading:** Now that you understand the channels, see [how cross-border ETF fees really compare](/blog/us-vs-china-etf-fees) — or learn [which dividend ETFs pay income investors more](/blog/dividend-aristocrats-etf-nobl-schd-international).
 
 ---
 

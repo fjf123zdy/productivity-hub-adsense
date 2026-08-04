@@ -3,7 +3,7 @@ title: "ETF vs Mutual Fund 2026: Tax Efficiency, Trading, and Which One Wins for
 meta_description: "ETFs and mutual funds both hold baskets of stocks and bonds — but their structural differences create real performance gaps. Compare tax efficiency (ETF heartbeat trades vs mutual fund capital gains distributions), intraday trading vs end-of-day pricing, minimum investments, automatic investing, and the fee convergence that makes choosing harder than ever in 2026."
 meta_keywords: "ETF vs mutual fund 2026, ETF tax efficiency, mutual fund capital gains, ETF vs index fund, VOO vs VFIAX, ETF advantages, mutual fund advantages, ETF intraday trading, mutual fund automatic investing, ETF creation redemption, heartbeat trades, best investment vehicle 2026"
 date: "2026-07-21"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "US ETFs"
 read_time: "9 min read"
 slug: "etf-vs-mutual-fund-comparison-2026"
@@ -11,7 +11,7 @@ slug: "etf-vs-mutual-fund-comparison-2026"
 
 # ETF vs Mutual Fund 2026: Tax Efficiency, Trading, and Which One Wins for Your Portfolio
 
-**By ETF Bridge Research** | July 21, 2026 | 9 min read
+**By [Gerberal](/about)** | July 21, 2026 | 9 min read
 
 ---
 
@@ -201,6 +201,17 @@ Many investors use both:
 | Taxable brokerage | ETF | Tax efficiency is worth real money over decades |
 | HSA | ETF if available | Taxable-equivalent treatment in most states; tax efficiency matters |
 
+## Sources
+
+- Investment Company Institute (ICI) — 2026 Investment Company Fact Book (US fund industry annual data)
+- Morningstar — annual fund flows report and US fund fee study (2026)
+- SEC EDGAR — mutual fund and ETF registration statements, prospectuses, and N-CSR filings
+- Vanguard — ETF vs. mutual fund comparison guide and tax efficiency research papers
+- BlackRock / iShares — ETF education center and ETF vs. mutual fund comparison resources
+- Bogleheads Wiki — ETF vs. mutual fund comparison and tax efficiency articles
+- Charles Schwab — ETF and mutual fund screeners and educational content
+- Wall Street Journal / Barron's — ETF and mutual fund industry trends and analysis
+
 ---
 
 **Disclaimer**: This article is for informational purposes only and does not constitute investment or tax advice. Tax laws and regulations vary by jurisdiction and are subject to change. The tax efficiency comparisons discussed are based on US federal tax law as of 2026. Platform features (fractional shares, automatic ETF investing) vary by brokerage. Consult a tax professional regarding your specific situation.
@@ -211,5 +222,4 @@ Many investors use both:
 - [ETF Liquidity Explained: Why Volume and AUM Don't Mean What You Think](/blog/etf-liquidity-explained)
 - [ETF Tracking Error Explained: Why It Matters More Than Fees](/blog/etf-tracking-error-explained)
 - [How to Read an ETF Fact Sheet: A Complete Beginner's Guide](/blog/how-to-read-etf-fact-sheet)
-- [ETF Tax Efficiency: How US, HK, and Mainland China Compare](/blog/etf-tax-efficiency-us-hk-china)
-- [Lump Sum vs DCA Into ETFs: What 155 Years of Data Shows](/blog/lump-sum-vs-dca-etf)
+- [ADR vs Local Stock vs ETF: Which Vehicle for China Exposure?](/blog/adr-vs-local-stock-vs-etf-china)

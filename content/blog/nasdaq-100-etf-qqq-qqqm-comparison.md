@@ -3,7 +3,7 @@ title: "Nasdaq-100 ETF Face-Off 2026: QQQ vs QQQM vs the Alternatives — Which 
 meta_description: "QQQ charges 0.18%, QQQM charges 0.15% — but the real difference goes deeper. Compare Invesco's two Nasdaq-100 ETFs plus alternatives (QQQJ, QQQE, ONEQ) with 2026 data on fees, performance, and the big Dec 2025 structural change."
 meta_keywords: "QQQ vs QQQM 2026, Nasdaq 100 ETF comparison, best Nasdaq ETF 2026, Invesco QQQ trust, QQQM expense ratio, QQQ alternatives, Nasdaq 100 index ETF, QQQE equal weight, QQQJ next gen"
 date: "2026-06-29"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "US ETFs"
 read_time: "9 min read"
 slug: "nasdaq-100-etf-qqq-qqqm-comparison"
@@ -11,11 +11,11 @@ slug: "nasdaq-100-etf-qqq-qqqm-comparison"
 
 # Nasdaq-100 ETF Face-Off 2026: QQQ vs QQQM vs the Alternatives — Which Wins?
 
-**By ETF Bridge Research** | June 29, 2026 | 9 min read
+**By [Gerberal](/about)** | June 29, 2026 | 9 min read
 
 ---
 
-If you own one ETF that isn't an S&P 500 tracker, it's probably QQQ. For 27 years, Invesco's Nasdaq-100 ETF has been the default way to bet on big tech — Apple, Microsoft, Nvidia, and the rest of the innovation economy. With nearly **$480 billion in assets** and over **50 million shares traded daily**, QQQ is one of the most liquid securities on the planet.
+If you own one ETF that isn't an [S&P 500](/blog/sp500-etf-voo-ivv-spy-comparison) tracker, it's probably QQQ. For 27 years, Invesco's Nasdaq-100 ETF has been the default way to bet on big tech — Apple, Microsoft, Nvidia, and the rest of the innovation economy. With nearly **$480 billion in assets** and over **50 million shares traded daily**, QQQ is one of the most liquid securities on the planet.
 
 But in October 2020, Invesco launched a sibling — **QQQM** — that tracks the exact same index for a lower fee. And in December 2025, QQQ underwent a structural conversion that changed how it handles everything from dividends to securities lending.
 
@@ -143,7 +143,7 @@ As of late June 2026, the Nasdaq-100 has had a blistering 12 months, driven by A
 | **3-Year Annualized** | ~+16% | ~+12% | Nasdaq +4pp |
 | **5-Year Annualized** | ~+19% | ~+13.5% | Nasdaq +5.5pp |
 
-The Nasdaq-100 has outperformed the S&P 500 by 5+ percentage points annually over five years. This is unusually wide — it reflects the AI-driven earnings boom concentrated in the technology sector. No guarantee this persists.
+The Nasdaq-100 has outperformed the S&P 500 by 5+ percentage points annually over five years. This is unusually wide — it reflects the AI-driven earnings boom concentrated in the [semiconductor](/blog/semiconductor-etf-soxx-smh-soxl-comparison) and technology sector. No guarantee this persists.
 
 **Valuation note:** The Nasdaq-100's PE ratio is roughly **28x**, versus ~21.6x for the S&P 500. You are paying a premium for that growth — and it may or may not persist.
 
@@ -203,6 +203,8 @@ The Nasdaq-100 ETF market is the most efficient of the four — the fee gap is t
 - Nasdaq.com — "QQQM Is a Better Buy Than QQQ — For 1 Powerful Reason"
 - 24/7 Wall St — QQQ vs QQQM structural analysis (June 2026)
 
+---
+> **Continue reading:** See how the Nasdaq-100 fits into the bigger picture — compare it against the [S&P 500 (VOO vs IVV vs SPY)](/blog/sp500-etf-voo-ivv-spy-comparison) for broader diversification, understand the risks of [leveraged and inverse ETFs](/blog/leveraged-inverse-etf-decay-risk) if you're considering TQQQ or SQQQ, or explore the [growth vs value](/blog/growth-vs-value-etf-vug-vtv-schg-schv) dynamic that defines when QQQ outperforms.
 ---
 
 > **Disclaimer:** ETF Bridge is an educational resource. This article does not constitute investment advice. Past performance does not guarantee future results. The comparison between QQQ and QQQM reflects data as of late June 2026, including the December 2025 structural conversion of QQQ. Expense ratios, AUM, and performance figures may change. Always verify information with the official fund provider and consult a qualified financial advisor before making investment decisions. Investing involves risk, including the potential loss of principal.

@@ -3,7 +3,7 @@ title: "Energy Sector ETFs 2026: XLE vs VDE vs IXC vs FENY — Oil, Pipelines, a
 meta_description: "Energy was the S&P 500's top-performing sector in 2022 (+66%) and now yields ~4% — higher than any other sector. Compare four major energy ETFs (XLE, VDE, IXC, FENY), their very different Exxon-Chevron concentrations, pipeline exposure through midstream ETFs (AMLP, MLPX), and the structural case for and against energy in a 2026 world of AI power demand, OPEC+ tensions, and the energy transition."
 meta_keywords: "energy sector ETF 2026, XLE ETF, VDE ETF, IXC ETF, FENY ETF, best energy ETF, oil ETF, energy sector investing 2026, midstream ETF, pipeline ETF AMLP, energy transition ETF, Exxon Chevron ETF, AI power demand energy"
 date: "2026-07-20"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "US ETFs"
 read_time: "9 min read"
 slug: "energy-sector-etf-xle-vde-ixc-feny"
@@ -11,7 +11,7 @@ slug: "energy-sector-etf-xle-vde-ixc-feny"
 
 # Energy Sector ETFs 2026: XLE vs VDE vs IXC vs FENY — Oil, Pipelines, and the Geopolitical Premium
 
-**By ETF Bridge Research** | July 20, 2026 | 9 min read
+**By [Gerberal](/about)** | July 20, 2026 | 9 min read
 
 ---
 
@@ -154,6 +154,17 @@ Energy represents roughly 4% of the S&P 500 by market cap. If you hold VOO or VT
 
 For more sector ETF guides, see our [healthcare ETFs comparison](/blog/healthcare-etf-xlv-ibb-china-pharma) and [infrastructure ETFs guide](/blog/infrastructure-etf-gii-pave-igf-supercycle).
 
+## Sources
+
+- State Street Global Advisors — XLE (Energy Select Sector SPDR Fund) fund page and holdings
+- Vanguard — VDE (Vanguard Energy ETF) fund page and fact sheet
+- iShares by BlackRock — IXC (iShares Global Energy ETF) fund page and country exposure data
+- Fidelity Investments — FENY (Fidelity MSCI Energy Index ETF) fund page
+- US Energy Information Administration (EIA) — crude oil production, inventory, and price data
+- S&P Dow Jones Indices — S&P 500 sector weights and GICS energy sector methodology
+- Yahoo Finance — XLE, VDE, IXC, FENY historical performance and dividend yield data
+- MSCI — MSCI World Energy Index methodology and constituent data (IXC and FENY benchmark)
+
 ---
 
 **Disclaimer**: This article is for informational purposes only and does not constitute investment advice. Energy sector ETFs are subject to commodity price risk, geopolitical risk, regulatory risk, and sector concentration risk. The sector is highly cyclical, and past performance during commodity supercycles does not guarantee future results. Consult a professional advisor before making investment decisions.
@@ -164,5 +175,5 @@ For more sector ETF guides, see our [healthcare ETFs comparison](/blog/healthcar
 - [Healthcare ETFs 2026: XLV vs IBB vs China Pharma Recovery](/blog/healthcare-etf-xlv-ibb-china-pharma)
 - [Infrastructure ETFs 2026: GII vs PAVE vs IGF — The $2 Trillion Global Capex Supercycle](/blog/infrastructure-etf-gii-pave-igf-supercycle)
 - [Semiconductor ETFs: SOXX vs SMH vs SOXL — Navigating the AI Capex Boom](/blog/semiconductor-etf-soxx-smh-soxl-comparison)
-- [Cloud Computing ETFs 2026: CLOU vs SKYY vs WCLD — Recovery After the 58% Crash](/blog/cloud-computing-etf-clou-skyy-wcld)
-- [Robotics & Automation ETFs 2026: BOTZ vs ROBO vs ARKQ — Premature or Prescient?](/blog/robotics-automation-etf-botz-robo-arkq)
+- [AI Infrastructure ETFs 2026: Data Centers, Power Grid & the Digital Backbone](/blog/ai-infrastructure-etf-data-center-power-grid)
+- [Leveraged & Inverse ETFs 2026: Decay, Risk, and When They Make Sense](/blog/leveraged-inverse-etf-decay-risk)

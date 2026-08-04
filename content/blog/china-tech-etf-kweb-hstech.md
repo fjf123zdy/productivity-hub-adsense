@@ -3,7 +3,7 @@ title: "China Tech ETFs 2026: KWEB vs Hang Seng TECH Index — Which Captures th
 meta_description: "KWEB tracks Chinese internet ADRs + HK stocks at 0.69% ER. The Hang Seng TECH Index (3067.HK) costs just 0.25%. In 2026, both are deeply negative YTD — but which is the better vehicle for a China tech rebound? We compare holdings, fees, and tax efficiency."
 meta_keywords: "China tech ETF 2026, KWEB ETF, Hang Seng TECH Index ETF, 3067.HK, KTEC ETF, Chinese internet ETF, best China tech ETF, KWEB vs KTEC, China tech stocks 2026"
 date: "2026-07-04"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "China ETFs"
 read_time: "9 min read"
 slug: "china-tech-etf-kweb-hstech"
@@ -11,7 +11,7 @@ slug: "china-tech-etf-kweb-hstech"
 
 # China Tech ETFs 2026: KWEB vs Hang Seng TECH Index — Which Captures the Real China Internet?
 
-**By ETF Bridge Research** | July 1, 2026 | 9 min read
+**By [Gerberal](/about)** | July 1, 2026 | 9 min read
 
 ---
 

@@ -3,7 +3,7 @@ title: "International Developed ETFs 2026: VEA vs SCHF vs IEFA vs VXUS — The E
 meta_description: "US stocks have dominated for a decade, but the performance gap is cyclical — not permanent. Compare the four major international developed market ETFs (VEA, SCHF, IEFA, VXUS), their regional weights (Japan 22%, UK 15%, Germany 10%), dividend yields (~3% vs S&P 500's 1.3%), currency exposure, and when to choose a total international fund (VXUS) over developed-only (VEA). Plus: how much international allocation is right for 2026."
 meta_keywords: "international developed ETF 2026, VEA ETF, SCHF ETF, IEFA ETF, VXUS ETF, best international ETF, ex-US ETF, foreign stock ETF, international diversification, VEA vs VXUS, MSCI EAFE ETF, VXUS vs VEA, international allocation 2026, best ex-US ETF"
 date: "2026-07-21"
-author: "ETF Bridge Research"
+author: "Gerberal"
 category: "US ETFs"
 read_time: "10 min read"
 slug: "international-developed-etf-vea-schf-iefa-vxus"
@@ -11,7 +11,7 @@ slug: "international-developed-etf-vea-schf-iefa-vxus"
 
 # International Developed ETFs 2026: VEA vs SCHF vs IEFA vs VXUS — The Ex-US Allocation Every Portfolio Needs
 
-**By ETF Bridge Research** | July 21, 2026 | 10 min read
+**By [Gerberal](/about)** | July 21, 2026 | 10 min read
 
 ---
 
@@ -151,7 +151,7 @@ International developed market ETFs yield roughly 3.0% — more than double the 
 
 **The effective cost**: Roughly 7-8% of the international dividend yield is lost to foreign withholding taxes that can be credited back in taxable accounts (but not in IRAs). On a 3% yield, that's roughly 20-25 basis points of lost return in tax-advantaged accounts — more than the ETF's expense ratio. For this reason, **international ETFs are best held in taxable accounts** where the foreign tax credit can be claimed.
 
-For a comprehensive guide to ETF tax placement, see our [ETF tax efficiency article](/blog/etf-tax-efficiency-us-hk-china).
+For a comprehensive guide to cross-border investing, see our [ADR vs Local Stock vs ETF article](/blog/adr-vs-local-stock-vs-etf-china).
 
 ---
 
@@ -179,6 +179,17 @@ For a comprehensive guide to ETF tax placement, see our [ETF tax efficiency arti
 - Tracking error is psychologically painful — owning 30% of your portfolio in an asset that underperforms year after year wears on conviction
 
 **The practical recommendation**: Start at 20-25% international total (developed + EM). Use **VXUS** for simplicity or **VEA + VWO** for control. If you can't bring yourself to allocate that much, start at 10% and add 2% per year. The worst allocation is 0% — not because international is guaranteed to outperform, but because a 100% single-country bet is concentrated risk that diversification was invented to solve.
+
+## Sources
+
+- Vanguard — VEA (Vanguard FTSE Developed Markets ETF) and VXUS (Vanguard Total International Stock ETF) fund pages
+- Charles Schwab — SCHF (Schwab International Equity ETF) fund page and fact sheet
+- iShares by BlackRock — IEFA (iShares Core MSCI EAFE ETF) fund page and holdings data
+- MSCI — MSCI EAFE Index methodology, country weights, and performance data
+- FTSE Russell — FTSE Developed All Cap ex US Index methodology (VEA/VXUS benchmark)
+- Morningstar — international developed markets fund category analysis and comparison
+- S&P Dow Jones Indices — S&P Developed ex-US BMI index data
+- Yahoo Finance — VEA, SCHF, IEFA, VXUS historical performance and dividend data
 
 ---
 
