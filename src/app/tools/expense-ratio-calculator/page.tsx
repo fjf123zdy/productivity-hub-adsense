@@ -96,7 +96,7 @@ export default function ExpenseRatioCalculatorPage() {
                   <input
                     type="range" min="1000" max="1000000" step="1000" value={initialInvestment}
                     onChange={e => setInitialInvestment(Number(e.target.value))}
-                    className="w-full"
+                    className="w-full accent-primary-600"
                   />
                   <div className="flex justify-between text-xs text-gray-400"><span>$1,000</span><span>$1,000,000</span></div>
                 </div>
@@ -108,7 +108,7 @@ export default function ExpenseRatioCalculatorPage() {
                   <input
                     type="range" min="0" max="10000" step="100" value={monthlyContribution}
                     onChange={e => setMonthlyContribution(Number(e.target.value))}
-                    className="w-full"
+                    className="w-full accent-primary-600"
                   />
                   <div className="flex justify-between text-xs text-gray-400"><span>$0</span><span>$10,000</span></div>
                 </div>
@@ -120,7 +120,7 @@ export default function ExpenseRatioCalculatorPage() {
                   <input
                     type="range" min="1" max="50" step="1" value={years}
                     onChange={e => setYears(Number(e.target.value))}
-                    className="w-full"
+                    className="w-full accent-primary-600"
                   />
                   <div className="flex justify-between text-xs text-gray-400"><span>1</span><span>50</span></div>
                 </div>
@@ -132,7 +132,7 @@ export default function ExpenseRatioCalculatorPage() {
                   <input
                     type="range" min="1" max="15" step="0.5" value={annualReturn}
                     onChange={e => setAnnualReturn(Number(e.target.value))}
-                    className="w-full"
+                    className="w-full accent-primary-600"
                   />
                   <div className="flex justify-between text-xs text-gray-400"><span>1%</span><span>15%</span></div>
                 </div>

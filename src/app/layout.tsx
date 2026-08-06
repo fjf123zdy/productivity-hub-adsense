@@ -5,7 +5,7 @@ import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import AdSenseScript from '@/components/ads/AdSenseScript'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' })
 
 export const metadata: Metadata = {
   title: {
@@ -61,11 +61,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="h-full">
+    <html lang="en" className={`h-full ${inter.variable}`}>
       <head>
         <AdSenseScript />
       </head>
-      <body className={`${inter.className} h-full flex flex-col`}>
+      <body className="h-full flex flex-col font-sans">
         <Header />
         <main className="flex-1">
           {children}

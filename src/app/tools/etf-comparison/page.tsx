@@ -48,7 +48,7 @@ export default function ETFComparisonPage() {
                 <select
                   value={ticker1}
                   onChange={e => setTicker1(e.target.value)}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-900 font-medium focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                  className="input font-medium"
                 >
                   {tickers.map(t => (
                     <option key={`e1-${t}`} value={t} disabled={t === ticker2}>{t} — {etfDatabase.find(e => e.ticker === t)?.name}</option>
@@ -61,7 +61,7 @@ export default function ETFComparisonPage() {
                 <select
                   value={ticker2}
                   onChange={e => setTicker2(e.target.value)}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-900 font-medium focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                  className="input font-medium"
                 >
                   {tickers.map(t => (
                     <option key={`e2-${t}`} value={t} disabled={t === ticker1}>{t} — {etfDatabase.find(e => e.ticker === t)?.name}</option>
@@ -74,9 +74,9 @@ export default function ETFComparisonPage() {
           {/* Comparison Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             {/* Card 1 */}
-            <div className="card border-2 border-gray-200">
+            <div className="card">
               <div className="flex items-center gap-3 mb-4">
-                <div className="p-3 bg-primary-100 rounded-lg font-bold text-primary-700">{etf1.ticker}</div>
+                <div className="p-3 bg-primary-50 rounded-lg font-bold text-primary-700 ring-1 ring-inset ring-primary-100">{etf1.ticker}</div>
                 <div>
                   <div className="font-semibold text-gray-900">{etf1.name}</div>
                   <div className="text-xs text-gray-500">{etf1.issuer} · Since {etf1.inception.slice(0, 4)}</div>
@@ -84,9 +84,9 @@ export default function ETFComparisonPage() {
               </div>
             </div>
             {/* Card 2 */}
-            <div className="card border-2 border-gray-200">
+            <div className="card">
               <div className="flex items-center gap-3 mb-4">
-                <div className="p-3 bg-primary-100 rounded-lg font-bold text-primary-700">{etf2.ticker}</div>
+                <div className="p-3 bg-primary-50 rounded-lg font-bold text-primary-700 ring-1 ring-inset ring-primary-100">{etf2.ticker}</div>
                 <div>
                   <div className="font-semibold text-gray-900">{etf2.name}</div>
                   <div className="text-xs text-gray-500">{etf2.issuer} · Since {etf2.inception.slice(0, 4)}</div>
@@ -200,8 +200,8 @@ export default function ETFComparisonPage() {
                           <span className="text-gray-600">{s.sector}</span>
                           <span className="font-mono font-medium text-gray-900">{(s.weight * 100).toFixed(1)}%</span>
                         </div>
-                        <div className="h-2 w-full bg-gray-100 rounded-full overflow-hidden">
-                          <div className="h-full bg-primary-500 rounded-full" style={{ width: `${s.weight * 100}%` }} />
+                        <div className="h-2 w-full bg-gray-200 rounded-full overflow-hidden">
+                          <div className="h-full bg-gradient-to-r from-primary-500 to-emerald-400 rounded-full" style={{ width: `${s.weight * 100}%` }} />
                         </div>
                       </div>
                     ))}

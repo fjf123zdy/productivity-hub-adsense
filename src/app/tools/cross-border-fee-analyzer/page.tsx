@@ -103,7 +103,7 @@ export default function CrossBorderFeeAnalyzerPage() {
                   <input
                     type="range" min="5000" max="500000" step="5000" value={investment}
                     onChange={e => setInvestment(Number(e.target.value))}
-                    className="w-full"
+                    className="w-full accent-primary-600"
                   />
                 </div>
 
@@ -114,7 +114,7 @@ export default function CrossBorderFeeAnalyzerPage() {
                   <input
                     type="range" min="1" max="30" step="1" value={years}
                     onChange={e => setYears(Number(e.target.value))}
-                    className="w-full"
+                    className="w-full accent-primary-600"
                   />
                 </div>
               </div>
@@ -197,21 +197,21 @@ export default function CrossBorderFeeAnalyzerPage() {
                   Effective Cost Analysis
                 </h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
-                  <div className="p-4 bg-gray-50 rounded-lg">
+                  <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
                     <div className="text-gray-500">Stated Annual Return</div>
                     <div className="text-2xl font-bold text-gray-900">{scenario.annualReturn.toFixed(1)}%</div>
                   </div>
-                  <div className="p-4 bg-gray-50 rounded-lg">
+                  <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
                     <div className="text-gray-500">Gross Blended Cost</div>
                     <div className="text-2xl font-bold text-red-600">{analysis.annualizedCostPct}% /yr</div>
                     <div className="text-xs text-gray-400">ER + dividend tax drag</div>
                   </div>
-                  <div className="p-4 bg-gray-50 rounded-lg">
+                  <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
                     <div className="text-gray-500">Effective Net Return</div>
                     <div className="text-2xl font-bold text-green-600">{analysis.effectiveReturn}% /yr</div>
                     <div className="text-xs text-gray-400">After all costs</div>
                   </div>
-                  <div className="p-4 bg-gray-50 rounded-lg">
+                  <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
                     <div className="text-gray-500">Final After All Costs</div>
                     <div className="text-2xl font-bold text-gray-900">${analysis.netAfterTax.toLocaleString()}</div>
                   </div>

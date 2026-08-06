@@ -24,15 +24,17 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t border-gray-200">
+    <footer className="border-t border-gray-200 bg-gray-50">
       <div className="content-container">
         <div className="py-12 lg:py-16">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             {/* Brand section */}
             <div className="space-y-4">
-              <Link href="/" className="flex items-center space-x-2">
-                <BarChart3 className="h-8 w-8 text-primary-600" />
-                <span className="text-xl font-bold text-gray-900">ETF Bridge</span>
+              <Link href="/" className="flex items-center gap-x-2.5">
+                <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-primary-600 to-emerald-500 shadow-sm">
+                  <BarChart3 className="h-5 w-5 text-white" aria-hidden="true" />
+                </span>
+                <span className="text-lg font-semibold tracking-tight text-gray-900">ETF Bridge</span>
               </Link>
               <p className="text-sm text-gray-600 max-w-md">
                 Helping global investors compare ETFs across US and China markets.
@@ -48,7 +50,7 @@ export default function Footer() {
               <div className="grid grid-cols-2 gap-8 lg:grid-cols-3">
                 {/* Main navigation */}
                 <div>
-                  <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase">
+                  <h3 className="text-xs font-semibold uppercase tracking-wider text-gray-500">
                     Navigation
                   </h3>
                   <ul className="mt-4 space-y-3">
@@ -67,7 +69,7 @@ export default function Footer() {
 
                 {/* Tools */}
                 <div>
-                  <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase">
+                  <h3 className="text-xs font-semibold uppercase tracking-wider text-gray-500">
                     ETF Tools
                   </h3>
                   <ul className="mt-4 space-y-3">
@@ -86,7 +88,7 @@ export default function Footer() {
 
                 {/* Legal */}
                 <div>
-                  <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase">
+                  <h3 className="text-xs font-semibold uppercase tracking-wider text-gray-500">
                     Legal
                   </h3>
                   <ul className="mt-4 space-y-3">

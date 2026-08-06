@@ -86,7 +86,7 @@ export default function DCACalculatorPage() {
                   <input
                     type="range" min="100" max="20000" step="100" value={monthlyAmount}
                     onChange={e => setMonthlyAmount(Number(e.target.value))}
-                    className="w-full"
+                    className="w-full accent-primary-600"
                   />
                   <div className="flex justify-between text-xs text-gray-400"><span>$100</span><span>$20,000</span></div>
                 </div>
@@ -98,7 +98,7 @@ export default function DCACalculatorPage() {
                   <input
                     type="range" min="5" max="40" step="1" value={years}
                     onChange={e => setYears(Number(e.target.value))}
-                    className="w-full"
+                    className="w-full accent-primary-600"
                   />
                   <div className="flex justify-between text-xs text-gray-400"><span>5</span><span>40</span></div>
                 </div>

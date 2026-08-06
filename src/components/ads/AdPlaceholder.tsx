@@ -16,11 +16,11 @@ export default function AdPlaceholder({
       className={`ad-container ${className}`}
       style={{ width, height }}
     >
-      <div className="flex flex-col items-center justify-center h-full border-2 border-dashed border-gray-300 rounded-lg bg-gray-50">
-        <div className="text-gray-400 text-sm font-medium mb-2">
+      <div className="flex h-full w-full flex-col items-center justify-center rounded-xl border border-dashed border-gray-200 bg-gray-50/60">
+        <div className="ad-placeholder">
           {label}
         </div>
-        <div className="text-gray-300 text-xs">
+        <div className="mt-1 text-[10px] text-gray-300">
           {typeof width === 'number' ? `${width}px` : width} × {typeof height === 'number' ? `${height}px` : height}
         </div>
       </div>

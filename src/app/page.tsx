@@ -51,21 +51,30 @@ export default function HomePage() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <div className="relative isolate px-6 pt-14 lg:px-8">
+      <div className="relative isolate overflow-hidden px-6 pt-14 lg:px-8">
+        {/* grid backdrop */}
+        <div aria-hidden className="bg-grid bg-grid-fade absolute inset-0 -z-20" />
+        {/* radial glow */}
+        <div
+          aria-hidden
+          className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+        >
+          <div className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-primary-200 to-emerald-100 opacity-40 sm:left-[calc(50%-30rem)] sm:w-[72rem]" />
+        </div>
         <div className="content-container">
-          <div className="mx-auto max-w-3xl py-16 sm:py-24 lg:py-32">
+          <div className="mx-auto max-w-3xl py-20 sm:py-28 lg:py-36">
             <div className="text-center">
               <div className="mb-6 flex justify-center">
-                <span className="inline-flex items-center rounded-full bg-emerald-50 px-4 py-1.5 text-sm font-medium text-emerald-700 ring-1 ring-inset ring-emerald-600/20">
-                  <Globe className="mr-1.5 h-4 w-4" />
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-white/70 px-4 py-1.5 text-sm font-medium text-primary-700 ring-1 ring-inset ring-primary-600/20 backdrop-blur">
+                  <Globe className="h-4 w-4" aria-hidden="true" />
                   Bridging US &amp; China Markets
                 </span>
               </div>
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl lg:text-7xl">
                 Compare ETFs Across
-                <span className="text-primary-600"> US &amp; China</span>
+                <span className="bg-gradient-to-r from-primary-600 to-emerald-500 bg-clip-text text-transparent"> US &amp; China</span>
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
                 Side-by-side ETF comparisons, expense ratio calculators, and expert investing guides.
                 Helping global investors navigate S&amp;P 500, Nasdaq, CSI 300, and Hang Seng Index funds — all in one place.
               </p>
@@ -78,7 +87,7 @@ export default function HomePage() {
                 </Link>
                 <Link
                   href="/blog"
-                  className="text-base font-semibold leading-7 text-gray-900 hover:text-primary-600"
+                  className="text-base font-semibold leading-7 text-gray-900 hover:text-primary-700"
                 >
                   Read Guides <span aria-hidden="true">→</span>
                 </Link>
@@ -106,19 +115,21 @@ export default function HomePage() {
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+            <dl className="grid max-w-xl grid-cols-1 gap-6 lg:max-w-none lg:grid-cols-3">
               {features.map((feature) => (
-                <div key={feature.name} className="flex flex-col">
-                  <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
-                    <feature.icon className="h-5 w-5 flex-none text-primary-600" aria-hidden="true" />
+                <div key={feature.name} className="card group flex flex-col">
+                  <dt className="flex items-center gap-x-3 text-base font-semibold text-gray-900">
+                    <span className="flex h-10 w-10 flex-none items-center justify-center rounded-lg bg-primary-50 ring-1 ring-inset ring-primary-100">
+                      <feature.icon className="h-5 w-5 text-primary-600" aria-hidden="true" />
+                    </span>
                     {feature.name}
                   </dt>
-                  <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                  <dd className="mt-4 flex flex-auto flex-col text-sm leading-6 text-gray-600">
                     <p className="flex-auto">{feature.description}</p>
                     <p className="mt-6">
                       <Link
                         href={feature.href}
-                        className="text-sm font-semibold leading-6 text-primary-600 hover:text-primary-500"
+                        className="text-sm font-semibold leading-6 text-primary-600 hover:text-primary-700"
                       >
                         Try it now <span aria-hidden="true">→</span>
                       </Link>
@@ -147,17 +158,17 @@ export default function HomePage() {
               Data-driven analyses, side-by-side comparisons, and actionable guides for cross-border ETF investors.
             </p>
           </div>
-          <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+          <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-6 sm:mt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {recentPosts.map((post) => (
-              <article key={post.title} className="flex max-w-xl flex-col items-start justify-between">
+              <article key={post.title} className="card group flex h-full flex-col items-start justify-between">
                 <div className="flex items-center gap-x-4 text-xs">
                   <span className="text-gray-500">{post.readTime}</span>
                   <span className="relative z-10 rounded-full bg-primary-50 px-3 py-1.5 font-medium text-primary-600">
                     {post.category}
                   </span>
                 </div>
-                <div className="group relative">
-                  <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                <div className="relative">
+                  <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-primary-700">
                     <Link href={post.href}>
                       <span className="absolute inset-0" />
                       {post.title}
@@ -180,30 +191,29 @@ export default function HomePage() {
       </div>
 
       {/* CTA Section */}
-      <div className="bg-primary-600">
-        <div className="content-container">
-          <div className="py-16 sm:py-24">
-            <div className="mx-auto max-w-2xl text-center">
-              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                Start comparing ETFs across markets today
-              </h2>
-              <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-primary-200">
-                Join global investors who use ETF Bridge to compare US and China index funds, calculate real costs, and make smarter cross-border investment decisions.
-              </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
-                <Link
-                  href="/tools"
-                  className="rounded-md bg-white px-6 py-3 text-base font-semibold text-primary-600 shadow-sm hover:bg-primary-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-                >
-                  Explore free tools
-                </Link>
-                <Link
-                  href="/about"
-                  className="text-base font-semibold leading-7 text-white hover:text-primary-200"
-                >
-                  About ETF Bridge <span aria-hidden="true">→</span>
-                </Link>
-              </div>
+      <div className="content-container py-16 sm:py-24">
+        <div className="relative isolate overflow-hidden rounded-3xl bg-gradient-to-br from-primary-700 via-primary-600 to-emerald-600 px-6 py-16 shadow-pop sm:px-16 sm:py-24">
+          <div aria-hidden className="bg-grid absolute inset-0 -z-10 opacity-[0.15]" />
+          <div className="mx-auto max-w-2xl text-center">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              Start comparing ETFs across markets today
+            </h2>
+            <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-primary-100">
+              Join global investors who use ETF Bridge to compare US and China index funds, calculate real costs, and make smarter cross-border investment decisions.
+            </p>
+            <div className="mt-10 flex items-center justify-center gap-x-6">
+              <Link
+                href="/tools"
+                className="rounded-lg bg-white px-6 py-3 text-base font-semibold text-primary-700 shadow-sm transition-colors hover:bg-primary-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+              >
+                Explore free tools
+              </Link>
+              <Link
+                href="/about"
+                className="text-base font-semibold leading-7 text-white hover:text-primary-100"
+              >
+                About ETF Bridge <span aria-hidden="true">→</span>
+              </Link>
             </div>
           </div>
         </div>

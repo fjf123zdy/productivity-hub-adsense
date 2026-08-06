@@ -9,7 +9,7 @@ const POSTS_PER_PAGE = 8
 
 function PostCard({ post }: { post: BlogPost }) {
   return (
-    <article className="card">
+    <article className="card group flex h-full flex-col">
       <div className="flex items-center gap-x-4 text-xs mb-4">
         <span className="text-gray-500 flex items-center gap-1">
           <Calendar className="h-3 w-3" />
@@ -23,22 +23,22 @@ function PostCard({ post }: { post: BlogPost }) {
           {post.category}
         </span>
       </div>
-      <div className="group relative">
-        <h3 className="text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-600 mb-3">
+      <div className="relative flex flex-auto flex-col">
+        <h3 className="text-xl font-semibold leading-6 text-gray-900 group-hover:text-primary-700 mb-3">
           <Link href={`/blog/${post.slug}`}>
             <span className="absolute inset-0" />
             {post.title}
           </Link>
         </h3>
-        <p className="text-sm leading-6 text-gray-600 mb-4">{post.description}</p>
-        <div className="flex items-center justify-between">
+        <p className="text-sm leading-6 text-gray-600 mb-4 line-clamp-3">{post.description}</p>
+        <div className="mt-auto flex items-center justify-between pt-2">
           <div className="flex items-center gap-2 text-xs text-gray-500">
             <User className="h-3 w-3" />
             <span>By {post.author}</span>
           </div>
           <Link
             href={`/blog/${post.slug}`}
-            className="text-sm font-semibold text-primary-600 hover:text-primary-500"
+            className="text-sm font-semibold text-primary-600 hover:text-primary-700"
           >
             Read more →
           </Link>
@@ -164,7 +164,7 @@ export default function PaginatedBlogList({ posts }: { posts: BlogPost[] }) {
         </p>
       </div>
 
-      <div className="space-y-8">
+      <div className="grid gap-6 sm:grid-cols-2">
         {pagePosts.map((post) => (
           <PostCard key={post.slug} post={post} />
         ))}

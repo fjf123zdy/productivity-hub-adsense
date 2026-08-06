@@ -88,13 +88,13 @@ export default function ToolsPage() {
           <h2 className="text-2xl font-bold text-gray-900 mb-8">Popular Tools</h2>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {popularTools.map((tool) => (
-              <div key={tool.name} className="card group hover:shadow-xl transition-shadow duration-300">
+              <div key={tool.name} className="card group flex flex-col">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="p-3 bg-primary-100 rounded-lg">
+                  <div className="p-3 bg-primary-50 rounded-lg ring-1 ring-inset ring-primary-100">
                     <tool.icon className="h-6 w-6 text-primary-600" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 group-hover:text-primary-600 transition-colors duration-200">
+                    <h3 className="text-lg font-semibold text-gray-900 group-hover:text-primary-700 transition-colors duration-200">
                       {tool.name}
                     </h3>
                     <span className="text-xs text-primary-600 bg-primary-50 px-2 py-1 rounded-full">
@@ -102,12 +102,12 @@ export default function ToolsPage() {
                     </span>
                   </div>
                 </div>
-                <p className="text-gray-600 mb-6 leading-relaxed">
+                <p className="text-gray-600 mb-6 leading-relaxed flex-auto">
                   {tool.description}
                 </p>
                 <Link
                   href={tool.href}
-                  className="btn-primary w-full text-center block"
+                  className="btn-primary w-full"
                 >
                   Use Tool
                 </Link>
@@ -145,14 +145,14 @@ export default function ToolsPage() {
           {/* Tools Grid */}
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {allTools.map((tool) => (
-              <div key={tool.name} className="card group hover:shadow-lg transition-shadow duration-300">
+              <div key={tool.name} className="card group">
                 <div className="flex items-start gap-4 mb-4">
                   <div className="p-2 bg-gray-100 rounded-lg">
                     <tool.icon className="h-5 w-5 text-gray-600" />
                   </div>
                   <div className="flex-1">
                     <div className="flex items-center gap-2 mb-1">
-                      <h3 className="text-lg font-semibold text-gray-900 group-hover:text-primary-600 transition-colors duration-200">
+                      <h3 className="text-lg font-semibold text-gray-900 group-hover:text-primary-700 transition-colors duration-200">
                         {tool.name}
                       </h3>
                       {tool.popular && (
@@ -171,7 +171,7 @@ export default function ToolsPage() {
                 </p>
                 <Link
                   href={tool.href}
-                  className="text-sm font-semibold text-primary-600 hover:text-primary-500 transition-colors duration-200"
+                  className="text-sm font-semibold text-primary-600 hover:text-primary-700 transition-colors duration-200"
                 >
                   Try it now →
                 </Link>
@@ -181,7 +181,7 @@ export default function ToolsPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="mt-16 mb-16 bg-gray-50 rounded-2xl p-8 text-center">
+        <div className="mt-16 mb-16 rounded-2xl border border-gray-200 bg-gray-50 p-8 text-center">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
             Want a specific ETF tool?
           </h3>

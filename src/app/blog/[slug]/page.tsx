@@ -60,6 +60,7 @@ export default function BlogPostPage({ params }: Props) {
       />
 
       <div className="content-container">
+        <div className="mx-auto max-w-3xl">
         {/* Breadcrumb */}
         <div className="pt-8 pb-4">
           <Link
@@ -107,12 +108,14 @@ export default function BlogPostPage({ params }: Props) {
 
         {/* Article Content */}
         <div className="py-8">
-          <article className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-p:text-gray-600 prose-a:text-primary-600 prose-strong:text-gray-900 prose-blockquote:border-primary-500 prose-blockquote:text-gray-600 prose-li:text-gray-600">
+          <article className="prose prose-lg max-w-none">
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}
               rehypePlugins={[rehypeRaw]}
               components={{
-                // Render links with target blank and external icon
+                // The page already renders post.title as the H1 — drop the duplicate in-body H1.
+                h1: () => null,
+                // Render links with target blank for external URLs (styling comes from the prose theme)
                 a: ({ href, children, ...props }) => {
                   const isExternal = href?.startsWith('http')
                   return (
@@ -125,35 +128,12 @@ export default function BlogPostPage({ params }: Props) {
                     </Link>
                   )
                 },
-                // Style tables
+                // Keep only the horizontal-scroll wrapper for wide comparison tables; prose styles the rest
                 table: ({ children }) => (
-                  <div className="overflow-x-auto my-8">
-                    <table className="min-w-full divide-y divide-gray-300 border border-gray-200 rounded-lg">
-                      {children}
-                    </table>
+                  <div className="overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0">
+                    <table className="min-w-full">{children}</table>
                   </div>
                 ),
-                thead: ({ children }) => (
-                  <thead className="bg-gray-50">{children}</thead>
-                ),
-                th: ({ children }) => (
-                  <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900">
-                    {children}
-                  </th>
-                ),
-                td: ({ children }) => (
-                  <td className="px-4 py-3 text-sm text-gray-600 border-t border-gray-100">
-                    {children}
-                  </td>
-                ),
-                // Style blockquotes
-                blockquote: ({ children }) => (
-                  <blockquote className="border-l-4 border-primary-500 bg-primary-50 px-4 py-2 my-4 rounded-r-lg">
-                    {children}
-                  </blockquote>
-                ),
-                // Style call-to-action blocks
-                hr: () => <hr className="my-12 border-gray-200" />,
               }}
             >
               {post.content}
@@ -166,18 +146,19 @@ export default function BlogPostPage({ params }: Props) {
 
         {/* Article Footer */}
         <div className="py-8 border-t border-gray-200">
-          <div className="bg-gray-50 rounded-xl p-6">
+          <div className="bg-gray-50 rounded-xl border border-gray-200 p-6">
             <div className="text-sm text-gray-500 mb-2">
               <strong>Disclaimer:</strong> ETF Bridge is an educational resource. This article does not constitute investment advice. Past performance does not guarantee future results. All data is current as of the article date and may change.
             </div>
             <Link
               href="/blog"
-              className="inline-flex items-center text-sm font-semibold text-primary-600 hover:text-primary-500"
+              className="inline-flex items-center text-sm font-semibold text-primary-600 hover:text-primary-700"
             >
               <ArrowLeft className="h-4 w-4 mr-1" />
               Back to all articles
             </Link>
           </div>
+        </div>
         </div>
       </div>
     </div>

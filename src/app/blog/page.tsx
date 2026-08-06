@@ -62,9 +62,9 @@ export default function BlogPage() {
             {featuredPosts.length > 0 && (
               <div className="mb-16">
                 <h2 className="text-2xl font-bold text-gray-900 mb-8">Featured Analysis</h2>
-                <div className="grid gap-8 md:grid-cols-2">
+                <div className="grid gap-6 md:grid-cols-2">
                   {featuredPosts.map((post) => (
-                    <article key={post.slug} className="card">
+                    <article key={post.slug} className="card group flex h-full flex-col">
                       <div className="flex items-center gap-x-4 text-xs mb-4">
                         <span className="text-gray-500 flex items-center gap-1">
                           <Calendar className="h-3 w-3" />
@@ -78,15 +78,15 @@ export default function BlogPage() {
                           {post.category}
                         </span>
                       </div>
-                      <div className="group relative">
-                        <h3 className="text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-600 mb-3">
+                      <div className="relative flex flex-auto flex-col">
+                        <h3 className="text-xl font-semibold leading-6 text-gray-900 group-hover:text-primary-700 mb-3">
                           <Link href={`/blog/${post.slug}`}>
                             <span className="absolute inset-0" />
                             {post.title}
                           </Link>
                         </h3>
-                        <p className="text-sm leading-6 text-gray-600 mb-4">{post.description}</p>
-                        <div className="flex items-center gap-2 text-xs text-gray-500">
+                        <p className="text-sm leading-6 text-gray-600 mb-4 line-clamp-3">{post.description}</p>
+                        <div className="mt-auto flex items-center gap-2 text-xs text-gray-500 pt-2">
                           <User className="h-3 w-3" />
                           <span>By {post.author}</span>
                         </div>
@@ -128,7 +128,7 @@ export default function BlogPage() {
               <SidebarAdPlaceholder />
 
               {/* Newsletter Signup */}
-              <div className="card bg-primary-50">
+              <div className="card border-primary-100 bg-gradient-to-b from-primary-50 to-white">
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">ETF Insights Weekly</h3>
                 <p className="text-sm text-gray-600 mb-4">
                   Get our latest ETF comparisons and cross-border investing guides delivered to your inbox.
@@ -137,11 +137,11 @@ export default function BlogPage() {
                   <input
                     type="email"
                     placeholder="Enter your email"
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                    className="input"
                   />
                   <button
                     type="submit"
-                    className="w-full btn-primary text-sm py-2"
+                    className="w-full btn-primary"
                   >
                     Subscribe
                   </button>

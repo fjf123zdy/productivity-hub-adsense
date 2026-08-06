@@ -15,14 +15,16 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
+    <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/80 backdrop-blur-md">
       <nav className="content-container" aria-label="Global">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <div className="flex lg:flex-1">
-            <Link href="/" className="-m-1.5 p-1.5 flex items-center space-x-2">
-              <BarChart3 className="h-8 w-8 text-primary-600" />
-              <span className="text-xl font-bold text-gray-900">ETF Bridge</span>
+            <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-x-2.5">
+              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-primary-600 to-emerald-500 shadow-sm">
+                <BarChart3 className="h-5 w-5 text-white" aria-hidden="true" />
+              </span>
+              <span className="text-lg font-semibold tracking-tight text-gray-900">ETF Bridge</span>
             </Link>
           </div>
 
@@ -66,11 +68,13 @@ export default function Header() {
         {mobileMenuOpen && (
           <div className="lg:hidden">
             <div className="fixed inset-0 z-50" />
-            <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:rounded-l-2xl sm:shadow-pop">
               <div className="flex items-center justify-between">
-                <Link href="/" className="-m-1.5 p-1.5 flex items-center space-x-2">
-                  <BarChart3 className="h-8 w-8 text-primary-600" />
-                  <span className="text-xl font-bold text-gray-900">ETF Bridge</span>
+                <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-x-2.5">
+                  <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-primary-600 to-emerald-500 shadow-sm">
+                    <BarChart3 className="h-5 w-5 text-white" aria-hidden="true" />
+                  </span>
+                  <span className="text-lg font-semibold tracking-tight text-gray-900">ETF Bridge</span>
                 </Link>
                 <button
                   type="button"
