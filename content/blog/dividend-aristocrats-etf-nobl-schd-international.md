@@ -76,6 +76,8 @@ The sector mix is defensive by nature: consumer staples, industrials, healthcare
 | 2022 (bear market) | −6% | −19% | **+13%** |
 | 10-Year Ann. (2016–2025) | +11% | +14% | −3% |
 
+<img src="/charts/dividend-aristocrats-performance.svg" alt="NOBL vs VOO annual returns: NOBL lagged in 2024-2025 bull markets but fell only 6% vs VOO's 19% drop in 2022" class="w-full rounded-lg my-6" />
+
 NOBL underperforms in bull markets — dramatically in 2024 and 2025, when growth stocks dominated. But in 2022, when the S&P 500 fell 19%, NOBL fell only 6%. That 13% outperformance is the dividend aristocrat premium: defense that doesn't cost you in the long run. Over 10 years, NOBL has compounded at 11% vs 14% for the S&P 500 — a lower return, but with significantly lower volatility and drawdowns.
 
 **Best for**: Investors who prioritize capital preservation, inflation-adjusted income growth, and sleeping well during bear markets. Retirees. Anyone trying to build a portfolio they won't panic-sell when the next correction hits.

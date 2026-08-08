@@ -115,6 +115,8 @@ Some context on VOO's trajectory:
 
 VOO has pulled in over **$69 billion in net inflows** in 2026 alone — ranking #1 globally. The flywheel is self-reinforcing: more assets → more securities lending revenue → ability to keep the expense ratio at rock-bottom levels → more inflows.
 
+<img src="/charts/voo-aum-growth.svg" alt="VOO AUM growth from $1 billion at 2010 inception to $1 trillion in 2026, becoming the first trillion-dollar ETF" class="w-full rounded-lg my-6" />
+
 ---
 
 ## IVV: The Quiet Giant

@@ -43,20 +43,20 @@
   <line x1="540" y1="350" x2="540" y2="358" stroke="#cbd5e1" stroke-width="1"/>
   <text x="540" y="374" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">2026 H1</text>
 
-  <!-- Area fills (trapezoids under lines) -->
-  <!-- VOO area: 2022(-19%→260), 2023(+26%→109), 2024(+26%→109), 2025(+25%→114), 2026(+11%→180) -->
-  <polygon points="100,260 210,109 320,109 430,114 540,180 540,350 100,350" fill="url(#areaVOO)"/>
-  <!-- 510300 area: 2022(-21%→251), 2023(-11%→284), 2024(+18%→147), 2025(+15%→161), 2026(+8%→194) -->
-  <polygon points="100,251 210,284 320,147 430,161 540,194 540,350 100,350" fill="url(#area510300)"/>
+  <!-- Area fills (trapezoids under lines). y(value) = 232 - value*4.73 -->
+  <!-- VOO area: 2022(-19%→322), 2023(+26%→109), 2024(+26%→109), 2025(+25%→114), 2026(+11%→180) -->
+  <polygon points="100,322 210,109 320,109 430,114 540,180 540,350 100,350" fill="url(#areaVOO)"/>
+  <!-- 510300 area: 2022(-21%→331), 2023(-11%→284), 2024(+18%→147), 2025(+15%→161), 2026(+8%→194) -->
+  <polygon points="100,331 210,284 320,147 430,161 540,194 540,350 100,350" fill="url(#area510300)"/>
 
   <!-- VOO line -->
-  <polyline points="100,260 210,109 320,109 430,114 540,180" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <polyline points="100,322 210,109 320,109 430,114 540,180" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
   <!-- 510300 line -->
-  <polyline points="100,251 210,284 320,147 430,161 540,194" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <polyline points="100,331 210,284 320,147 430,161 540,194" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
 
   <!-- Dots + labels for VOO -->
-  <circle cx="100" cy="260" r="4" fill="#2563eb"/>
-  <text x="100" y="253" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#2563eb" font-weight="700" text-anchor="middle">-19%</text>
+  <circle cx="100" cy="322" r="4" fill="#2563eb"/>
+  <text x="100" y="312" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#2563eb" font-weight="700" text-anchor="middle">-19%</text>
   <circle cx="210" cy="109" r="4" fill="#2563eb"/>
   <text x="210" y="100" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#2563eb" font-weight="700" text-anchor="middle">+26%</text>
   <circle cx="320" cy="109" r="4" fill="#2563eb"/>
@@ -67,8 +67,8 @@
   <text x="540" y="173" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#2563eb" font-weight="700" text-anchor="middle">+11%</text>
 
   <!-- Dots + labels for 510300 -->
-  <circle cx="100" cy="251" r="4" fill="#dc2626"/>
-  <text x="100" y="245" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#dc2626" font-weight="600" text-anchor="middle">-21%</text>
+  <circle cx="100" cy="331" r="4" fill="#dc2626"/>
+  <text x="100" y="346" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#dc2626" font-weight="600" text-anchor="middle">-21%</text>
   <circle cx="210" cy="284" r="4" fill="#dc2626"/>
   <text x="210" y="300" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#dc2626" font-weight="600" text-anchor="middle">-11%</text>
   <circle cx="320" cy="147" r="4" fill="#dc2626"/>

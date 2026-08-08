@@ -59,6 +59,8 @@ The HSI's sector weights are fundamentally different from its peers:
 | **Utilities** | 2.6% | 2.4% | CLP, HK Electric |
 | **Other** | 4.7% | 2.4% | — |
 
+<img src="/charts/hsi-vs-sp500-sectors.svg" alt="Hang Seng vs S&amp;P 500 sector weights: HSI is 33.9% Financials while S&amp;P 500 is 39.2% Technology" class="w-full rounded-lg my-6" />
+
 Three realities stand out:
 
 **1. Financials are a third of the index.** HSBC alone is 8.3% of the HSI. If you already own S&P 500 and CSI 300, adding HSI exposure significantly tilts your portfolio toward banks and insurers — for better (dividends) or worse (cyclicality).

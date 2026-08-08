@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" role="img" aria-labelledby="covered-title covered-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 396" role="img" aria-labelledby="covered-title covered-desc">
   <title id="covered-title">Covered Call ETF Total Return vs S&amp;P 500 (2021–2026 H1)</title>
   <desc id="covered-desc">Cumulative return: VOO +92%, JEPI +55%, XYLD +35%, QYLD +28%</desc>
 
-  <rect width="700" height="380" fill="#fafbfc" rx="8"/>
+  <rect width="700" height="396" fill="#fafbfc" rx="8"/>
 
   <text x="40" y="36" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="16" font-weight="700" fill="#0f172a">Covered Call ETFs: Cumulative Total Return vs S&amp;P 500 (Jan 2021 – Jun 2026)</text>
   <text x="40" y="56" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" fill="#64748b">Includes reinvested distributions. Source: Portfolio Visualizer, fund provider data.</text>
@@ -25,12 +25,12 @@
   <text x="70" y="107" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="10" fill="#94a3b8" text-anchor="end">+100%</text>
 
   <!-- X-axis: years -->
-  <text x="80" y="344" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">2021</text>
-  <text x="215" y="344" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">2022</text>
-  <text x="350" y="344" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">2023</text>
-  <text x="485" y="344" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">2024</text>
-  <text x="620" y="344" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">2025</text>
-  <text x="656" y="344" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">H1</text>
+  <text x="80" y="356" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">2021</text>
+  <text x="215" y="356" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">2022</text>
+  <text x="350" y="356" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">2023</text>
+  <text x="485" y="356" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">2024</text>
+  <text x="620" y="356" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">2025</text>
+  <text x="664" y="356" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">26 H1</text>
 
   <!-- Simulated cumulative lines -->
   <!-- VOO: 100→2021(128→y=277), 2022(104→y=312), 2023(131→y=267), 2024(165→y=210), 2025(206→y=142), 2026H1(192→y=147...wait VOO down a bit in H1) -->
@@ -38,22 +38,22 @@
   <!-- VOO: start 100(y=320), 2022 dip(y=340), 2023 recovery(y=280), 2024(y=230), 2025(y=170), 2026(y=155) -->
   <polyline points="80,320 215,338 350,282 485,228 580,172 656,155" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
   <circle cx="656" cy="155" r="4" fill="#2563eb"/>
-  <text x="656" y="147" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#2563eb" font-weight="700" text-anchor="middle">VOO +92%</text>
+  <text x="692" y="159" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#2563eb" font-weight="700" text-anchor="end">+92%</text>
 
   <!-- JEPI: start 100, more muted -->
   <polyline points="80,320 215,332 350,295 485,260 580,215 656,200" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
   <circle cx="656" cy="200" r="4" fill="#7c3aed"/>
-  <text x="656" y="192" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#7c3aed" font-weight="700" text-anchor="middle">JEPI +55%</text>
+  <text x="692" y="204" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#7c3aed" font-weight="700" text-anchor="end">+55%</text>
 
   <!-- XYLD: capped upside, steady income -->
   <polyline points="80,320 215,338 350,315 485,278 580,240 656,230" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
   <circle cx="656" cy="230" r="4" fill="#f59e0b"/>
-  <text x="656" y="222" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#f59e0b" font-weight="600" text-anchor="middle">XYLD +35%</text>
+  <text x="692" y="227" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#f59e0b" font-weight="600" text-anchor="end">+35%</text>
 
   <!-- QYLD: worst total return -->
   <polyline points="80,320 215,342 350,322 485,290 580,252 656,244" fill="none" stroke="#dc2626" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
   <circle cx="656" cy="244" r="4" fill="#dc2626"/>
-  <text x="656" y="236" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#dc2626" font-weight="600" text-anchor="middle">QYLD +28%</text>
+  <text x="692" y="253" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#dc2626" font-weight="600" text-anchor="end">+28%</text>
 
   <!-- Legend -->
   <rect x="460" y="66" width="150" height="80" rx="6" fill="white" stroke="#e2e8f0" stroke-width="1"/>
@@ -71,6 +71,6 @@
   <text x="496" y="142" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#334155">QYLD (Nasdaq-100 CC)</text>
 
   <!-- Key insight -->
-  <rect x="80" y="352" width="360" height="20" rx="4" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
-  <text x="90" y="366" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="10" fill="#b45309">The "yield" looks great on the brokerage statement — but total return tells the real story</text>
+  <rect x="80" y="368" width="380" height="20" rx="4" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+  <text x="90" y="382" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="10" fill="#b45309">The "yield" looks great on the brokerage statement — but total return tells the real story</text>
 </svg>

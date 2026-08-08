@@ -13,6 +13,28 @@ interface Props {
   params: { slug: string }
 }
 
+const ANCHOR_SUFFIX = /\s*\{#([a-z0-9-]+)\}\s*$/i
+
+// Markdown headings may carry a kramdown-style {#anchor} suffix for TOC links.
+// Strip it from the display text and apply it as the element id.
+function withAnchor(Tag: 'h2' | 'h3') {
+  return function Heading({ children, ...props }: React.HTMLAttributes<HTMLHeadingElement>) {
+    if (typeof children === 'string') {
+      const m = children.match(ANCHOR_SUFFIX)
+      if (m) return <Tag id={m[1]} {...props}>{children.replace(ANCHOR_SUFFIX, '')}</Tag>
+    }
+    if (Array.isArray(children) && typeof children[children.length - 1] === 'string') {
+      const last = children[children.length - 1] as string
+      const m = last.match(ANCHOR_SUFFIX)
+      if (m) {
+        const rest = [...children.slice(0, -1), last.replace(ANCHOR_SUFFIX, '')]
+        return <Tag id={m[1]} {...props}>{rest}</Tag>
+      }
+    }
+    return <Tag {...props}>{children}</Tag>
+  }
+}
+
 export function generateStaticParams() {
   return getAllSlugs().map(slug => ({ slug }))
 }
@@ -115,6 +137,8 @@ export default function BlogPostPage({ params }: Props) {
               components={{
                 // The page already renders post.title as the H1 — drop the duplicate in-body H1.
                 h1: () => null,
+                h2: withAnchor('h2'),
+                h3: withAnchor('h3'),
                 // Render links with target blank for external URLs (styling comes from the prose theme)
                 a: ({ href, children, ...props }) => {
                   const isExternal = href?.startsWith('http')

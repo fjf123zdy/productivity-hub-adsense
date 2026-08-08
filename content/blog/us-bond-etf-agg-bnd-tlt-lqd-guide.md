@@ -99,6 +99,8 @@ If you prefer to control your duration exposure directly — rather than accepti
 | iShares 20+ Year Treasury ETF | TLT | ~16.5 years | 0.15% | ~4.5% | -31% |
 | Vanguard Extended Duration Treasury ETF | EDV | ~24 years | 0.06% | ~4.6% | -40%+ |
 
+<img src="/charts/bond-yield-vs-risk.svg" alt="Bond ETF duration risk: SHY yields 4.2% with -5% max drawdown in 2022, while TLT yields 4.5% but drew down -31%" class="w-full rounded-lg my-6" />
+
 **SHY (1-3 year)**: This is essentially a cash alternative with a modest yield pickup. In a rate-cutting cycle, it benefits the least — its short duration means small price gains from falling rates. Use it for cash you might need within 12-24 months.
 
 **IEF (7-10 year)**: The sweet spot for many investors. Enough duration to benefit meaningfully from rate cuts, but not so much that you get destroyed if rates rise. It's comparable to the Agg in duration but without corporate credit risk.

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" role="img" aria-labelledby="bond-title bond-desc">
+  <title id="bond-title">Bond ETF Yield vs Interest-Rate Risk (2026)</title>
+  <desc id="bond-desc">Scatter plot of SEC yield vs 2022 max drawdown for SHY, IEF, TLT, EDV — longer duration adds little yield but much deeper drawdowns</desc>
+
+  <rect width="700" height="400" fill="#fafbfc" rx="8"/>
+
+  <text x="40" y="38" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="16" font-weight="700" fill="#0f172a">Duration Risk: What an Extra 0.3% of Yield Really Costs</text>
+  <text x="40" y="58" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" fill="#64748b">SEC yield vs 2022 maximum drawdown, US Treasury ETFs. Source: iShares, Vanguard.</text>
+
+  <!-- Plot: x 90-640 (yield 4.0-4.8%), y 80-340 (drawdown 0 to -45%) -->
+  <line x1="90" y1="80" x2="90" y2="340" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="90" y1="340" x2="640" y2="340" stroke="#cbd5e1" stroke-width="1"/>
+
+  <!-- Horizontal gridlines: 0%, -10%, -20%, -30%, -40% -->
+  <line x1="90" y1="138" x2="640" y2="138" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="90" y1="196" x2="640" y2="196" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="90" y1="253" x2="640" y2="253" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="90" y1="311" x2="640" y2="311" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <text x="80" y="84" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="end">0%</text>
+  <text x="80" y="142" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="end">-10%</text>
+  <text x="80" y="200" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="end">-20%</text>
+  <text x="80" y="257" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="end">-30%</text>
+  <text x="80" y="315" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="end">-40%</text>
+
+  <!-- Vertical gridlines: 4.0, 4.2, 4.4, 4.6, 4.8 -->
+  <line x1="228" y1="80" x2="228" y2="340" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="365" y1="80" x2="365" y2="340" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="503" y1="80" x2="503" y2="340" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <text x="90" y="358" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">4.0%</text>
+  <text x="228" y="358" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">4.2%</text>
+  <text x="365" y="358" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">4.4%</text>
+  <text x="503" y="358" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">4.6%</text>
+  <text x="640" y="358" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">4.8%</text>
+
+  <text x="365" y="382" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#64748b" text-anchor="middle">SEC Yield →</text>
+  <text x="28" y="210" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#64748b" text-anchor="middle" transform="rotate(-90 28 210)">2022 Max Drawdown →</text>
+
+  <!-- Tradeoff curve -->
+  <polyline points="228,109 296,167 434,259 503,311" fill="none" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.5"/>
+
+  <!-- Points: SHY(4.2,-5), IEF(4.3,-15), TLT(4.5,-31), EDV(4.6,-40) -->
+  <circle cx="228" cy="109" r="6" fill="#dc2626"/>
+  <text x="242" y="113" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" fill="#334155" font-weight="600">SHY · 1.9y duration</text>
+
+  <circle cx="296" cy="167" r="6" fill="#dc2626"/>
+  <text x="310" y="171" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" fill="#334155" font-weight="600">IEF · 7.5y duration</text>
+
+  <circle cx="434" cy="259" r="6" fill="#dc2626"/>
+  <text x="448" y="263" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" fill="#334155" font-weight="600">TLT · 16.5y duration</text>
+
+  <circle cx="503" cy="311" r="6" fill="#dc2626"/>
+  <text x="503" y="295" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" fill="#334155" font-weight="600" text-anchor="middle">EDV · 24y duration</text>
+
+  <!-- Callout -->
+  <rect x="392" y="94" width="248" height="46" rx="4" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+  <text x="404" y="112" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="10" fill="#b45309">SHY → TLT: yield rises just 0.3pp (4.2% → 4.5%)</text>
+  <text x="404" y="128" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="10" fill="#b45309">while 2022 drawdown deepened 26pp (-5% → -31%)</text>
+</svg>
