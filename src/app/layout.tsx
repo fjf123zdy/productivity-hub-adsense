@@ -8,6 +8,7 @@ import AdSenseScript from '@/components/ads/AdSenseScript'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://etfbridge.click'),
   title: {
     default: 'ETF Bridge — Compare US & China ETFs, Index Funds & Investing Guides',
     template: '%s | ETF Bridge'
@@ -31,13 +32,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://your-domain.vercel.app',
+    url: 'https://etfbridge.click',
     siteName: 'ETF Bridge',
     title: 'ETF Bridge — Compare US & China ETFs Side by Side',
     description: 'Compare S&P 500, Nasdaq, CSI 300 ETFs. Fee analysis, performance data, and cross-border investing guides for global investors.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'ETF Bridge — Cross-Border ETF Comparison',
@@ -48,11 +49,11 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'ETF Bridge — Compare US & China ETFs',
     description: 'Side-by-side ETF comparison, fee analysis, and investing guides for US and China markets.',
-    images: ['/og-image.jpg'],
+    images: ['/og-image.png'],
   },
-  verification: {
-    google: 'your-google-verification-code',
-  },
+  ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? { verification: { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION } }
+    : {}),
 }
 
 export default function RootLayout({

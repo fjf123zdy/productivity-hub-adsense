@@ -28,7 +28,7 @@ export default function AdUnit({
   responsive = true,
 }: AdUnitProps) {
   const adRef = useRef<HTMLModElement>(null)
-  const ADSENSE_PUBLISHER_ID = process.env.NEXT_PUBLIC_ADSENSE_PUBLISHER_ID || 'ca-pub-XXXXXXXXXXXXXXXX'
+  const ADSENSE_PUBLISHER_ID = process.env.NEXT_PUBLIC_ADSENSE_PUBLISHER_ID || 'ca-pub-8773122680772217'
 
   useEffect(() => {
     if (typeof window !== 'undefined' && adRef.current) {

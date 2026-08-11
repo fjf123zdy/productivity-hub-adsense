@@ -3,8 +3,8 @@
 import Script from 'next/script'
 
 export default function AdSenseScript() {
-  // Replace with your actual AdSense publisher ID
-  const ADSENSE_PUBLISHER_ID = process.env.NEXT_PUBLIC_ADSENSE_PUBLISHER_ID || 'ca-pub-XXXXXXXXXXXXXXXX'
+  // Real publisher ID (matches public/ads.txt); env var can override
+  const ADSENSE_PUBLISHER_ID = process.env.NEXT_PUBLIC_ADSENSE_PUBLISHER_ID || 'ca-pub-8773122680772217'
 
   return (
     <>
