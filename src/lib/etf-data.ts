@@ -1,4 +1,4 @@
-// Auto-updated: 2026-10-20T12:20:55.029Z
+// Auto-updated: 2026-10-21T12:30:45.486Z
 // Pre-loaded static ETF data for all tools
 // Data current as of late June 2026
 
